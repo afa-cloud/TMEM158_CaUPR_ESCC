@@ -68,7 +68,7 @@ Interpretation: the public repository-release package is machine-prepared and ex
 <!-- 2026-06-19 scientific reports submission bundle dry run -->
 ## Scientific Reports Bundle Addendum
 
-Generated: 2026-06-20 02:04:26
+Generated: 2026-06-20 02:09:38
 
 - Bundle folder: `08_submission_strategy/scientific_reports_submission_bundle/`
 - Bundle manifest: `08_submission_strategy/scientific_reports_submission_bundle_manifest.csv`

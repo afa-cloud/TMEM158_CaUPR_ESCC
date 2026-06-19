@@ -420,6 +420,8 @@ def include_for_repository(path: Path) -> bool:
         return False
     if rel_path.endswith(".DS_Store"):
         return False
+    if " 2." in Path(rel_path).name:
+        return False
     if rel_path == "README.md":
         return False
     return path.is_file()
