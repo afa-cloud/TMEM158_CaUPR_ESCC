@@ -1,0 +1,14 @@
+item,value,status,notes
+source,AlphaFold Protein Structure Database API plus UniProt feature table,ready,Official public database context
+alphafold_entry,AF-Q8WZ71-F1,ready,AF-Q8WZ71-F1
+tool_used,AlphaFold Monomer v2.0 pipeline,ready,"Model is predicted, not experimental"
+model_version,6,ready,2025-08-01T00:00:00Z
+coverage,1-300,ready,300 aa sequence
+global_plddt,56.66,boundary,Moderate/low average confidence; avoid high-confidence interaction claims
+fraction_plddt_very_high,0.063,boundary,Fraction pLDDT >90 from AlphaFold API
+fraction_plddt_confident,0.253,context,Fraction pLDDT 70-90 from AlphaFold API
+fraction_plddt_low_or_very_low,0.684,boundary,Low-confidence residues dominate the model
+uniprot_transmembrane_segments,2,support,UniProt annotates helical transmembrane regions
+tm1_mean_plddt,76.13,support,stronger structural support
+tm2_mean_plddt,43.96,boundary,annotated but lower-confidence structural segment
+main_interpretation,"AlphaFold/UniProt support membrane-topology plausibility, especially TM1, but do not prove ER localization or physical interaction",context,Use as structural rationale only

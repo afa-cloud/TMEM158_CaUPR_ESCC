@@ -1,0 +1,7 @@
+"risk_layer","status","evidence","decision"
+"TMEM158 direct ESCC papers","low_observed_overlap","VM/PubMed direct ESCC count=0","supports novelty"
+"TMEM158 exact ESCC Ca2/UPR/CAF papers","low_observed_overlap","exact ESCC Ca2/UPR/CAF overlap=0","supports novelty"
+"TMEM158 pan-cancer CAF/stroma papers","existing_context","pan-cancer CAF/stroma count=6","use as context, not novelty core"
+"TMEM158 broad cancer review","existing_context","TMEM protein cancer progression review present in PubMed audit","avoid broad TMEM-family review framing"
+"Hidden signature/table risk","incomplete","full supplementary-table gate not yet exhaustive","requires final pre-submission manual/fulltext check"
+

@@ -1,0 +1,16 @@
+item,value
+source_markdown,TMEM158_CaUPR_ESCC/07_manuscript/manuscript_scientific_reports.md
+output_docx,TMEM158_CaUPR_ESCC/07_manuscript/manuscript_scientific_reports.docx
+design_preset,narrative_proposal
+named_override,journal_manuscript_times_new_roman_songti
+page_size,US Letter portrait
+margins,1 inch
+ascii_font,Times New Roman
+east_asia_font,宋体
+body_size_pt,11
+line_spacing,1.28 body; 1.15 references
+title_seen,True
+heading_count,42
+paragraph_count,110
+reference_count,25
+generated_at,2026-06-20T01:04:04

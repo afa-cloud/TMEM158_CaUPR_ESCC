@@ -1,0 +1,6 @@
+"gate","status","evidence","action_to_publish"
+"composite state reproducibility","partial_pass","replicated_positive contrasts=1; meta_positive_boundary=8","Use only replicated or meta-supported state contrasts in Results."
+"subtype interpretability","partial_pass","Rule-based TAC_high subtype has >=3 samples in 4 bulk cohorts; exploratory kmeans silhouette=-0.022","Use rule-based four-state ecology subtype as the main interpretable subtype; keep kmeans as exploratory QC."
+"survival as primary endpoint","weak","state/subtype survival FDR<0.10 terms=0","Keep survival secondary or limitation unless external survival appears."
+"CAF-coupled biology","pass","CAF positive nominal tests=2","Center the biological discovery on CAF-coupled stress ecology."
+"Ca2 activation claim","boundary","GSE45670 Ca2 direction remains negative in first-pass correlation; avoid simple activation language.","Frame Ca2/UPR as branch-state remodeling, not uniform Ca2 activation."

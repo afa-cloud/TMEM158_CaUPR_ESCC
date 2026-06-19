@@ -1,0 +1,15 @@
+source,item,value,evidence_level,interpretation
+UniProt,reviewed_accession,Q8WZ71,UniProtKB reviewed (Swiss-Prot),reviewed protein entry
+UniProt,protein_name,Transmembrane protein 158,UniProtKB reviewed (Swiss-Prot),lead protein identity
+UniProt,gene_synonyms,HBBP; RIS1,UniProtKB reviewed (Swiss-Prot),alias audit for literature search
+UniProt,sequence_length_aa,300,UniProtKB reviewed (Swiss-Prot),protein measurability context
+UniProt,subcellular_location,Membrane,ECO:0000305,"membrane plausibility, not ESCC-specific localization"
+UniProt,topology,Multi-pass membrane protein,ECO:0000305,transmembrane topology plausibility
+QuickGO/UniProt,cellular_component_terms,GO:0016020; membrane,IEA; IEA:UniProtKB-SubCell,knowledgebase localization terms
+HPA,ensembl_id,ENSG00000249992,HPA entry,public protein atlas identity
+HPA,protein_class,Predicted membrane proteins,Evidence at protein level,public membrane-protein class
+HPA,antibody,HPA074974,Approved,"public antibody/IHC context, not new IHC validation"
+HPA,subcellular_location,,,subcellular IF availability boundary
+HPA,protein_tissue_distribution,Not detected,Not detected,protein-level tissue boundary
+HPA,rna_single_cell_context,Platelets=227.9; Müller glia=94.0; Other brain neurons=59.1; Ependymal cells=57.8; Endometrial stromal cells=47.3; Brain inhibitory neurons=45.6; Breast myoepithelial cells=43.9; Fibroblasts=34.2,Cell type enhanced,"broad public single-cell RNA context, not ESCC tumour microenvironment proof"
+HPA,hnsc_tcga_prognostic_context,prognostic: unprognostic; is_prognostic: False; p_val: 3.48e-2,HPA TCGA prognostic context,"adjacent squamous cancer context, not ESCC survival proof"

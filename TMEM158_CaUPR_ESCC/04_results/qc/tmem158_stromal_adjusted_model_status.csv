@@ -1,0 +1,5 @@
+"model","dataset","status","n_samples","n_TAC_high","n_other"
+"TAC_high_adjusted_for_CAF","GSE20347","completed",17,5,12
+"TAC_high_adjusted_for_CAF","GSE26886","completed",9,4,5
+"TAC_high_adjusted_for_CAF","GSE45670","completed",28,8,20
+"TAC_high_adjusted_for_CAF","TCGA","completed",184,58,126

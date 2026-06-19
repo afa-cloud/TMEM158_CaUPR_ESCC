@@ -1,0 +1,10 @@
+field,value
+module_status,completed
+source_workbook,/Users/gdbhcx/Documents/生信分析（SMIM14驱动的内质网Ca²⁺应激–UPR–免疫抑制轴在食管鳞癌中的作用机制研究）/TMEM158_CaUPR_ESCC/02_data/external/spatial_progression/natcomm2023_escc_spatial_source_data.xlsx
+source_article,"Liu et al. Nature Communications 2023, doi:10.1038/s41467-023-40343-5"
+cell_abundance_rows,42
+macrophage_subtype_rows,46
+if_marker_rows,96
+roi_marker_rows,55
+full_wta_matrix_available_in_source_data,FALSE
+direct_TAC_high_score_possible,FALSE

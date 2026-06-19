@@ -1,0 +1,7 @@
+item,value,status,notes
+generated_at,2026-06-20 01:04:00,info,Local system timestamp
+official_sources_checked,4,pass,Scientific Reports and Nature Portfolio official policy pages
+machine_auditable_policy_blockers,0,pass,Rows requiring machine-side text/file revision
+human_gated_policy_rows,3,not_yet,Rows requiring human author or repository action
+reporting_summary_working_draft,08_submission_strategy/nature_portfolio_reporting_summary_working_draft.md,ready_human_finalize,Working draft only; official form remains human-gated
+official_policy_audit_clearance,pass,pass,"Clearance excludes publisher preview, final claim-boundary read and official forms that require human submission-system confirmation"

@@ -1,0 +1,10 @@
+"model","n","events","term","HR","p.value","FDR"
+"core_axis_continuous",183,76,"scale(core_axis_state_score)",0.9754792256736,0.840802512030541,0.98206208755462
+"perk_caf_ecology_continuous",183,76,"scale(perk_caf_ecology_score)",1.0138171298026,0.909418917426478,0.98206208755462
+"full_axis_ecology_continuous",183,76,"scale(full_axis_ecology_score)",0.987597595270477,0.919016235173852,0.98206208755462
+"core_axis_group",183,76,"core_axis_state_groupLow",0.876932823742193,0.57922881335004,0.98206208755462
+"perk_caf_ecology_group",183,76,"perk_caf_ecology_groupLow",1.00537491392125,0.98206208755462,0.98206208755462
+"full_axis_ecology_group",183,76,"full_axis_ecology_groupLow",0.88806157379255,0.613311172541359,0.98206208755462
+"ecology_subtype",183,76,"ecology_subtypeAxis_only",0.842382558050141,0.621598327950775,0.98206208755462
+"ecology_subtype",183,76,"ecology_subtypeCAF_only",0.885137103288709,0.712070169797937,0.98206208755462
+"ecology_subtype",183,76,"ecology_subtypeTAC_high",1.32572005567139,0.347583307822457,0.98206208755462

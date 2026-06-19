@@ -1,0 +1,8 @@
+"item","value"
+"module_status","completed"
+"matched_tcga_samples","184"
+"cnv_values","181"
+"methylation_probes","7"
+"mutation_records","0"
+"cnv_expression_fdr_lt_0_10","1"
+"methylation_expression_fdr_lt_0_10","1"

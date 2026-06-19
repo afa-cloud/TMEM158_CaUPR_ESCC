@@ -1,0 +1,13 @@
+"signature","compartment","median_signature_score"
+"Core_CAF_interaction_positive_top200","Epithelial",0.158077438946865
+"TAC_high_positive_top200","Epithelial",-0.445875050522706
+"TAC_high_positive_top50","Epithelial",-0.560400907046373
+"Core_CAF_interaction_positive_top200","Fibroblast",0.389796198635422
+"TAC_high_positive_top200","Fibroblast",1.12992402987113
+"TAC_high_positive_top50","Fibroblast",1.38571942071477
+"Core_CAF_interaction_positive_top200","Myeloid",-0.344703000434879
+"TAC_high_positive_top200","Myeloid",-0.342691449072826
+"TAC_high_positive_top50","Myeloid",-0.534690854406939
+"Core_CAF_interaction_positive_top200","Tcell",-0.256732741010282
+"TAC_high_positive_top200","Tcell",-0.600962529587858
+"TAC_high_positive_top50","Tcell",-0.585568698517783

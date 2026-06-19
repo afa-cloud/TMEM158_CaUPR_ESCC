@@ -1,0 +1,10 @@
+item,value,status,notes
+generated_at,2026-06-19 23:25:01,info,Local system timestamp
+input_files_missing,0,pass,"All required LR, axis and topology-boundary files are present"
+ranked_lr_pairs,82,pass,Ligand-receptor pairs ranked for follow-up
+tac_high_higher_fdr_pairs,12,pass,FDR-positive TAC_high-higher LR pairs retained from the upstream bridge module
+high_priority_pairs,11,pass,Pairs prioritized for defined-partner structural or proximity follow-up
+top_structural_followup_pair,POSTN->ITGA5,pass,Top candidate should remain evidence-led by effect size and CAF/fibroblast coupling
+protein_topology_claim_clearance,pass,pass_boundary,"TMEM158 topology is used for assayability context, not interaction proof"
+direct_interaction_claim,not_made,pass,The report explicitly avoids physical-interaction and causality claims
+machine_structural_followup_clearance,pass,pass,Pass means prioritization is complete and claim boundaries are explicit

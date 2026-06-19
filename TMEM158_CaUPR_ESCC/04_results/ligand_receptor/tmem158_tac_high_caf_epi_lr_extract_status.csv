@@ -1,0 +1,3 @@
+compartment,matrix,cells,n_cells,n_samples,n_tumor_samples,n_normal_samples,matrix_rows_processed,target_genes_requested,target_genes_observed
+Epithelial,GSE160269_UMI_matrix_Epithelia.txt.gz,GSE160269_CD45neg_cells.txt.gz,44730,64,60,4,17012,72,71
+Fibroblast,GSE160269_UMI_matrix_Fibroblast.txt.gz,GSE160269_CD45neg_cells.txt.gz,37213,64,60,4,17012,72,71

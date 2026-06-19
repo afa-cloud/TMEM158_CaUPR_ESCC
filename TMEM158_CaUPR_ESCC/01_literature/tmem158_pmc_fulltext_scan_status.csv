@@ -1,0 +1,12 @@
+item,value
+module_status,completed
+route,PMC EFetch full-text XML via UTM VM
+pmc_records_scanned,39
+exact_alias_records,33
+exact_alias_and_escc_anywhere_records,19
+exact_alias_near_escc_records,6
+manual_high_priority_exact_alias_escc_context,6
+manual_priority_exact_alias_escc_context,0
+exact_alias_and_escc_in_same_article_not_near,13
+ris1_only_noise_or_legacy_context,1
+no_alias_after_xml_fetch,2

@@ -1,0 +1,6 @@
+"metric","n","rho","p.value","source","FDR"
+"CAF_score",60,0.315508628083658,0.0140655478771265,"GSE160269 epithelial-to-ecosystem pseudo-bulk",0.0351638696928164
+"Tcell_exhaustion_score",60,0.0126181216657841,0.923768953329626,"GSE160269 epithelial-to-ecosystem pseudo-bulk",0.923768953329626
+"Tcell_cytotoxic_score",60,-0.126681494609348,0.334784404038632,"GSE160269 epithelial-to-ecosystem pseudo-bulk",0.557974006731054
+"Treg_score",60,0.327570885358879,0.0106220543203625,"GSE160269 epithelial-to-ecosystem pseudo-bulk",0.0351638696928164
+"Myeloid_suppressive_score",60,-0.0352418023617053,0.789220940279223,"GSE160269 epithelial-to-ecosystem pseudo-bulk",0.923768953329626

@@ -1,0 +1,11 @@
+item,value,status,notes
+docx_file,07_manuscript/manuscript_scientific_reports.docx,pass,Editable Scientific Reports manuscript DOCX generated from target Markdown draft
+build_script,03_scripts/Python/build_scientific_reports_docx.py,pass,Reproducible builder retained; design preset narrative_proposal with journal manuscript override
+font_policy,Times New Roman ascii/hAnsi; Songti eastAsia,pass,Project font rule applied through Word run/style font slots
+build_qc,04_results/qc/scientific_reports_docx_build_qc.csv,pass,"110 manuscript paragraphs, 42 headings and 25 references detected"
+render_status,18 pages,pass,LibreOffice generated PDF; pdftoppm generated page PNG previews
+render_metrics,04_results/qc/scientific_reports_docx_render_metrics.csv,pass,Automated page-boundary check flagged 0/18 pages for margin risk
+visual_review_package,07_manuscript/rendered_scientific_reports_docx/contact_sheet.png,ready_for_human_preview,Contact sheet and page PNGs regenerated after the latest manuscript build; final journal upload preview remains human-gated
+rendered_pdf,07_manuscript/rendered_scientific_reports_docx/manuscript_scientific_reports.pdf,pass_internal_qa,PDF retained as render QA artifact; DOCX remains the editable submission manuscript
+remaining_human_upload_checks,publisher upload preview; final claim-boundary read,needs_author_input,Author metadata and declarations have been supplied; publisher-system rendering still requires human inspection
+generated_at,2026-06-20 01:04:09,info,Local system timestamp

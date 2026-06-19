@@ -1,0 +1,4 @@
+"model","n","events","term","HR","p.value","note","FDR"
+"continuous_cox",183,76,"scale(TMEM158)",1.00146122690247,0.990781633489125,"TCGA tumour samples",0.990781633489125
+"median_group_cox",183,76,"TMEM158_groupLow",1.04105059474517,0.865241063313433,"Median high vs low",0.990781633489125
+"age_adjusted_cox",183,76,"scale(TMEM158)",1.0022128854965,0.986184431865804,"Adjusted for age",0.990781633489125

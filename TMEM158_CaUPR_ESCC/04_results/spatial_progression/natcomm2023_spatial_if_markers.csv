@@ -1,0 +1,97 @@
+source_sheet,sample_label,stage,marker,value
+Figure 2f,sample 1,NE,alpha_SMA_fibroblast_IF,13.372
+Figure 2f,sample 1,LGIN,alpha_SMA_fibroblast_IF,18.708
+Figure 2f,sample 1,HGIN,alpha_SMA_fibroblast_IF,30.247
+Figure 2f,sample 1,ESCC,alpha_SMA_fibroblast_IF,40.475
+Figure 2f,sample 1,NE,CD68_macrophage_IF,94.988
+Figure 2f,sample 1,LGIN,CD68_macrophage_IF,68.452
+Figure 2f,sample 1,HGIN,CD68_macrophage_IF,82.29366666666665
+Figure 2f,sample 1,ESCC,CD68_macrophage_IF,156.19
+Figure 2f,sample 2,NE,alpha_SMA_fibroblast_IF,11.899666666666667
+Figure 2f,sample 2,LGIN,alpha_SMA_fibroblast_IF,17.438666666666666
+Figure 2f,sample 2,HGIN,alpha_SMA_fibroblast_IF,22.227666666666664
+Figure 2f,sample 2,ESCC,alpha_SMA_fibroblast_IF,46.169
+Figure 2f,sample 2,NE,CD68_macrophage_IF,32.27466666666667
+Figure 2f,sample 2,LGIN,CD68_macrophage_IF,62.29333333333333
+Figure 2f,sample 2,HGIN,CD68_macrophage_IF,67.265
+Figure 2f,sample 2,ESCC,CD68_macrophage_IF,113.877
+Figure 2f,sample 3,NE,alpha_SMA_fibroblast_IF,11.3575
+Figure 2f,sample 3,LGIN,alpha_SMA_fibroblast_IF,17.18433333333333
+Figure 2f,sample 3,HGIN,alpha_SMA_fibroblast_IF,25.718
+Figure 2f,sample 3,ESCC,alpha_SMA_fibroblast_IF,25.642
+Figure 2f,sample 3,NE,CD68_macrophage_IF,57.33
+Figure 2f,sample 3,LGIN,CD68_macrophage_IF,50.466
+Figure 2f,sample 3,HGIN,CD68_macrophage_IF,168.36666666666667
+Figure 2f,sample 3,ESCC,CD68_macrophage_IF,127.606
+Figure 2f,sample 4,NE,alpha_SMA_fibroblast_IF,12.379
+Figure 2f,sample 4,LGIN,alpha_SMA_fibroblast_IF,19.1465
+Figure 2f,sample 4,HGIN,alpha_SMA_fibroblast_IF,16.941333333333333
+Figure 2f,sample 4,ESCC,alpha_SMA_fibroblast_IF,33.291
+Figure 2f,sample 4,NE,CD68_macrophage_IF,49.506
+Figure 2f,sample 4,LGIN,CD68_macrophage_IF,101.89150000000001
+Figure 2f,sample 4,HGIN,CD68_macrophage_IF,58.55799999999999
+Figure 2f,sample 4,ESCC,CD68_macrophage_IF,133.569
+Figure 2f,sample 5,NE,alpha_SMA_fibroblast_IF,10.384
+Figure 2f,sample 5,LGIN,alpha_SMA_fibroblast_IF,18.938333333333336
+Figure 2f,sample 5,HGIN,alpha_SMA_fibroblast_IF,19.785666666666668
+Figure 2f,sample 5,ESCC,alpha_SMA_fibroblast_IF,36.976
+Figure 2f,sample 5,NE,CD68_macrophage_IF,70.87
+Figure 2f,sample 5,LGIN,CD68_macrophage_IF,28.469333333333335
+Figure 2f,sample 5,HGIN,CD68_macrophage_IF,88.60366666666668
+Figure 2f,sample 5,ESCC,CD68_macrophage_IF,92.042
+Figure 2f,sample 6,NE,alpha_SMA_fibroblast_IF,16.839333333333332
+Figure 2f,sample 6,LGIN,alpha_SMA_fibroblast_IF,32.824000000000005
+Figure 2f,sample 6,HGIN,alpha_SMA_fibroblast_IF,24.27333333333333
+Figure 2f,sample 6,ESCC,alpha_SMA_fibroblast_IF,23.799
+Figure 2f,sample 6,NE,CD68_macrophage_IF,61.565
+Figure 2f,sample 6,LGIN,CD68_macrophage_IF,113.52666666666666
+Figure 2f,sample 6,HGIN,CD68_macrophage_IF,48.805
+Figure 2f,sample 6,ESCC,CD68_macrophage_IF,63.321
+Figure 2f,sample 7,NE,alpha_SMA_fibroblast_IF,21.28533333333333
+Figure 2f,sample 7,LGIN,alpha_SMA_fibroblast_IF,17.5255
+Figure 2f,sample 7,HGIN,alpha_SMA_fibroblast_IF,23.48166666666667
+Figure 2f,sample 7,ESCC,alpha_SMA_fibroblast_IF,20.693
+Figure 2f,sample 7,NE,CD68_macrophage_IF,72.01766666666667
+Figure 2f,sample 7,LGIN,CD68_macrophage_IF,40.808499999999995
+Figure 2f,sample 7,HGIN,CD68_macrophage_IF,83.81733333333334
+Figure 2f,sample 7,ESCC,CD68_macrophage_IF,71.934
+Figure 2f,sample 8,NE,alpha_SMA_fibroblast_IF,17.905
+Figure 2f,sample 8,LGIN,alpha_SMA_fibroblast_IF,20.8722
+Figure 2f,sample 8,HGIN,alpha_SMA_fibroblast_IF,20.713666666666665
+Figure 2f,sample 8,ESCC,alpha_SMA_fibroblast_IF,26.419
+Figure 2f,sample 8,NE,CD68_macrophage_IF,44.002
+Figure 2f,sample 8,LGIN,CD68_macrophage_IF,47.3294
+Figure 2f,sample 8,HGIN,CD68_macrophage_IF,73.54866666666666
+Figure 2f,sample 8,ESCC,CD68_macrophage_IF,106.106
+Figure 2f,sample 9,NE,alpha_SMA_fibroblast_IF,10.936666666666667
+Figure 2f,sample 9,LGIN,alpha_SMA_fibroblast_IF,8.592
+Figure 2f,sample 9,HGIN,alpha_SMA_fibroblast_IF,22.54975
+Figure 2f,sample 9,ESCC,alpha_SMA_fibroblast_IF,22.01
+Figure 2f,sample 9,NE,CD68_macrophage_IF,56.016
+Figure 2f,sample 9,LGIN,CD68_macrophage_IF,44.213
+Figure 2f,sample 9,HGIN,CD68_macrophage_IF,71.03675000000001
+Figure 2f,sample 9,ESCC,CD68_macrophage_IF,144.855
+Figure 2f,sample 10,NE,alpha_SMA_fibroblast_IF,10.454666666666666
+Figure 2f,sample 10,LGIN,alpha_SMA_fibroblast_IF,19.688666666666666
+Figure 2f,sample 10,HGIN,alpha_SMA_fibroblast_IF,14.530333333333333
+Figure 2f,sample 10,ESCC,alpha_SMA_fibroblast_IF,17.727
+Figure 2f,sample 10,NE,CD68_macrophage_IF,49.041666666666664
+Figure 2f,sample 10,LGIN,CD68_macrophage_IF,51.29366666666667
+Figure 2f,sample 10,HGIN,CD68_macrophage_IF,170.12933333333334
+Figure 2f,sample 10,ESCC,CD68_macrophage_IF,74.205
+Figure 2f,average,NE,alpha_SMA_fibroblast_IF,13.681316666666666
+Figure 2f,average,LGIN,alpha_SMA_fibroblast_IF,19.091820000000002
+Figure 2f,average,HGIN,alpha_SMA_fibroblast_IF,22.046841666666666
+Figure 2f,average,ESCC,alpha_SMA_fibroblast_IF,29.320100000000004
+Figure 2f,average,NE,CD68_macrophage_IF,58.7611
+Figure 2f,average,LGIN,CD68_macrophage_IF,60.87434
+Figure 2f,average,HGIN,CD68_macrophage_IF,91.24240833333333
+Figure 2f,average,ESCC,CD68_macrophage_IF,108.37049999999999
+Figure 2f,sd,NE,alpha_SMA_fibroblast_IF,3.7240422602145857
+Figure 2f,sd,LGIN,alpha_SMA_fibroblast_IF,5.881643874460206
+Figure 2f,sd,HGIN,alpha_SMA_fibroblast_IF,4.4406704126356145
+Figure 2f,sd,ESCC,alpha_SMA_fibroblast_IF,9.412697139148428
+Figure 2f,sd,NE,CD68_macrophage_IF,17.485493107462297
+Figure 2f,sd,LGIN,CD68_macrophage_IF,27.137551425370766
+Figure 2f,sd,HGIN,CD68_macrophage_IF,42.790095220171125
+Figure 2f,sd,ESCC,CD68_macrophage_IF,32.40236440361179

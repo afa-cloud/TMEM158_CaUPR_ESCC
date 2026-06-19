@@ -1,0 +1,25 @@
+item,value
+module_status,partial_completed
+metadata_cells_total,55150
+metadata_singlet_cells,55150
+raw_tar_bytes,960849920
+libraries_in_filelist,11
+libraries_parsed,7
+libraries_failed,4
+pseudobulk_groups,421
+long_rows,52204
+celltype_B cell,771
+celltype_Endothelial,1794
+celltype_Epithelial,26397
+celltype_Fibroblast,6568
+celltype_Mast cell,585
+celltype_Myeloid,3571
+celltype_T cell,15464
+neoadjuvant_Adjacent normal,5604
+neoadjuvant_Antiangiogenesis,5358
+neoadjuvant_Chemoradiotherapy,24734
+neoadjuvant_Chemoradiotherapy and Immunotherapy,7211
+neoadjuvant_Chemotherapy,5742
+neoadjuvant_Surgery alone,6501
+tissue_Adjacent normal,5604
+tissue_Tumor,49546

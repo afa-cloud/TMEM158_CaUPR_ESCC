@@ -1,0 +1,5 @@
+"comparison","value","group","n_positive","n_other","median_positive","median_other","delta_positive_minus_other","p.value"
+"TMEM158 in GISTIC gain vs other","TMEM158","Gain_vs_other",14,167,10.0260611169954,10.3037807481771,-0.277719631181739,0.278658220248095
+"full_axis_ecology_score in GISTIC gain vs other","full_axis_ecology_score","Gain_vs_other",14,167,-0.058207846222456,0.0437598187377753,-0.101967664960231,0.309175151239794
+"Proteostasis_score in GISTIC gain vs other","Proteostasis_score","Gain_vs_other",14,167,0.313483139352865,0.038513710457271,0.274969428895594,0.0535629183488768
+"Survival_score in GISTIC gain vs other","Survival_score","Gain_vs_other",14,167,0.144807699021821,0.0102463330786245,0.134561365943197,0.259119733555686

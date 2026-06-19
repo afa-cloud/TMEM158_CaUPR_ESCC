@@ -1,0 +1,7 @@
+gate_item,status,evidence,next_action
+Title and abstract search,completed_first_pass,VM/PubMed audit found direct ESCC count=0 and exact ESCC Ca2/UPR/CAF overlap=0,Refresh before final manuscript if submission is delayed.
+PMC full-text XML search,completed,VM-routed PMC XML review did not detect a direct TMEM158-ESCC TAC/CaUPR duplicate.,Keep context-boundary items in reviewer-risk language.
+Downloaded local full-text/HTML scan,partial,5 unresolved rows were additionally resolved by downloaded local text/HTML scan.,"Retain manual status for absent, blocked, unparsed, supplement-linked or proximity-risk files."
+Curated context adjudication,completed,7 rows were resolved by official PubMed/publisher context adjudication without direct ESCC TAC/CaUPR duplication.,Keep these rows in reviewer-risk notes as non-ESCC or retraction/background contexts.
+Publisher full-text and supplementary-table search,completed,0 manifest items still require publisher/full-text or supplement-level inspection.,No remaining manual manifest item; preserve adjudication evidence for reviewer-risk notes.
+Reviewer-risk decision,go,No direct duplication detected and no manual manifest items remain.,Proceed to target-journal formatting and final visual QA.

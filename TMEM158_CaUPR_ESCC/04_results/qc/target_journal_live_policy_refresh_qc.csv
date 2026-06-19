@@ -1,0 +1,7 @@
+item,value,status,notes
+generated_at,2026-06-20 01:03:56,info,Local system timestamp
+official_sources_checked,5,pass,"Scientific Reports, Springer Nature data policy and BMC Cancer official pages"
+scientific_reports_first_target_status,defensible,pass,Article format and declaration/data requirements match current package; final preview remains human-gated
+bmc_cancer_first_target_status,not_recommended_without_wet_lab_validation,pass,Official pages reject public-database-only bioinformatics without validation
+machine_policy_refresh_clearance,pass,pass,No machine-side change to target journal strategy required
+final_target_journal_clearance,not_yet,not_yet,Final submission still requires publisher upload preview and final claim-boundary read

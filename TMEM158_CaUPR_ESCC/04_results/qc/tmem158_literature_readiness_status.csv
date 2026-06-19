@@ -1,0 +1,11 @@
+item,value
+module_status,completed
+route,PubMed/PMC E-utilities through UTM VM plus local publisher/PMC page scan where downloads succeeded
+manifest_items_total,40
+auto_pmc_xml_reviewed_items,28
+auto_local_text_reviewed_items,5
+curated_context_reviewed_items,7
+manual_unresolved_items,0
+direct_tmem158_escc_axis_duplicate,none_detected
+no_go_signals,0
+fulltext_supplement_gate_status,go_no_manual_items_remaining

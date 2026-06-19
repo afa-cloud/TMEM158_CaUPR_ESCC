@@ -1,0 +1,17 @@
+"dataset","ecology_subtype","n_samples"
+"GSE20347","Axis_only",4
+"GSE26886","Axis_only",1
+"GSE45670","Axis_only",6
+"TCGA","Axis_only",34
+"GSE20347","CAF_only",4
+"GSE26886","CAF_only",1
+"GSE45670","CAF_only",6
+"TCGA","CAF_only",34
+"GSE20347","TAC_high",5
+"GSE26886","TAC_high",4
+"GSE45670","TAC_high",8
+"TCGA","TAC_high",58
+"GSE20347","TAC_low",4
+"GSE26886","TAC_low",3
+"GSE45670","TAC_low",8
+"TCGA","TAC_low",58

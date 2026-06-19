@@ -1,0 +1,12 @@
+library_name,status,cells,singlet_metadata_cells,groups,target_genes,note
+S0520T,parsed,7465,5742,50,123,
+S1265T,failed_member_parse,0,0,0,0,error: Error -3 while decompressing data: invalid literal/length/distance code
+S1315TS,parsed,8057,5358,67,123,
+S1535T,failed_member_parse,0,0,0,0,error: Error -3 while decompressing data: invalid stored block lengths
+S2423T,parsed,12007,8197,68,123,
+S2487T,parsed,13009,7211,64,124,
+S6417N,failed_member_parse,0,0,0,0,error: Error -3 while decompressing data: too many length or distance symbols
+S6417T,parsed,5163,2179,65,123,
+S6829T,parsed,5874,3000,65,123,
+S9478N,parsed,6310,2897,42,123,
+S9478T,failed_member_parse,0,0,0,0,error: Error -3 while decompressing data: invalid block type

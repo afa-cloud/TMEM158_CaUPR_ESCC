@@ -1,0 +1,9 @@
+"model","dataset","status","n_samples","n_high","n_low"
+"TAC_high_vs_other","GSE20347","completed",17,5,12
+"Core_CAF_interaction","GSE20347","completed",17,5,12
+"TAC_high_vs_other","GSE26886","completed",9,4,5
+"Core_CAF_interaction","GSE26886","skipped_unbalanced_four_state",9,4,5
+"TAC_high_vs_other","GSE45670","completed",28,8,20
+"Core_CAF_interaction","GSE45670","completed",28,8,20
+"TAC_high_vs_other","TCGA","completed",184,58,126
+"Core_CAF_interaction","TCGA","completed",184,58,126

@@ -1,0 +1,8 @@
+item,value,status,notes
+generated_at,2026-06-20 01:03:53,info,Local system timestamp
+reviewer_risk_rows,16,pass,Total pre-emptive reviewer-risk rows
+high_severity_rows,8,pass,High-severity objections mapped
+missing_evidence_rows,0,pass,Rows with missing evidence files
+high_severity_missing_evidence_rows,0,pass,High-severity rows lacking evidence
+machine_reviewer_risk_clearance,pass,pass,Pass requires no high-severity objection without evidence
+final_upload_clearance,not_yet,not_yet,Publisher upload preview and final claim-boundary read remain human-gated

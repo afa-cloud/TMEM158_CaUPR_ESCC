@@ -1,0 +1,15 @@
+item,value
+module_status,completed
+route,PubMed and PMC E-utilities via UTM VM
+pubmed_alias_direct_escc_count,0
+pubmed_alias_escc_caupr_count,0
+pubmed_alias_escc_caf_count,0
+pmc_fulltext_exact_alias_escc_count,67
+pmc_fulltext_exact_alias_escc_caupr_count,34
+pmc_fulltext_exact_alias_escc_caf_count,49
+pmc_fulltext_ris1_guarded_escc_count,6
+pmc_fulltext_ris1_guarded_escc_caupr_count,5
+pmc_fulltext_ris1_guarded_escc_caf_count,6
+manual_manifest_items,40
+gate_decision,conditional_go
+final_submission_clearance,not_yet_manual_fulltext_supplement_scan_required

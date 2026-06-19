@@ -1,0 +1,7 @@
+figure,width,height,bytes,gray_mean,gray_min,gray_max,nonwhite_fraction,qa_status
+main_figure1_tmem158_axis_discovery.png,5200,3930,829862,242.91,0,255,0.1761,pass
+main_figure2_tac_high_bulk_state.png,5200,3930,734655,246.66,0,255,0.1682,pass
+main_figure3_tac_high_transcriptome.png,5200,3930,1152890,241.63,0,255,0.1826,pass
+main_figure4_gse53625_clinical_calibration.png,5200,3930,940092,240.89,0,255,0.1456,pass
+main_figure5_scrna_caf_bridge.png,5200,3930,1518625,246.05,0,255,0.1337,pass
+main_figure6_independent_context_and_boundaries.png,5200,3930,1216353,245.19,0,255,0.1292,pass

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='604.80pt' height='374.40pt' viewBox='0 0 604.80 374.40'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw2MDQuODB8MC4wMHwzNzQuNDA='>
+    <rect x='0.00' y='0.00' width='604.80' height='374.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw2MDQuODB8MC4wMHwzNzQuNDA=)'>
+<rect x='0.00' y='0.000000000000057' width='604.80' height='374.40' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpMTYyLjI3fDU5OS4zMnwzNi45OXwzMDMuNzE='>
+    <rect x='162.27' y='36.99' width='437.05' height='266.72' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTYyLjI3fDU5OS4zMnwzNi45OXwzMDMuNzE=)'>
+<rect x='162.27' y='36.99' width='437.05' height='266.72' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='380.80' y1='303.71' x2='380.80' y2='36.99' style='stroke-width: 0.75; stroke: #8C8C8C; stroke-linecap: butt;' />
+<rect x='380.80' y='120.71' width='180.60' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #2E7D60;' />
+<rect x='380.80' y='83.66' width='180.60' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #2E7D60;' />
+<rect x='380.80' y='46.62' width='180.60' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #2E7D60;' />
+<rect x='380.80' y='157.75' width='108.36' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #7B6F4A;' />
+<rect x='236.32' y='231.84' width='144.48' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A6423A;' />
+<rect x='254.38' y='194.80' width='126.42' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A6423A;' />
+<rect x='200.20' y='268.88' width='180.60' height='25.19' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A6423A;' />
+</g>
+<g clip-path='url(#cpMC4wMHw2MDQuODB8MC4wMHwzNzQuNDA=)'>
+<polyline points='162.27,303.71 162.27,36.99 ' style='stroke-width: 1.07; stroke-linecap: square;' />
+<text x='157.34' y='284.63' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='125.64px' lengthAdjust='spacingAndGlyphs'>ESCC-specific protein validation</text>
+<text x='157.34' y='247.59' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='83.59px' lengthAdjust='spacingAndGlyphs'>Direct ER localization</text>
+<text x='157.34' y='210.54' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='104.45px' lengthAdjust='spacingAndGlyphs'>HPA subcellular IF location</text>
+<text x='157.34' y='173.50' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='108.05px' lengthAdjust='spacingAndGlyphs'>Public antibody/IHC context</text>
+<text x='157.34' y='136.45' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='92.39px' lengthAdjust='spacingAndGlyphs'>Reviewed UniProt entry</text>
+<text x='157.34' y='99.41' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='138.80px' lengthAdjust='spacingAndGlyphs'>Membrane protein/topology support</text>
+<text x='157.34' y='62.36' text-anchor='end' style='font-size: 8.80px; font-family: "Arial";' textLength='151.86px' lengthAdjust='spacingAndGlyphs'>HPA predicted membrane protein class</text>
+<polyline points='159.53,281.48 162.27,281.48 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='159.53,244.44 162.27,244.44 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='159.53,207.39 162.27,207.39 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='159.53,170.35 162.27,170.35 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='159.53,133.30 162.27,133.30 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='159.53,96.26 162.27,96.26 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='159.53,59.21 162.27,59.21 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='162.27,303.71 599.32,303.71 ' style='stroke-width: 1.07; stroke-linecap: square;' />
+<polyline points='200.20,306.45 200.20,303.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='290.50,306.45 290.50,303.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='380.80,306.45 380.80,303.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='471.10,306.45 471.10,303.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='561.39,306.45 561.39,303.71 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='200.20' y='314.94' text-anchor='middle' style='font-size: 8.80px; font-family: "Arial";' textLength='15.14px' lengthAdjust='spacingAndGlyphs'>-1.0</text>
+<text x='290.50' y='314.94' text-anchor='middle' style='font-size: 8.80px; font-family: "Arial";' textLength='15.14px' lengthAdjust='spacingAndGlyphs'>-0.5</text>
+<text x='380.80' y='314.94' text-anchor='middle' style='font-size: 8.80px; font-family: "Arial";' textLength='12.22px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='471.10' y='314.94' text-anchor='middle' style='font-size: 8.80px; font-family: "Arial";' textLength='12.22px' lengthAdjust='spacingAndGlyphs'>0.5</text>
+<text x='561.39' y='314.94' text-anchor='middle' style='font-size: 8.80px; font-family: "Arial";' textLength='12.22px' lengthAdjust='spacingAndGlyphs'>1.0</text>
+<text x='380.80' y='327.40' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='89.94px' lengthAdjust='spacingAndGlyphs'>Evidence direction</text>
+<rect x='276.31' y='340.68' width='208.97' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='281.79' y='358.74' style='font-size: 11.00px; font-family: "Arial";' textLength='18.94px' lengthAdjust='spacingAndGlyphs'>Call</text>
+<rect x='306.21' y='346.16' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='306.56' y='346.52' width='16.57' height='16.57' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #A6423A;' />
+<rect x='371.12' y='346.16' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='371.47' y='346.52' width='16.57' height='16.57' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #7B6F4A;' />
+<rect x='427.71' y='346.16' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='428.07' y='346.52' width='16.57' height='16.57' style='stroke-width: 0.53; stroke: #FFFFFF; stroke-linecap: butt; stroke-linejoin: miter; fill: #2E7D60;' />
+<text x='328.97' y='357.95' style='font-size: 8.80px; font-family: "Arial";' textLength='36.67px' lengthAdjust='spacingAndGlyphs'>boundary</text>
+<text x='393.88' y='357.95' style='font-size: 8.80px; font-family: "Arial";' textLength='28.36px' lengthAdjust='spacingAndGlyphs'>context</text>
+<text x='450.47' y='357.95' style='font-size: 8.80px; font-family: "Arial";' textLength='29.33px' lengthAdjust='spacingAndGlyphs'>support</text>
+<text x='162.27' y='29.62' style='font-size: 9.00px; font-family: "Arial";' textLength='379.67px' lengthAdjust='spacingAndGlyphs'>Official UniProt, QuickGO and HPA evidence; database-level context, not new protein validation</text>
+<text x='162.27' y='14.93' style='font-size: 13.20px; font-weight: bold; font-family: "Arial";' textLength='304.73px' lengthAdjust='spacingAndGlyphs'>TMEM158 public protein and localization context</text>
+</g>
+</g>
+</svg>

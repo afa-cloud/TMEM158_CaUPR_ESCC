@@ -1,0 +1,2 @@
+"method","k","mean_silhouette","NMF_package_available","note"
+"kmeans_fallback_NMF_package_unavailable",3,-0.0218481689935198,FALSE,"NMF package was not available; kmeans on z-scored state features was used as a reproducible fallback."

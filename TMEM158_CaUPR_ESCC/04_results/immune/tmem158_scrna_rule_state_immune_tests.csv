@@ -1,0 +1,6 @@
+"source","dataset","contrast","metric","n_high","n_low","high_median","low_median","delta_high_minus_low","p.value","FDR","boundary_call"
+"single_cell_pseudobulk","GSE160269_scRNA","scRNA_TAC_high_vs_other_rule_states","Treg_score",14,46,0.104505776481952,0.052635212743225,0.0518705637387274,0.89690332877123,0.938033824060975,"not_supported"
+"single_cell_pseudobulk","GSE160269_scRNA","scRNA_TAC_high_vs_other_rule_states","Myeloid_suppressive_score",14,46,0.0789093011605553,-0.15675335672675,0.235662657887306,0.46189507913932,0.938033824060975,"not_supported"
+"single_cell_pseudobulk","GSE160269_scRNA","scRNA_TAC_high_vs_other_rule_states","Inflammatory_myeloid_score",14,46,0.150923638241294,0.100310918801189,0.0506127194401056,0.585894707524258,0.938033824060975,"not_supported"
+"single_cell_pseudobulk","GSE160269_scRNA","scRNA_TAC_high_vs_other_rule_states","Tcell_exhaustion_score",14,46,-0.003659844262678,0.0661917393739804,-0.0698515836366584,0.938033824060975,0.938033824060975,"not_supported"
+"single_cell_pseudobulk","GSE160269_scRNA","scRNA_TAC_high_vs_other_rule_states","Tcell_cytotoxic_score",14,46,0.337596606569125,-0.10260492531546,0.440201531884586,0.278096727588433,0.938033824060975,"not_supported"

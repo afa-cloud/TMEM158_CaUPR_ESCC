@@ -1,0 +1,6 @@
+"metric","n_datasets","n_testable","signed_z","meta_p","positive_nominal","positive_fdr","negative_nominal","meta_FDR","replication_call"
+"ATF6_score",4,4,0.944195456212525,0.345069776735666,0,0,0,0.345069776735666,"not_replicated"
+"Drug_efflux_score",4,4,4.07923019897252,4.518507679064e-05,1,1,0,0.0002259253839532,"meta_positive_boundary"
+"IRE1_score",4,4,-1.52178385172715,0.128063248986287,0,0,1,0.160079061232859,"not_replicated"
+"Proteostasis_score",4,4,2.84052785756882,0.00450389390367083,2,2,0,0.0112597347591771,"replicated_positive"
+"Survival_score",4,4,2.49040476248975,0.0127597687779891,2,2,0,0.0212662812966484,"replicated_positive"

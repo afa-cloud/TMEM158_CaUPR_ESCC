@@ -1,0 +1,7 @@
+item,value,status,notes
+module_status,completed,pass,AlphaFold/UniProt topology context generated
+alphafold_entry,AF-Q8WZ71-F1,pass,Official AlphaFold DB entry
+global_plddt,56.66,boundary,Moderate/low global model confidence
+tm_segments,2,pass,UniProt transmembrane feature count
+figure25_generated,True,pass,Topology figure generated
+claim_ceiling,topology_plausibility_not_physical_interaction_or_er_validation,boundary,Do not upgrade to mechanism proof

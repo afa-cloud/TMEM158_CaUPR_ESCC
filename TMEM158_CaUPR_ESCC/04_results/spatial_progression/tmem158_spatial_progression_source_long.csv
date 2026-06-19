@@ -1,0 +1,374 @@
+"sample_label","stage","feature","value","source_type","rank"
+"NE 1","NE","fibroblasts",0.121748390424868,"DSP cell deconvolution",0
+"NE 2","NE","fibroblasts",0.434668235354454,"DSP cell deconvolution",0
+"NE 3","NE","fibroblasts",0,"DSP cell deconvolution",0
+"NE 4","NE","fibroblasts",0,"DSP cell deconvolution",0
+"NE 5","NE","fibroblasts",0.688679245142764,"DSP cell deconvolution",0
+"NE 6","NE","fibroblasts",0.499196458477543,"DSP cell deconvolution",0
+"NE 7","NE","fibroblasts",0.245924142028491,"DSP cell deconvolution",0
+"NE 8","NE","fibroblasts",0.378889653760666,"DSP cell deconvolution",0
+"NE 9","NE","fibroblasts",0.0959551668081233,"DSP cell deconvolution",0
+"NE 10","NE","fibroblasts",0.00367773183938791,"DSP cell deconvolution",0
+"NE 11","NE","fibroblasts",0.266455119332968,"DSP cell deconvolution",0
+"LGIN 1","LGIN","fibroblasts",0.0640942532690398,"DSP cell deconvolution",1
+"LGIN 2","LGIN","fibroblasts",0,"DSP cell deconvolution",1
+"LGIN 3","LGIN","fibroblasts",0.210964428446526,"DSP cell deconvolution",1
+"LGIN 4","LGIN","fibroblasts",1.19839638555129,"DSP cell deconvolution",1
+"LGIN 5","LGIN","fibroblasts",1.11563047692032,"DSP cell deconvolution",1
+"LGIN 6","LGIN","fibroblasts",0.409390488793322,"DSP cell deconvolution",1
+"LGIN 7","LGIN","fibroblasts",0.312885324053359,"DSP cell deconvolution",1
+"LGIN 8","LGIN","fibroblasts",0.634759651702509,"DSP cell deconvolution",1
+"LGIN 9","LGIN","fibroblasts",0.564681794871813,"DSP cell deconvolution",1
+"LGIN 10","LGIN","fibroblasts",0.233397385064984,"DSP cell deconvolution",1
+"LGIN 11","LGIN","fibroblasts",0.603887912056829,"DSP cell deconvolution",1
+"LGIN 12","LGIN","fibroblasts",0.701115716633124,"DSP cell deconvolution",1
+"HGIN 1","HGIN","fibroblasts",1.52546791127779,"DSP cell deconvolution",2
+"HGIN 2","HGIN","fibroblasts",3.83005119048502,"DSP cell deconvolution",2
+"HGIN 3","HGIN","fibroblasts",0.693753967566249,"DSP cell deconvolution",2
+"HGIN 4","HGIN","fibroblasts",0.565050329974215,"DSP cell deconvolution",2
+"HGIN 5","HGIN","fibroblasts",3.72080906463178,"DSP cell deconvolution",2
+"HGIN 6","HGIN","fibroblasts",2.78483356911373,"DSP cell deconvolution",2
+"HGIN 7","HGIN","fibroblasts",1.49177162763062,"DSP cell deconvolution",2
+"HGIN 8","HGIN","fibroblasts",1.07042362721596,"DSP cell deconvolution",2
+"HGIN 9","HGIN","fibroblasts",4.4202798654625,"DSP cell deconvolution",2
+"HGIN 10","HGIN","fibroblasts",0.279028954561942,"DSP cell deconvolution",2
+"HGIN 11","HGIN","fibroblasts",2.59459322962107,"DSP cell deconvolution",2
+"HGIN 12","HGIN","fibroblasts",1.17153030270363,"DSP cell deconvolution",2
+"ESCC1","ESCC","fibroblasts",5.00155082552327,"DSP cell deconvolution",3
+"ESCC2","ESCC","fibroblasts",6.72943921961431,"DSP cell deconvolution",3
+"ESCC3","ESCC","fibroblasts",9.11003892783169,"DSP cell deconvolution",3
+"ESCC4","ESCC","fibroblasts",3.54285317380985,"DSP cell deconvolution",3
+"ESCC5","ESCC","fibroblasts",2.63340446701273,"DSP cell deconvolution",3
+"ESCC6","ESCC","fibroblasts",1.0552359916516,"DSP cell deconvolution",3
+"ESCC7","ESCC","fibroblasts",2.45519444701088,"DSP cell deconvolution",3
+"NE 1","NE","macrophages",0.94760599,"DSP cell deconvolution",0
+"NE 2","NE","macrophages",2.50158814,"DSP cell deconvolution",0
+"NE 3","NE","macrophages",0,"DSP cell deconvolution",0
+"NE 4","NE","macrophages",0,"DSP cell deconvolution",0
+"NE 5","NE","macrophages",3.24673132,"DSP cell deconvolution",0
+"NE 6","NE","macrophages",1.90502001,"DSP cell deconvolution",0
+"NE 7","NE","macrophages",1.29207755,"DSP cell deconvolution",0
+"NE 8","NE","macrophages",1.16102982,"DSP cell deconvolution",0
+"NE 9","NE","macrophages",0.6032681,"DSP cell deconvolution",0
+"NE 10","NE","macrophages",0.0710546,"DSP cell deconvolution",0
+"NE 11","NE","macrophages",0.6356585,"DSP cell deconvolution",0
+"LGIN 1","LGIN","macrophages",0.73975421,"DSP cell deconvolution",1
+"LGIN 2","LGIN","macrophages",0,"DSP cell deconvolution",1
+"LGIN 3","LGIN","macrophages",3.58771114,"DSP cell deconvolution",1
+"LGIN 4","LGIN","macrophages",2.87068664,"DSP cell deconvolution",1
+"LGIN 5","LGIN","macrophages",2.54706686,"DSP cell deconvolution",1
+"LGIN 6","LGIN","macrophages",3.5891154,"DSP cell deconvolution",1
+"LGIN 7","LGIN","macrophages",2.62094994,"DSP cell deconvolution",1
+"LGIN 8","LGIN","macrophages",2.14995327,"DSP cell deconvolution",1
+"LGIN 9","LGIN","macrophages",1.78064398,"DSP cell deconvolution",1
+"LGIN 10","LGIN","macrophages",2.25183346,"DSP cell deconvolution",1
+"LGIN 11","LGIN","macrophages",3.07468151,"DSP cell deconvolution",1
+"LGIN 12","LGIN","macrophages",2.86294372,"DSP cell deconvolution",1
+"HGIN 1","HGIN","macrophages",4.34681134,"DSP cell deconvolution",2
+"HGIN 2","HGIN","macrophages",2.13046523,"DSP cell deconvolution",2
+"HGIN 3","HGIN","macrophages",3.63735219,"DSP cell deconvolution",2
+"HGIN 4","HGIN","macrophages",4.3808472,"DSP cell deconvolution",2
+"HGIN 5","HGIN","macrophages",9.00908803,"DSP cell deconvolution",2
+"HGIN 6","HGIN","macrophages",11.5377898,"DSP cell deconvolution",2
+"HGIN 7","HGIN","macrophages",7.48781505,"DSP cell deconvolution",2
+"HGIN 8","HGIN","macrophages",3.69005848,"DSP cell deconvolution",2
+"HGIN 9","HGIN","macrophages",8.68550213,"DSP cell deconvolution",2
+"HGIN 10","HGIN","macrophages",5.49168006,"DSP cell deconvolution",2
+"HGIN 11","HGIN","macrophages",4.607589,"DSP cell deconvolution",2
+"HGIN 12","HGIN","macrophages",2.61181497,"DSP cell deconvolution",2
+"ESCC1","ESCC","macrophages",4.67509347,"DSP cell deconvolution",3
+"ESCC2","ESCC","macrophages",2.59900913,"DSP cell deconvolution",3
+"ESCC3","ESCC","macrophages",5.70821437,"DSP cell deconvolution",3
+"ESCC4","ESCC","macrophages",6.92289084,"DSP cell deconvolution",3
+"ESCC5","ESCC","macrophages",5.54718459,"DSP cell deconvolution",3
+"ESCC6","ESCC","macrophages",2.49730578,"DSP cell deconvolution",3
+"ESCC7","ESCC","macrophages",8.67073045,"DSP cell deconvolution",3
+"NE 1","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 2","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 3","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 4","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 5","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 6","NE","macrophages_m0",0.0010467165666708,"DSP macrophage subtype",0
+"NE 7","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 8","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 9","NE","macrophages_m0",0.042134795272936,"DSP macrophage subtype",0
+"NE 10","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"NE 11","NE","macrophages_m0",0,"DSP macrophage subtype",0
+"LGIN 1","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 2","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 3","LGIN","macrophages_m0",0.0231425989275284,"DSP macrophage subtype",1
+"LGIN 4","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 5","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 6","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 7","LGIN","macrophages_m0",0.0428619728928978,"DSP macrophage subtype",1
+"LGIN 8","LGIN","macrophages_m0",0.0926209485580185,"DSP macrophage subtype",1
+"LGIN 9","LGIN","macrophages_m0",0.0586261242355402,"DSP macrophage subtype",1
+"LGIN 10","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 11","LGIN","macrophages_m0",0,"DSP macrophage subtype",1
+"LGIN 12","LGIN","macrophages_m0",0.0179677193250669,"DSP macrophage subtype",1
+"HGIN 1","HGIN","macrophages_m0",0,"DSP macrophage subtype",2
+"HGIN 2","HGIN","macrophages_m0",0,"DSP macrophage subtype",2
+"HGIN 3","HGIN","macrophages_m0",0.042305055756708,"DSP macrophage subtype",2
+"HGIN 4","HGIN","macrophages_m0",0.01105319680133,"DSP macrophage subtype",2
+"HGIN 5","HGIN","macrophages_m0",0.00762264430528497,"DSP macrophage subtype",2
+"HGIN 6","HGIN","macrophages_m0",0.00902368616830768,"DSP macrophage subtype",2
+"HGIN 7","HGIN","macrophages_m0",0,"DSP macrophage subtype",2
+"HGIN 8","HGIN","macrophages_m0",0,"DSP macrophage subtype",2
+"HGIN 9","HGIN","macrophages_m0",0.0205785512894887,"DSP macrophage subtype",2
+"HGIN 10","HGIN","macrophages_m0",0.0357944398652154,"DSP macrophage subtype",2
+"HGIN 11","HGIN","macrophages_m0",0.0308826372310151,"DSP macrophage subtype",2
+"HGIN 12","HGIN","macrophages_m0",0,"DSP macrophage subtype",2
+"ESCC1","ESCC","macrophages_m0",0.0169645041364752,"DSP macrophage subtype",3
+"ESCC2","ESCC","macrophages_m0",0.194892806528136,"DSP macrophage subtype",3
+"ESCC3","ESCC","macrophages_m0",0.134304361217715,"DSP macrophage subtype",3
+"ESCC4","ESCC","macrophages_m0",0.0632326035808854,"DSP macrophage subtype",3
+"ESCC5","ESCC","macrophages_m0",0.00896452727794239,"DSP macrophage subtype",3
+"ESCC6","ESCC","macrophages_m0",0.141635766479614,"DSP macrophage subtype",3
+"ESCC7","ESCC","macrophages_m0",0.189660136499045,"DSP macrophage subtype",3
+"NE","NE","macrophages_m0",0.0039255919854188,"DSP macrophage subtype",0
+"LGIN","LGIN","macrophages_m0",0.0196016136615877,"DSP macrophage subtype",1
+"HGIN","HGIN","macrophages_m0",0.0131050176181125,"DSP macrophage subtype",2
+"ESCC","ESCC","macrophages_m0",0.107093529388545,"DSP macrophage subtype",3
+"NE 1","NE","macrophages_m1",0,"DSP macrophage subtype",0
+"NE 2","NE","macrophages_m1",0.0645693116859387,"DSP macrophage subtype",0
+"NE 3","NE","macrophages_m1",0.270221097939725,"DSP macrophage subtype",0
+"NE 4","NE","macrophages_m1",0,"DSP macrophage subtype",0
+"NE 5","NE","macrophages_m1",0.0600350864202417,"DSP macrophage subtype",0
+"NE 6","NE","macrophages_m1",0.062835511695899,"DSP macrophage subtype",0
+"NE 7","NE","macrophages_m1",0.101550028273489,"DSP macrophage subtype",0
+"NE 8","NE","macrophages_m1",0.137984707945008,"DSP macrophage subtype",0
+"NE 9","NE","macrophages_m1",0.17211763596547,"DSP macrophage subtype",0
+"NE 10","NE","macrophages_m1",0.0489196396118868,"DSP macrophage subtype",0
+"NE 11","NE","macrophages_m1",0.0697943367159029,"DSP macrophage subtype",0
+"LGIN 1","LGIN","macrophages_m1",0.057558166279084,"DSP macrophage subtype",1
+"LGIN 2","LGIN","macrophages_m1",0.00611880674785243,"DSP macrophage subtype",1
+"LGIN 3","LGIN","macrophages_m1",0.120313890639767,"DSP macrophage subtype",1
+"LGIN 4","LGIN","macrophages_m1",0.0616235728818444,"DSP macrophage subtype",1
+"LGIN 5","LGIN","macrophages_m1",0.0626857314515296,"DSP macrophage subtype",1
+"LGIN 6","LGIN","macrophages_m1",0.0708245036529024,"DSP macrophage subtype",1
+"LGIN 7","LGIN","macrophages_m1",0.0584895183704533,"DSP macrophage subtype",1
+"LGIN 8","LGIN","macrophages_m1",0.119304306142755,"DSP macrophage subtype",1
+"LGIN 9","LGIN","macrophages_m1",0.133151249940732,"DSP macrophage subtype",1
+"LGIN 10","LGIN","macrophages_m1",0.155006561824323,"DSP macrophage subtype",1
+"LGIN 11","LGIN","macrophages_m1",0.0865819235084063,"DSP macrophage subtype",1
+"LGIN 12","LGIN","macrophages_m1",0.073182027909657,"DSP macrophage subtype",1
+"HGIN 1","HGIN","macrophages_m1",0.0472733033032984,"DSP macrophage subtype",2
+"HGIN 2","HGIN","macrophages_m1",0.0462485560512127,"DSP macrophage subtype",2
+"HGIN 3","HGIN","macrophages_m1",0.031221424485766,"DSP macrophage subtype",2
+"HGIN 4","HGIN","macrophages_m1",0.049667038752361,"DSP macrophage subtype",2
+"HGIN 5","HGIN","macrophages_m1",0.058851175974762,"DSP macrophage subtype",2
+"HGIN 6","HGIN","macrophages_m1",0.0445177827516554,"DSP macrophage subtype",2
+"HGIN 7","HGIN","macrophages_m1",0.0606389165241925,"DSP macrophage subtype",2
+"HGIN 8","HGIN","macrophages_m1",0.0508727975923737,"DSP macrophage subtype",2
+"HGIN 9","HGIN","macrophages_m1",0.0529255635241812,"DSP macrophage subtype",2
+"HGIN 10","HGIN","macrophages_m1",0.0414982799601505,"DSP macrophage subtype",2
+"HGIN 11","HGIN","macrophages_m1",0.0616575007948545,"DSP macrophage subtype",2
+"HGIN 12","HGIN","macrophages_m1",0.072360590922555,"DSP macrophage subtype",2
+"ESCC1","ESCC","macrophages_m1",0.0537536604743339,"DSP macrophage subtype",3
+"ESCC2","ESCC","macrophages_m1",0.102384021580263,"DSP macrophage subtype",3
+"ESCC3","ESCC","macrophages_m1",0.0865452428462413,"DSP macrophage subtype",3
+"ESCC4","ESCC","macrophages_m1",0.22899275112286,"DSP macrophage subtype",3
+"ESCC5","ESCC","macrophages_m1",0.093951055015626,"DSP macrophage subtype",3
+"ESCC6","ESCC","macrophages_m1",0.0715142584961185,"DSP macrophage subtype",3
+"ESCC7","ESCC","macrophages_m1",0.0728686395232795,"DSP macrophage subtype",3
+"NE","NE","macrophages_m1",0.0898206687503238,"DSP macrophage subtype",0
+"LGIN","LGIN","macrophages_m1",0.0837366882791088,"DSP macrophage subtype",1
+"HGIN","HGIN","macrophages_m1",0.0514777442197802,"DSP macrophage subtype",2
+"ESCC","ESCC","macrophages_m1",0.101429947008389,"DSP macrophage subtype",3
+"NE 1","NE","macrophages_m2",0.250851844644219,"DSP macrophage subtype",0
+"NE 2","NE","macrophages_m2",0.0233850574853747,"DSP macrophage subtype",0
+"NE 3","NE","macrophages_m2",0,"DSP macrophage subtype",0
+"NE 4","NE","macrophages_m2",0,"DSP macrophage subtype",0
+"NE 5","NE","macrophages_m2",0.0257319130023278,"DSP macrophage subtype",0
+"NE 6","NE","macrophages_m2",0,"DSP macrophage subtype",0
+"NE 7","NE","macrophages_m2",0.0299630930890431,"DSP macrophage subtype",0
+"NE 8","NE","macrophages_m2",0,"DSP macrophage subtype",0
+"NE 9","NE","macrophages_m2",0,"DSP macrophage subtype",0
+"NE 10","NE","macrophages_m2",0.071165944662378,"DSP macrophage subtype",0
+"NE 11","NE","macrophages_m2",0,"DSP macrophage subtype",0
+"LGIN 1","LGIN","macrophages_m2",0,"DSP macrophage subtype",1
+"LGIN 2","LGIN","macrophages_m2",0,"DSP macrophage subtype",1
+"LGIN 3","LGIN","macrophages_m2",0.023888978156299,"DSP macrophage subtype",1
+"LGIN 4","LGIN","macrophages_m2",0.108901492720943,"DSP macrophage subtype",1
+"LGIN 5","LGIN","macrophages_m2",0.051398452396159,"DSP macrophage subtype",1
+"LGIN 6","LGIN","macrophages_m2",0.0838054631400784,"DSP macrophage subtype",1
+"LGIN 7","LGIN","macrophages_m2",0.0347138865482076,"DSP macrophage subtype",1
+"LGIN 8","LGIN","macrophages_m2",0.0905225033783271,"DSP macrophage subtype",1
+"LGIN 9","LGIN","macrophages_m2",0.0685024357653113,"DSP macrophage subtype",1
+"LGIN 10","LGIN","macrophages_m2",0.00806130238543818,"DSP macrophage subtype",1
+"LGIN 11","LGIN","macrophages_m2",0.0518967547328072,"DSP macrophage subtype",1
+"LGIN 12","LGIN","macrophages_m2",0.0632113365339227,"DSP macrophage subtype",1
+"HGIN 1","HGIN","macrophages_m2",0.0691166164001681,"DSP macrophage subtype",2
+"HGIN 2","HGIN","macrophages_m2",0.0574786271109978,"DSP macrophage subtype",2
+"HGIN 3","HGIN","macrophages_m2",0,"DSP macrophage subtype",2
+"HGIN 4","HGIN","macrophages_m2",0.0364781101927177,"DSP macrophage subtype",2
+"HGIN 5","HGIN","macrophages_m2",0.0617657284253549,"DSP macrophage subtype",2
+"HGIN 6","HGIN","macrophages_m2",0.112966866590229,"DSP macrophage subtype",2
+"HGIN 7","HGIN","macrophages_m2",0.111375879941451,"DSP macrophage subtype",2
+"HGIN 8","HGIN","macrophages_m2",0.0878729464206156,"DSP macrophage subtype",2
+"HGIN 9","HGIN","macrophages_m2",0.0667127822115125,"DSP macrophage subtype",2
+"HGIN 10","HGIN","macrophages_m2",0.207735691716105,"DSP macrophage subtype",2
+"HGIN 11","HGIN","macrophages_m2",0.0764783731938008,"DSP macrophage subtype",2
+"HGIN 12","HGIN","macrophages_m2",0.0568607372616553,"DSP macrophage subtype",2
+"ESCC1","ESCC","macrophages_m2",0.0813080645348362,"DSP macrophage subtype",3
+"ESCC2","ESCC","macrophages_m2",0.0224353568366674,"DSP macrophage subtype",3
+"ESCC3","ESCC","macrophages_m2",0.065623656818831,"DSP macrophage subtype",3
+"ESCC4","ESCC","macrophages_m2",0,"DSP macrophage subtype",3
+"ESCC5","ESCC","macrophages_m2",0,"DSP macrophage subtype",3
+"ESCC6","ESCC","macrophages_m2",0.00350029736625538,"DSP macrophage subtype",3
+"ESCC7","ESCC","macrophages_m2",0.0842832836530724,"DSP macrophage subtype",3
+"NE","NE","macrophages_m2",0.0364634411712129,"DSP macrophage subtype",0
+"LGIN","LGIN","macrophages_m2",0.0487418838131245,"DSP macrophage subtype",1
+"HGIN","HGIN","macrophages_m2",0.0787368632887173,"DSP macrophage subtype",2
+"ESCC","ESCC","macrophages_m2",0.0367358084585232,"DSP macrophage subtype",3
+"sample 1","NE","alpha_SMA_fibroblast_IF",13.372,"IF quantification",0
+"sample 1","LGIN","alpha_SMA_fibroblast_IF",18.708,"IF quantification",1
+"sample 1","HGIN","alpha_SMA_fibroblast_IF",30.247,"IF quantification",2
+"sample 1","ESCC","alpha_SMA_fibroblast_IF",40.475,"IF quantification",3
+"sample 1","NE","CD68_macrophage_IF",94.988,"IF quantification",0
+"sample 1","LGIN","CD68_macrophage_IF",68.452,"IF quantification",1
+"sample 1","HGIN","CD68_macrophage_IF",82.2936666666667,"IF quantification",2
+"sample 1","ESCC","CD68_macrophage_IF",156.19,"IF quantification",3
+"sample 2","NE","alpha_SMA_fibroblast_IF",11.8996666666667,"IF quantification",0
+"sample 2","LGIN","alpha_SMA_fibroblast_IF",17.4386666666667,"IF quantification",1
+"sample 2","HGIN","alpha_SMA_fibroblast_IF",22.2276666666667,"IF quantification",2
+"sample 2","ESCC","alpha_SMA_fibroblast_IF",46.169,"IF quantification",3
+"sample 2","NE","CD68_macrophage_IF",32.2746666666667,"IF quantification",0
+"sample 2","LGIN","CD68_macrophage_IF",62.2933333333333,"IF quantification",1
+"sample 2","HGIN","CD68_macrophage_IF",67.265,"IF quantification",2
+"sample 2","ESCC","CD68_macrophage_IF",113.877,"IF quantification",3
+"sample 3","NE","alpha_SMA_fibroblast_IF",11.3575,"IF quantification",0
+"sample 3","LGIN","alpha_SMA_fibroblast_IF",17.1843333333333,"IF quantification",1
+"sample 3","HGIN","alpha_SMA_fibroblast_IF",25.718,"IF quantification",2
+"sample 3","ESCC","alpha_SMA_fibroblast_IF",25.642,"IF quantification",3
+"sample 3","NE","CD68_macrophage_IF",57.33,"IF quantification",0
+"sample 3","LGIN","CD68_macrophage_IF",50.466,"IF quantification",1
+"sample 3","HGIN","CD68_macrophage_IF",168.366666666667,"IF quantification",2
+"sample 3","ESCC","CD68_macrophage_IF",127.606,"IF quantification",3
+"sample 4","NE","alpha_SMA_fibroblast_IF",12.379,"IF quantification",0
+"sample 4","LGIN","alpha_SMA_fibroblast_IF",19.1465,"IF quantification",1
+"sample 4","HGIN","alpha_SMA_fibroblast_IF",16.9413333333333,"IF quantification",2
+"sample 4","ESCC","alpha_SMA_fibroblast_IF",33.291,"IF quantification",3
+"sample 4","NE","CD68_macrophage_IF",49.506,"IF quantification",0
+"sample 4","LGIN","CD68_macrophage_IF",101.8915,"IF quantification",1
+"sample 4","HGIN","CD68_macrophage_IF",58.558,"IF quantification",2
+"sample 4","ESCC","CD68_macrophage_IF",133.569,"IF quantification",3
+"sample 5","NE","alpha_SMA_fibroblast_IF",10.384,"IF quantification",0
+"sample 5","LGIN","alpha_SMA_fibroblast_IF",18.9383333333333,"IF quantification",1
+"sample 5","HGIN","alpha_SMA_fibroblast_IF",19.7856666666667,"IF quantification",2
+"sample 5","ESCC","alpha_SMA_fibroblast_IF",36.976,"IF quantification",3
+"sample 5","NE","CD68_macrophage_IF",70.87,"IF quantification",0
+"sample 5","LGIN","CD68_macrophage_IF",28.4693333333333,"IF quantification",1
+"sample 5","HGIN","CD68_macrophage_IF",88.6036666666667,"IF quantification",2
+"sample 5","ESCC","CD68_macrophage_IF",92.042,"IF quantification",3
+"sample 6","NE","alpha_SMA_fibroblast_IF",16.8393333333333,"IF quantification",0
+"sample 6","LGIN","alpha_SMA_fibroblast_IF",32.824,"IF quantification",1
+"sample 6","HGIN","alpha_SMA_fibroblast_IF",24.2733333333333,"IF quantification",2
+"sample 6","ESCC","alpha_SMA_fibroblast_IF",23.799,"IF quantification",3
+"sample 6","NE","CD68_macrophage_IF",61.565,"IF quantification",0
+"sample 6","LGIN","CD68_macrophage_IF",113.526666666667,"IF quantification",1
+"sample 6","HGIN","CD68_macrophage_IF",48.805,"IF quantification",2
+"sample 6","ESCC","CD68_macrophage_IF",63.321,"IF quantification",3
+"sample 7","NE","alpha_SMA_fibroblast_IF",21.2853333333333,"IF quantification",0
+"sample 7","LGIN","alpha_SMA_fibroblast_IF",17.5255,"IF quantification",1
+"sample 7","HGIN","alpha_SMA_fibroblast_IF",23.4816666666667,"IF quantification",2
+"sample 7","ESCC","alpha_SMA_fibroblast_IF",20.693,"IF quantification",3
+"sample 7","NE","CD68_macrophage_IF",72.0176666666667,"IF quantification",0
+"sample 7","LGIN","CD68_macrophage_IF",40.8085,"IF quantification",1
+"sample 7","HGIN","CD68_macrophage_IF",83.8173333333333,"IF quantification",2
+"sample 7","ESCC","CD68_macrophage_IF",71.934,"IF quantification",3
+"sample 8","NE","alpha_SMA_fibroblast_IF",17.905,"IF quantification",0
+"sample 8","LGIN","alpha_SMA_fibroblast_IF",20.8722,"IF quantification",1
+"sample 8","HGIN","alpha_SMA_fibroblast_IF",20.7136666666667,"IF quantification",2
+"sample 8","ESCC","alpha_SMA_fibroblast_IF",26.419,"IF quantification",3
+"sample 8","NE","CD68_macrophage_IF",44.002,"IF quantification",0
+"sample 8","LGIN","CD68_macrophage_IF",47.3294,"IF quantification",1
+"sample 8","HGIN","CD68_macrophage_IF",73.5486666666667,"IF quantification",2
+"sample 8","ESCC","CD68_macrophage_IF",106.106,"IF quantification",3
+"sample 9","NE","alpha_SMA_fibroblast_IF",10.9366666666667,"IF quantification",0
+"sample 9","LGIN","alpha_SMA_fibroblast_IF",8.592,"IF quantification",1
+"sample 9","HGIN","alpha_SMA_fibroblast_IF",22.54975,"IF quantification",2
+"sample 9","ESCC","alpha_SMA_fibroblast_IF",22.01,"IF quantification",3
+"sample 9","NE","CD68_macrophage_IF",56.016,"IF quantification",0
+"sample 9","LGIN","CD68_macrophage_IF",44.213,"IF quantification",1
+"sample 9","HGIN","CD68_macrophage_IF",71.03675,"IF quantification",2
+"sample 9","ESCC","CD68_macrophage_IF",144.855,"IF quantification",3
+"sample 10","NE","alpha_SMA_fibroblast_IF",10.4546666666667,"IF quantification",0
+"sample 10","LGIN","alpha_SMA_fibroblast_IF",19.6886666666667,"IF quantification",1
+"sample 10","HGIN","alpha_SMA_fibroblast_IF",14.5303333333333,"IF quantification",2
+"sample 10","ESCC","alpha_SMA_fibroblast_IF",17.727,"IF quantification",3
+"sample 10","NE","CD68_macrophage_IF",49.0416666666667,"IF quantification",0
+"sample 10","LGIN","CD68_macrophage_IF",51.2936666666667,"IF quantification",1
+"sample 10","HGIN","CD68_macrophage_IF",170.129333333333,"IF quantification",2
+"sample 10","ESCC","CD68_macrophage_IF",74.205,"IF quantification",3
+"average","NE","alpha_SMA_fibroblast_IF",13.6813166666667,"IF quantification",0
+"average","LGIN","alpha_SMA_fibroblast_IF",19.09182,"IF quantification",1
+"average","HGIN","alpha_SMA_fibroblast_IF",22.0468416666667,"IF quantification",2
+"average","ESCC","alpha_SMA_fibroblast_IF",29.3201,"IF quantification",3
+"average","NE","CD68_macrophage_IF",58.7611,"IF quantification",0
+"average","LGIN","CD68_macrophage_IF",60.87434,"IF quantification",1
+"average","HGIN","CD68_macrophage_IF",91.2424083333333,"IF quantification",2
+"average","ESCC","CD68_macrophage_IF",108.3705,"IF quantification",3
+"sd","NE","alpha_SMA_fibroblast_IF",3.72404226021459,"IF quantification",0
+"sd","LGIN","alpha_SMA_fibroblast_IF",5.88164387446021,"IF quantification",1
+"sd","HGIN","alpha_SMA_fibroblast_IF",4.44067041263561,"IF quantification",2
+"sd","ESCC","alpha_SMA_fibroblast_IF",9.41269713914843,"IF quantification",3
+"sd","NE","CD68_macrophage_IF",17.4854931074623,"IF quantification",0
+"sd","LGIN","CD68_macrophage_IF",27.1375514253708,"IF quantification",1
+"sd","HGIN","CD68_macrophage_IF",42.7900952201711,"IF quantification",2
+"sd","ESCC","CD68_macrophage_IF",32.4023644036118,"IF quantification",3
+"MIPCC-DSP-20210914C-01_5","NE","ROI_KRT16",5.26730060276863,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_5","NE","ROI_KRT17",3.75537618275471,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_5","NE","ROI_MAL",3.75537618275471,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_5","NE","ROI_TAGLN2",6.46812735557096,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_5","NE","ROI_CRNN",3.75537618275471,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_9","NE","ROI_KRT16",8.07904055758817,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_9","NE","ROI_KRT17",5.7047357042464,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_9","NE","ROI_MAL",8.61490165001649,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_9","NE","ROI_TAGLN2",8.04218491697654,"ROI marker expression",0
+"MIPCC-DSP-20210914C-01_9","NE","ROI_CRNN",9.82135886801612,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_1","NE","ROI_KRT16",5.38459497989631,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_1","NE","ROI_KRT17",4.76003468407973,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_1","NE","ROI_MAL",8.51064545873176,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_1","NE","ROI_TAGLN2",5.54438886178755,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_1","NE","ROI_CRNN",10.2918982744542,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_4","NE","ROI_KRT16",5.83972233898901,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_4","NE","ROI_KRT17",4.30428179828078,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_4","NE","ROI_MAL",8.40353823261086,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_4","NE","ROI_TAGLN2",5.26730060276863,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_4","NE","ROI_CRNN",7.82070439547284,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_5","NE","ROI_KRT16",6.33079788621829,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_5","NE","ROI_KRT17",5.23344853564104,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_5","NE","ROI_MAL",9.7738430173498,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_5","NE","ROI_TAGLN2",7.64515398611459,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_5","NE","ROI_CRNN",9.9404736831404,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_8","NE","ROI_KRT16",6.28543639808974,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_8","NE","ROI_KRT17",5.02637965687053,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_8","NE","ROI_MAL",9.10815687218492,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_8","NE","ROI_TAGLN2",6.99279116383198,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_8","NE","ROI_CRNN",9.57949557551604,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_13","NE","ROI_KRT16",6.27557099294212,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_13","NE","ROI_KRT17",4.89998321211558,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_13","NE","ROI_MAL",9.94400005780121,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_13","NE","ROI_TAGLN2",6.75180941975746,"ROI marker expression",0
+"MIPCC-DSP-20210914C-02_13","NE","ROI_CRNN",10.7071894937773,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_5","NE","ROI_KRT16",9.10257969621406,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_5","NE","ROI_KRT17",5.75383306785203,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_5","NE","ROI_MAL",11.7051941506515,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_5","NE","ROI_TAGLN2",7.59781082214442,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_5","NE","ROI_CRNN",12.0302107129266,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_6","NE","ROI_KRT16",6.44242840286965,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_6","NE","ROI_KRT17",5.07999694582351,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_6","NE","ROI_MAL",9.83825366578704,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_6","NE","ROI_TAGLN2",5.83972233898901,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_6","NE","ROI_CRNN",10.1464992393414,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_9","NE","ROI_KRT16",3.3755163384483,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_9","NE","ROI_KRT17",4.86469579495732,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_9","NE","ROI_MAL",11.3947892826807,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_9","NE","ROI_TAGLN2",4.86469579495732,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_9","NE","ROI_CRNN",11.0244550916489,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_12","NE","ROI_KRT16",5.77941663345875,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_12","NE","ROI_KRT17",4.86469579495732,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_12","NE","ROI_MAL",10.8094665178952,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_12","NE","ROI_TAGLN2",6.63624058164681,"ROI marker expression",0
+"MIPCC-DSP-20210914C-03_12","NE","ROI_CRNN",10.988280034853,"ROI marker expression",0

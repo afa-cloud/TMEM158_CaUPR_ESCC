@@ -1,0 +1,25 @@
+field,value
+Gene,TMEM158
+Gene synonym,p40BBp; RIS1
+Ensembl,ENSG00000249992
+Gene description,Transmembrane protein 158
+Uniprot,Q8WZ71
+Protein class,Predicted membrane proteins
+Evidence,Evidence at protein level
+HPA evidence,Evidence at transcript level
+UniProt evidence,Evidence at transcript level
+NeXtProt evidence,Evidence at protein level
+RNA tissue specificity,Tissue enhanced
+RNA tissue distribution,Detected in many
+RNA single cell type specificity,Cell type enhanced
+RNA single cell type distribution,Detected in many
+RNA cancer specificity,Cancer enhanced
+RNA cancer distribution,Detected in many
+Protein tissue specificity,Not detected
+Protein tissue distribution,Not detected
+Antibody,HPA074974
+Reliability (IH),Approved
+Reliability (IF),
+Subcellular location,
+Subcellular main location,
+HNSC TCGA prognostic context,prognostic: unprognostic; is_prognostic: False; p_val: 3.48e-2

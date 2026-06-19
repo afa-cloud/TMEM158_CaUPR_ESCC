@@ -1,0 +1,11 @@
+gate,status,evidence,next_action
+reproducible_full_run,pass,run_all.log contains TMEM158 branch completion,keep as reproducibility evidence
+six_main_figures,pass,6 composite main figures generated with PNG/PDF/SVG wrappers,visual QA and final journal sizing
+manuscript_sections,pass,## Abstract=yes; ## Introduction=yes; ## Results=yes; ## Discussion=yes; ## Limitations=yes; ## Methods=yes; ## Figure legends=yes; ## Data availability=yes; ## Code availability=yes; ## Ethics statement=yes; ## References=yes,polish content and target journal format
+formal_references,pass,no placeholder references detected,keep verified references and adapt style to target journal
+fulltext_supplement_duplication_gate,pass,0 manual full-text/supplementary items remain; 28 items auto-reviewed by VM-routed PMC XML; 5 local text/full-text items reviewed; 7 curated context adjudications,preserve full-text/context adjudication table with reviewer-risk materials
+novelty_decision,pass,go_no_manual_items_remaining,write novelty as ESCC-specific TAC_high ecology rather than generic TMEM158 biomarker work
+gse53625_clinical_calibration,pass,"GSE53625 status=completed; paired=179; OS P values TMEM158=0.646, TAC=0.564","write as calibration, not prognostic validation"
+claim_boundary,pass,reviewer risk checklist and automated claim-boundary text audit are present,"keep boundary language in title, abstract, cover letter and figure legends"
+data_and_code_provenance,pass,"data_inventory.csv, run_all.R, source-data inventory, repository manifest, checksums and standalone repository-release package exist",keep repository release package available; deposit and add DOI/permanent URL only if later selected or requested
+final_submission_clearance,not_yet,"main figures, formal references, novelty gate, visual QA, Scientific Reports manuscript/DOCX, source-data inventory, Supplementary Information draft, repository manifest and repository-release package are generated; author metadata, funding/competing interests and contributions are supplied; public code repository deposition is deferred by author decision; final upload preview and final claim-boundary read still require completion",complete publisher upload preview and final claim-boundary read; deposit repository release package only if later selected or requested

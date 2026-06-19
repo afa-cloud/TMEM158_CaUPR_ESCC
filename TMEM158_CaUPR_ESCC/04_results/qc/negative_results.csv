@@ -1,0 +1,6 @@
+"item","finding","claim_effect"
+"TMEM158 survival in TCGA","No significant survival association in first-pass TCGA Cox","downgrade prognostic claim"
+"GSE45670 validation FDR","External GSE45670 correlation is nominal or boundary after FDR","downgrade validation strength"
+"GSE160269 epithelial branch","Epithelial branch correlation does not pass FDR in screen","downgrade tumour-cell-intrinsic claim"
+"Proteogenomics protein direction","Proteomics coverage is context only, not a positive directional protein result","downgrade protein-validation claim"
+"PubMed exact mechanism overlap","No exact overlap; this supports novelty but not biological proof","keep novelty but avoid causal overclaim"

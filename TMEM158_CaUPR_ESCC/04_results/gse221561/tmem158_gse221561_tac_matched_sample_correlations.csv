@@ -1,0 +1,7 @@
+"x_feature","y_feature","n","rho","p.value","FDR","evidence_call"
+"TAC_like_context_score","ECM_integrin_bridge_score",6,0.371428571428571,0.468478134110787,0.562173760932945,"descriptive_or_boundary"
+"TAC_like_context_score","MIF_CXCR4_bridge_score",6,0.828571428571429,0.0415626822157434,0.12468804664723,"positive_nominal"
+"TAC_like_context_score","Proteostasis_score.Epithelial",6,0.942857142857143,0.00480466472303207,0.0288279883381924,"positive_FDR"
+"TAC_like_context_score","Transport_detox_score.Epithelial",6,0.257142857142857,0.622787172011662,0.622787172011662,"descriptive_or_boundary"
+"TAC_like_context_score","Tcell_exhaustion_score.T_cell",6,0.485714285714286,0.328723032069971,0.562173760932945,"descriptive_or_boundary"
+"TAC_like_context_score","Myeloid_suppressive_score.Myeloid",6,0.371428571428571,0.468478134110787,0.562173760932945,"descriptive_or_boundary"

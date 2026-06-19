@@ -1,0 +1,8 @@
+"item","score","boundary_call","note"
+"Reviewed UniProt entry",1,"support","Q8WZ71 / Transmembrane protein 158"
+"Membrane protein/topology support",1,"support","Membrane; Multi-pass membrane protein"
+"HPA predicted membrane protein class",1,"support","Predicted membrane proteins"
+"Public antibody/IHC context",0.6,"context","HPA074974; Approved"
+"Direct ER localization",-0.8,"boundary","No direct ER term in retrieved UniProt/QuickGO localization"
+"HPA subcellular IF location",-0.7,"boundary","HPA subcellular IF not available"
+"ESCC-specific protein validation",-1,"boundary","No public ESCC-specific TMEM158 protein/localization experiment is created by this workflow"

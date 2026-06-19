@@ -1,0 +1,5 @@
+task_id,field_name,required,current_status,action_needed,source,notes
+human_01,suggested_reviewers,optional,optional_human_required,OPTIONAL_HUMAN_REQUIRED: add only if the journal requests suggested reviewers.,human author decision,Must avoid conflicts of interest.
+human_02,opposed_reviewers,optional,optional_human_required,OPTIONAL_HUMAN_REQUIRED: add only if necessary and journal allows exclusions.,human author decision,Must be justified and conflict-aware.
+human_03,final_upload_preview,yes,human_required,Inspect final manuscript DOCX/PDF and figure previews in the journal upload system.,08_submission_strategy/scientific_reports_submission_checklist.md,"Local render QA passed, but upload-system conversion can differ."
+human_03,final_claim_boundary_read,yes,human_required,"Confirm no causal, prognostic, immune-suppression, spatial-validation or treatment-resistance claim was introduced during metadata editing.",08_submission_strategy/claim_boundary_text_audit.md,Machine text audit passed on current files; edits after this point require reread.

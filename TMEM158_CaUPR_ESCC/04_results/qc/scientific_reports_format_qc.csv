@@ -1,0 +1,42 @@
+item,value,status,notes
+target_journal,Scientific Reports,selected,Chosen as first-pass target because BMC Cancer has explicit risk for bioinformatics-only public-database manuscripts without biological validation
+target_manuscript,07_manuscript/manuscript_scientific_reports.md,pass,Target-specific manuscript draft exists
+target_manuscript_docx,07_manuscript/manuscript_scientific_reports.docx,pass_needs_author_metadata,Editable Word manuscript generated from target Markdown draft
+docx_render_visual_qa,18 pages,pass,Automated page-boundary check flagged 0/18 pages for margin risk
+docx_font_policy,Times New Roman plus Songti,pass,English/numbers use Times New Roman; East Asian font slot set to Songti
+title_words,15,pass,Scientific Reports recommends title no more than 20 words
+abstract_words,172,pass,Scientific Reports recommends abstract no more than 200 words
+keywords,6,pass,Maximum six keywords/key phrases
+main_text_words_excluding_abstract_methods_references_legends,3019,pass,Below 4500-word recommended main-text threshold
+methods_words,1310,informational,Methods are not counted in the 4500-word main-text recommendation
+main_figures,6,pass,Within 8 display-item limit
+visual_qa_main_figures,6/6,pass,Automated main-figure visual QA passed
+data_availability,present,pass_needs_final_repository_decision,Public data sources listed; DOI/permanent repository can be added if code/results are deposited
+code_availability,present,pass_needs_final_repository_decision,Workflow path listed; DOI/permanent repository can be added before final submission
+author_contributions,placeholder,needs_author_input,Requires final author-approved contribution statement
+competing_interests,placeholder,needs_author_input,Requires explicit all-author statement
+funding,placeholder_missing,needs_author_input,Funding details must be supplied by human author(s)
+final_upload_clearance,not_yet,needs_author_input,"Author metadata, funding/competing interests and final human layout review remain"
+supplementary_information,07_manuscript/supplementary_information_scientific_reports.md,pass_needs_final_upload_decision,"Supplementary Information draft generated with methods, figure/table inventory and public-data claim boundaries"
+source_data_inventory,08_submission_strategy/source_data_and_supplementary_inventory.csv,pass,"Main figures, panel sources and source tables mapped"
+repository_manifest,08_submission_strategy/repository_deposit_manifest.csv,pass_author_decision_no_repository,Deposit manifest prepared for optional later use; author chose not to deposit before initial submission
+repository_checksums,08_submission_strategy/repository_file_checksums.sha256,pass,SHA256 checksums generated for included repository files
+submission_bundle_dry_run,08_submission_strategy/scientific_reports_submission_bundle,pass_not_final_upload_clear,Local upload dry-run bundle generated
+submission_bundle_zip,08_submission_strategy/TMEM158_TAC_high_ScientificReports_submission_bundle.zip,pass_not_final_upload_clear,ZIP archive generated; final upload preview still requires human inspection
+reviewer_risk_response_pack,08_submission_strategy/reviewer_preemptive_response_pack.md,pass,Pre-emptive reviewer-risk response pack generated
+editorial_triage_risk_audit,08_submission_strategy/editorial_triage_risk_audit.md,pass,Editorial triage risk audit generated
+submission_system_fields_pack,08_submission_strategy/scientific_reports_submission_system_fields.md,pass_not_final_upload_clear,Copy-ready online-submission field pack generated
+final_human_tasks_table,08_submission_strategy/scientific_reports_final_human_tasks.csv,not_yet,Publisher upload preview and final claim-boundary read remain human-gated
+alphafold_topology_context,05_figures/figure25_tmem158_alphafold_topology_context.png,pass_boundary_context,"Predicted topology evidence added; not physical interaction, ER localization or ESCC protein validation proof"
+docx_render_qa,18 pages; 0 margin-risk pages,pass,DOCX was rendered to PDF/PNG after the latest manuscript build; final upload preview remains human-gated
+official_policy_audit,04_results/qc/scientific_reports_official_policy_audit.csv,pass_human_gated_items_visible,Official Scientific Reports/Nature Portfolio policy audit generated
+reporting_summary_working_draft,08_submission_strategy/nature_portfolio_reporting_summary_working_draft.md,ready_human_finalize,Working draft prepared; final official form remains human-gated
+manuscript_numeric_consistency_audit,04_results/qc/manuscript_numeric_consistency_audit.csv,pass,Key manuscript numeric claims checked against result tables
+citation_coverage_clearance,pass,pass,All listed references cited; first appearances sequential; abstract citation-free
+citation_coverage_audit_report,08_submission_strategy/scientific_reports_citation_coverage_audit.md,pass,Citation coverage audit report
+repository_release_package,08_submission_strategy/TMEM158_TAC_high_repository_release.zip,pass_repository_package_optional,Standalone public repository-release package generated for optional later deposition
+final_sci_submission_gap_audit,08_submission_strategy/final_sci_submission_gap_audit.md,pass_human_gated_items_visible,Machine-actionable submission rows are clear; final publisher upload preview and claim-boundary read remain human-gated
+protein_topology_claim_boundary,08_submission_strategy/tmem158_protein_topology_claim_audit.md,pass,"Public protein/AlphaFold evidence supports membrane topology and assayability only, not ER localization, binding, ECM interaction or ESCC protein validation"
+target_journal_live_policy_refresh,08_submission_strategy/target_journal_live_policy_refresh.md,pass_human_gated_items_visible,Scientific Reports remains defensible as first target; BMC Cancer remains high risk without wet-lab validation
+structural_followup_prioritization,08_submission_strategy/tmem158_structural_followup_prioritization.md,pass,Prioritizes POSTN/FN1/collagen-integrin and MIF-CXCR4 follow-up while avoiding direct-interaction claims
+lr_compartment_expression_audit,08_submission_strategy/tmem158_lr_compartment_expression_audit.md,pass,Checks fibroblast ligand and epithelial receptor expression feasibility for top structural follow-up candidates

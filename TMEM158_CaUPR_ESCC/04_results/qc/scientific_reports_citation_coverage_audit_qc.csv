@@ -1,0 +1,11 @@
+item,value,status,notes
+generated_at,2026-06-20 00:55:42,info,Local system timestamp
+official_reference_style_source,https://www.nature.com/srep/author-instructions/submission-guidelines,info,Scientific Reports uses Nature-style sequential numeric references in square brackets.
+reference_count,25,pass,Numbered references detected
+citation_group_count,17,pass,Square-bracket citation groups before References
+unique_cited_reference_count,25,pass,Unique reference numbers cited in manuscript body
+uncited_references,none,pass,References listed but not cited
+out_of_range_citations,none,pass,Citation numbers outside reference range
+first_appearance_order,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25,pass,First new citation order should be 1..N
+abstract_reference_pattern,none,pass,Abstract should not include references
+citation_coverage_clearance,pass,pass,Machine citation coverage clearance

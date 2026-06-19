@@ -1,0 +1,9 @@
+item,value,status,notes
+generated_at,2026-06-19 23:32:53,info,Local system timestamp
+input_files_missing,0,pass,All required LR and compartment-expression inputs are present
+audited_top_structural_pairs,20,pass,Top structural follow-up pairs audited for compartment-expression feasibility
+expected_compartment_pattern_pairs,11,pass,Pairs with fibroblast ligand and detectable epithelial receptor pattern
+expression_boundary_pairs,9,pass_boundary,Pairs retained with expression or compartment caveats
+top_pair,POSTN->ITGA5,pass,The top structural candidate remains POSTN->ITGA5
+direct_communication_claim,not_made,pass,The report explicitly avoids communication/activation/causality claims
+machine_lr_compartment_expression_clearance,pass,pass,Pass means the expression-feasibility audit is complete and bounded

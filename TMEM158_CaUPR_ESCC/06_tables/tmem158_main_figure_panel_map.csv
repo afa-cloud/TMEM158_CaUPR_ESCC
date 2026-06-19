@@ -1,0 +1,22 @@
+main_figure_number,main_figure_id,main_figure_title,panel,source_figure,panel_caption
+1,main_figure1_tmem158_axis_discovery,TMEM158 discovery and Ca2/UPR-CAF state entry point,A,figure1_tmem158_expression_public_cohorts.png,TMEM158 expression across public ESCC cohorts
+1,main_figure1_tmem158_axis_discovery,TMEM158 discovery and Ca2/UPR-CAF state entry point,B,figure2_tmem158_axis_correlation_heatmap.png,TMEM158 coupling with Ca2/UPR and CAF scores
+1,main_figure1_tmem158_axis_discovery,TMEM158 discovery and Ca2/UPR-CAF state entry point,C,figure5_tmem158_cross_layer_evidence.png,Cross-layer evidence used to nominate TMEM158
+2,main_figure2_tac_high_bulk_state,Rule-defined TAC_high bulk state and specificity,A,figure6_tmem158_ecology_state_validation.png,Composite ecology-state validation
+2,main_figure2_tac_high_bulk_state,Rule-defined TAC_high bulk state and specificity,B,figure7_rule_tmem158_ecology_subtypes.png,Rule-defined TAC_high states across cohorts
+2,main_figure2_tac_high_bulk_state,Rule-defined TAC_high bulk state and specificity,C,figure12_tac_high_state_specificity.png,Cohort-preserving random-label specificity testing
+3,main_figure3_tac_high_transcriptome,Data-driven TAC_high transcriptome and CAF-adjusted residual stress,A,figure13_tac_high_transcriptome_programs.png,TAC_high whole-transcriptome programme
+3,main_figure3_tac_high_transcriptome,Data-driven TAC_high transcriptome and CAF-adjusted residual stress,B,figure14_tac_high_interaction_gene_heatmap.png,Core-by-CAF pathway-level interaction context
+3,main_figure3_tac_high_transcriptome,Data-driven TAC_high transcriptome and CAF-adjusted residual stress,C,figure22_stromal_adjusted_tac_score_specificity.png,CAF-adjusted score specificity stress test
+3,main_figure3_tac_high_transcriptome,Data-driven TAC_high transcriptome and CAF-adjusted residual stress,D,figure23_stromal_adjusted_tac_transcriptome.png,CAF-adjusted residual transcriptome programme
+4,main_figure4_gse53625_clinical_calibration,GSE53625 external clinical calibration,A,figure24_gse53625_tmem158_tac_external_validation.png,GSE53625 paired and tumour-only TAC calibration
+4,main_figure4_gse53625_clinical_calibration,GSE53625 external clinical calibration,B,figure9_tmem158_multiomics_regulation.png,TCGA/cBioPortal regulatory boundary
+4,main_figure4_gse53625_clinical_calibration,GSE53625 external clinical calibration,C,figure11_tmem158_public_protein_context.png,Public TMEM158 protein and antibody context
+5,main_figure5_scrna_caf_bridge,Single-cell fibroblast localization and candidate CAF-to-epithelial bridge,A,figure15_tac_high_scrna_signature_compartments.png,GSE160269 compartment localization of TAC signatures
+5,main_figure5_scrna_caf_bridge,Single-cell fibroblast localization and candidate CAF-to-epithelial bridge,B,figure16_tac_high_scrna_state_signature_mapping.png,Fibroblast TAC signature elevation in TAC_high tumours
+5,main_figure5_scrna_caf_bridge,Single-cell fibroblast localization and candidate CAF-to-epithelial bridge,C,figure17_tac_high_caf_epi_lr_bridge.png,Candidate CAF-to-epithelial ligand-receptor pairs
+5,main_figure5_scrna_caf_bridge,Single-cell fibroblast localization and candidate CAF-to-epithelial bridge,D,figure18_tac_high_caf_epi_lr_axis_scores.png,Candidate bridge axis scores
+6,main_figure6_independent_context_and_boundaries,"Independent single-cell, spatial-context and immune-boundary layers",A,figure19_gse221561_tac_context_validation.png,Independent GSE221561 fibroblast-dominant TAC context
+6,main_figure6_independent_context_and_boundaries,"Independent single-cell, spatial-context and immune-boundary layers",B,figure20_gse221561_tac_subtype_signature_context.png,GSE221561 fibroblast subtype context
+6,main_figure6_independent_context_and_boundaries,"Independent single-cell, spatial-context and immune-boundary layers",C,figure21_spatial_progression_source_context.png,Public spatial-progression fibroblast/alpha-SMA context
+6,main_figure6_independent_context_and_boundaries,"Independent single-cell, spatial-context and immune-boundary layers",D,figure10_scrna_tac_high_immune_boundary.png,Single-cell immune-boundary analysis

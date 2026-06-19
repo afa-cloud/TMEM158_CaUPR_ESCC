@@ -1,0 +1,10 @@
+item,value,status,notes
+generated_at,2026-06-19 23:09:17,info,Local system timestamp
+input_files_missing,0,pass,All required protein/topology evidence tables are present
+uniprot_quickgo_direct_er_term,absent,pass_boundary,Absence supports boundary that direct ER localization is not established
+alphafold_global_plddt,56.66,pass_boundary,Moderate/low global confidence means no interaction-proof claim
+alphafold_tm1_mean_plddt,76.13,pass,TM1 provides the strongest topology support
+alphafold_tm2_mean_plddt,43.96,pass_boundary,TM2 is an annotated but lower-confidence segment
+protein_audit_rows,9,pass,Evidence interpretation rows written
+rows_needing_revision,0,pass,Machine-actionable issues in protein-topology audit
+machine_protein_topology_claim_clearance,pass,pass,"Use as topology/assayability support only; no ER, binding, ECM or ESCC protein validation claim"

@@ -1,0 +1,6 @@
+item,value
+module_status,completed
+newly_resolved_by_local_scan,5
+curated_resolved_by_context_adjudication,7
+remaining_manual_required,0
+scan_table,01_literature/downloaded_fulltext_local_scan.csv

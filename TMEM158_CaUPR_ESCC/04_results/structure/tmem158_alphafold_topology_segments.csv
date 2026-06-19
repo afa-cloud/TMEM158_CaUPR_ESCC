@@ -1,0 +1,4 @@
+segment_id,source,feature_type,start,end,length,description,mean_plddt,mean_hydropathy19,confidence_call,interpretation
+UniProt_Transmembrane_1,UniProt feature,Transmembrane,231,251,21,Helical,76.13,1.835,confident,stronger structural support
+UniProt_Transmembrane_2,UniProt feature,Transmembrane,273,293,21,Helical,43.96,1.255,very_low,annotated but lower-confidence structural segment
+KD_hydrophobic_1,Kyte-Doolittle window,hydrophobic segment,228,244,17,Local hydropathy window >=1.6,87.4,2.19,confident,"sequence-level hydrophobic support, not independent localization proof"

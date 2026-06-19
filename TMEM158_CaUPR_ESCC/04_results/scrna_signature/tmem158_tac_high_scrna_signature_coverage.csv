@@ -1,0 +1,13 @@
+"signature","compartment","n_genes_observed","n_genes_requested","coverage_fraction"
+"Core_CAF_interaction_positive_top200","Epithelial",194,200,0.97
+"Core_CAF_interaction_positive_top200","Tcell",180,200,0.9
+"Core_CAF_interaction_positive_top200","Myeloid",180,200,0.9
+"Core_CAF_interaction_positive_top200","Fibroblast",194,200,0.97
+"TAC_high_positive_top200","Fibroblast",200,200,1
+"TAC_high_positive_top200","Epithelial",200,200,1
+"TAC_high_positive_top200","Tcell",142,200,0.71
+"TAC_high_positive_top200","Myeloid",142,200,0.71
+"TAC_high_positive_top50","Myeloid",36,50,0.72
+"TAC_high_positive_top50","Fibroblast",50,50,1
+"TAC_high_positive_top50","Epithelial",50,50,1
+"TAC_high_positive_top50","Tcell",36,50,0.72

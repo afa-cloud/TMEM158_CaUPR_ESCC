@@ -1,0 +1,6 @@
+source,url,local_path,status,bytes,error
+AlphaFold prediction API,https://alphafold.ebi.ac.uk/api/prediction/Q8WZ71,/Users/gdbhcx/Documents/生信分析（SMIM14驱动的内质网Ca²⁺应激–UPR–免疫抑制轴在食管鳞癌中的作用机制研究）/TMEM158_CaUPR_ESCC/02_data/raw/protein_context/alphafold_Q8WZ71_prediction_api.json,cached,4965,
+AlphaFold pdbUrl,https://alphafold.ebi.ac.uk/files/AF-Q8WZ71-F1-model_v6.pdb,/Users/gdbhcx/Documents/生信分析（SMIM14驱动的内质网Ca²⁺应激–UPR–免疫抑制轴在食管鳞癌中的作用机制研究）/TMEM158_CaUPR_ESCC/02_data/raw/protein_context/alphafold_Q8WZ71_model_v6.pdb,cached,179171,
+AlphaFold paeDocUrl,https://alphafold.ebi.ac.uk/files/AF-Q8WZ71-F1-predicted_aligned_error_v6.json,/Users/gdbhcx/Documents/生信分析（SMIM14驱动的内质网Ca²⁺应激–UPR–免疫抑制轴在食管鳞癌中的作用机制研究）/TMEM158_CaUPR_ESCC/02_data/raw/protein_context/alphafold_Q8WZ71_pae_v6.json,cached,261938,
+AlphaFold plddtDocUrl,https://alphafold.ebi.ac.uk/files/AF-Q8WZ71-F1-confidence_v6.json,/Users/gdbhcx/Documents/生信分析（SMIM14驱动的内质网Ca²⁺应激–UPR–免疫抑制轴在食管鳞癌中的作用机制研究）/TMEM158_CaUPR_ESCC/02_data/raw/protein_context/alphafold_Q8WZ71_plddt_v6.json,cached,4128,
+UniProt full entry,https://rest.uniprot.org/uniprotkb/Q8WZ71.json,/Users/gdbhcx/Documents/生信分析（SMIM14驱动的内质网Ca²⁺应激–UPR–免疫抑制轴在食管鳞癌中的作用机制研究）/TMEM158_CaUPR_ESCC/02_data/raw/protein_context/uniprot_Q8WZ71_full.json,cached,16751,
