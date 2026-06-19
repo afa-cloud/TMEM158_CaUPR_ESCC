@@ -45,4 +45,4 @@ The analysis code is under `03_scripts/`. The current full controller is `03_scr
 
 The analysis identifies a TMEM158-associated TAC_high Ca2/UPR-CAF stress-ecology state. It does not demonstrate TMEM158 causality, clinical prognosis, direct immune suppression, spatial activation, ligand-receptor causality, physical interaction, receptor activation, protein-level communication or treatment recommendation.
 
-Generated: 2026-06-20 02:04:20
+Generated: 2026-06-20 02:09:30

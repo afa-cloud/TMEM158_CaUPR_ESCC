@@ -62,9 +62,9 @@ The author(s) declare no competing interests.
 
 | Item | Decision |
 |---|---|
-| Deposit code/results to GitHub, Zenodo, OSF or institutional repository? | Not before initial submission |
-| Permanent DOI or URL | Not applicable before initial submission |
-| Repository license | Not applicable before initial submission |
+| Deposit code/results to GitHub, Zenodo, OSF or institutional repository? | Yes, public GitHub repository and initial-submission release |
+| Permanent DOI or URL | https://github.com/afa-cloud/TMEM158_CaUPR_ESCC/releases/tag/v1.0-initial-submission |
+| Repository license | Repository package follows included project files; DOI-minted archive can be added if requested |
 | Embargo needed? | No |
 
 ## Acknowledgements

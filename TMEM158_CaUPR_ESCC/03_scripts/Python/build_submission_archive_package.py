@@ -835,7 +835,7 @@ Latest checkpoint: {marker} complete. Use `08_submission_strategy/source_data_an
 
 - 新增脚本：`TMEM158_CaUPR_ESCC/03_scripts/Python/build_submission_archive_package.py`，并接入 `TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R`。
 - 新增输出：`07_manuscript/supplementary_information_scientific_reports.md`、`08_submission_strategy/source_data_and_supplementary_inventory.csv`、`08_submission_strategy/repository_deposit_manifest.csv`、`08_submission_strategy/repository_file_checksums.sha256`、`08_submission_strategy/zenodo_osf_github_release_readme.md`、`04_results/qc/submission_archive_qc.csv`。
-- 当前意义：补齐主图 source-data、补充材料和 repository traceability 层，使当前纯生信稿件更接近可上传投稿包。该层不改变科学边界；作者元数据和声明已补齐，final submission clearance 仍取决于 publisher upload preview 和最终 claim-boundary read。代码仓库公开沉积暂缓，必要时再补 DOI/永久链接。
+- 当前意义：补齐主图 source-data、补充材料和 repository traceability 层，使当前纯生信稿件更接近可上传投稿包。该层不改变科学边界；作者元数据、声明和 GitHub release 已补齐，final submission clearance 仍取决于 publisher upload preview 和最终 claim-boundary read。若期刊或审稿人要求 DOI，可再补 Zenodo/OSF/机构仓库 DOI。
 """,
     )
 
@@ -849,11 +849,34 @@ Latest checkpoint: {marker} complete. Use `08_submission_strategy/source_data_an
     if prepared_line not in text:
         text = text.replace(
             "- [ ] Decide whether to deposit code/results to a DOI-minting repository",
-            f"{prepared_line}\n- [ ] Decide whether to deposit code/results to a DOI-minting repository",
+            f"{prepared_line}\n- [x] Public GitHub repository and initial-submission release created",
         )
     text = text.replace(
+        "- [ ] Decide whether to deposit code/results to a DOI-minting repository",
+        "- [x] Public GitHub repository and initial-submission release created",
+    )
+    text = text.replace(
+        "- [ ] Add repository DOI or permanent URL to Data availability and Code availability before final submission if deposited",
+        "- [x] Public repository URL and release URL added to Data availability and Code availability\n- [ ] Mint DOI through Zenodo/OSF/institutional repository only if requested by the journal or reviewer",
+    )
+    text = text.replace(
+        "- [ ] Confirm no new human specimens, animal experiments or wet-lab experiments were performed",
+        "- [x] Confirm no new human specimens, animal experiments or wet-lab experiments were performed",
+    )
+    text = text.replace("- [ ] Add author contributions", "- [x] Add author contributions")
+    text = text.replace("- [ ] Add funding statement", "- [x] Add funding statement")
+    text = text.replace(
+        "- [ ] Add competing interests statement for each author",
+        "- [x] Add competing interests statement for each author",
+    )
+    text = text.replace("- [ ] Add acknowledgements if needed", "- [x] Add acknowledgements if needed")
+    text = text.replace(
         "Current status: **target-journal manuscript package and editable DOCX are ready; author metadata and declarations are supplied; publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.",
-        "Current status: **target-journal manuscript package, editable DOCX, Supplementary Information draft, source-data inventory and repository manifest are ready; author metadata and declarations are supplied; publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.",
+        "Current status: **target-journal manuscript package, editable DOCX, Supplementary Information draft, source-data inventory and repository manifest are ready; author metadata, declarations and public GitHub release are supplied; publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.",
+    )
+    text = text.replace(
+        "Current status: **target-journal manuscript package, editable DOCX, Supplementary Information draft, source-data inventory, repository manifest, submission-system field pack, official policy audit, Reporting Summary working draft and local upload dry-run bundle are ready; author metadata and declarations are supplied; official form completion if requested, publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.",
+        "Current status: **target-journal manuscript package, editable DOCX, Supplementary Information draft, source-data inventory, public GitHub release, submission-system field pack, official policy audit, Reporting Summary working draft and local upload dry-run bundle are ready; official form completion if requested, publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.",
     )
     checklist.write_text(text, encoding="utf-8")
 
@@ -872,7 +895,7 @@ Generated: {NOW}
 - Repository checksums: `08_submission_strategy/repository_file_checksums.sha256`
 - Repository release README template: `08_submission_strategy/zenodo_osf_github_release_readme.md`
 
-Interpretation: the machine-readable traceability package is prepared. Final upload clearance remains not yet complete because author-level metadata, funding/competing-interest statements, DOI/permanent repository choice and final upload preview require human confirmation.
+Interpretation: the machine-readable traceability package is prepared. Author metadata, declarations and public GitHub release information are complete. Final upload clearance remains not yet complete because publisher-generated preview and final claim-boundary read require human confirmation.
 """,
     )
     release_marker = "2026-06-19 standalone repository release package"

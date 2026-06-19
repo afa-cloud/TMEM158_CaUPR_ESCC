@@ -53,20 +53,21 @@
 - [x] Repository deposit manifest and file checksums prepared
 - [x] Local Scientific Reports upload dry-run bundle generated
 - [x] Final SCI submission gap audit generated
-- [ ] Decide whether to deposit code/results to a DOI-minting repository
-- [ ] Add repository DOI or permanent URL to Data availability and Code availability before final submission if deposited
+- [x] Public GitHub repository and initial-submission release created
+- [x] Public repository URL and release URL added to Data availability and Code availability
+- [ ] Mint DOI through Zenodo/OSF/institutional repository only if requested by the journal or reviewer
 
 ## Declarations
 
 - [x] Public-data ethics statement included
-- [ ] Confirm no new human specimens, animal experiments or wet-lab experiments were performed
-- [ ] Add author contributions
-- [ ] Add funding statement
-- [ ] Add competing interests statement for each author
-- [ ] Add acknowledgements if needed
+- [x] Confirm no new human specimens, animal experiments or wet-lab experiments were performed
+- [x] Add author contributions
+- [x] Add funding statement
+- [x] Add competing interests statement for each author
+- [x] Add acknowledgements if needed
 
 ## Go / No-Go
 
-Current status: **target-journal manuscript package, editable DOCX, Supplementary Information draft, source-data inventory, repository manifest, submission-system field pack, official policy audit, Reporting Summary working draft and local upload dry-run bundle are ready; author metadata and declarations are supplied; official form completion if requested, publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.
+Current status: **target-journal manuscript package, editable DOCX, Supplementary Information draft, source-data inventory, public GitHub release, submission-system field pack, official policy audit, Reporting Summary working draft and local upload dry-run bundle are ready; official form completion if requested, publisher upload preview and final claim-boundary read are still required; not yet final upload-ready**.
 
 Reason final upload is not yet clear: official Reporting Summary form completion if requested, publisher-generated preview inspection and final claim-boundary read are outside the current machine analysis.

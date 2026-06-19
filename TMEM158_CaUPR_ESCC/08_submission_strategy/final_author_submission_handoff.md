@@ -1,6 +1,6 @@
 # Final Author Submission Handoff
 
-Generated: 2026-06-20 02:04:20
+Generated: 2026-06-20 02:09:29
 
 ## Status
 
@@ -187,7 +187,7 @@ Safe wording: public-data association, computationally supported stress-ecology 
 
 | Item | Value | Status | Notes |
 |---|---|---|---|
-| generated_at | 2026-06-20 02:04:20 | info | Local system timestamp |
+| generated_at | 2026-06-20 02:09:29 | info | Local system timestamp |
 | handoff_markdown | 08_submission_strategy/final_author_submission_handoff.md | pass | Author-facing final submission handoff |
 | action_table | 08_submission_strategy/final_author_submission_action_table.csv | pass | Machine-readable upload and human action table |
 | upload_rows | 24 | pass | Upload/file rows listed in handoff |

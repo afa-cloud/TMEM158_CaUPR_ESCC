@@ -1,8 +1,8 @@
 item,value,status,notes
-generated_at,2026-06-20 02:04:20,info,Local system timestamp
-manifest_included_rows,384,pass,Repository manifest rows marked include=yes
+generated_at,2026-06-20 02:09:30,info,Local system timestamp
+manifest_included_rows,402,pass,Repository manifest rows marked include=yes
 manifest_excluded_rows,25,pass,Rows excluded from repository-release package
-copied_files,385,pass,"Files copied into standalone repository-release package, including root README"
+copied_files,403,pass,"Files copied into standalone repository-release package, including root README"
 missing_source_files,0,pass,Manifest-included files that were not found
 release_manifest,08_submission_strategy/repository_release_package_manifest.csv,pass,Package copied-file manifest
 release_checksums,08_submission_strategy/repository_release_package_checksums.sha256,pass,Package SHA256 checksum list

@@ -50,7 +50,7 @@ Generated: 2026-06-19 22:58:52
 - Repository checksums: `08_submission_strategy/repository_file_checksums.sha256`
 - Repository release README template: `08_submission_strategy/zenodo_osf_github_release_readme.md`
 
-Interpretation: the machine-readable traceability package is prepared. Final upload clearance remains not yet complete because author-level metadata, funding/competing-interest statements, DOI/permanent repository choice and final upload preview require human confirmation.
+Interpretation: the machine-readable traceability package is prepared. Author metadata, declarations and public GitHub release information are complete. Final upload clearance remains not yet complete because publisher-generated preview and final claim-boundary read require human confirmation.
 
 <!-- 2026-06-19 standalone repository release package -->
 ## Standalone Repository Release Addendum
@@ -68,7 +68,7 @@ Interpretation: the public repository-release package is machine-prepared and ex
 <!-- 2026-06-19 scientific reports submission bundle dry run -->
 ## Scientific Reports Bundle Addendum
 
-Generated: 2026-06-20 02:02:53
+Generated: 2026-06-20 02:04:26
 
 - Bundle folder: `08_submission_strategy/scientific_reports_submission_bundle/`
 - Bundle manifest: `08_submission_strategy/scientific_reports_submission_bundle_manifest.csv`
