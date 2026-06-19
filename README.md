@@ -1,6 +1,6 @@
 # TMEM158 TAC_high Repository Release Package
 
-Generated: 2026-06-20 01:47:59
+Generated: 2026-06-20 01:51:33
 
 This standalone archive is prepared for Zenodo, OSF, GitHub Releases or an equivalent public repository. It contains reproducible code, processed result tables, figures, manuscript sources, supplementary files and machine-readable QC evidence for the public-data manuscript:
 
@@ -37,4 +37,4 @@ Some public raw downloads may need to be re-downloaded from TCGA/GEO/cBioPortal/
 
 The project supports a public-data, hypothesis-generating TMEM158-associated TAC_high Ca2/UPR-CAF stress-ecology model. It does not prove TMEM158 causality, clinical prognosis, direct immune suppression, direct ER localization, physical interaction, spatial activation, ESCC protein validation or treatment recommendation.
 
-Public GitHub repository deposition is complete at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. Keep the ZIP archive as an optional source for a later DOI-minted Zenodo/OSF/institutional release if requested.
+Public GitHub repository deposition is complete at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. Initial-submission release: https://github.com/afa-cloud/TMEM158_CaUPR_ESCC/releases/tag/v1.0-initial-submission. Keep the ZIP archive as an optional source for a later DOI-minted Zenodo/OSF/institutional release if requested.

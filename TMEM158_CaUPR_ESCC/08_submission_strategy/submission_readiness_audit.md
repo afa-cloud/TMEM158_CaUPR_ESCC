@@ -19,7 +19,7 @@ The project is now organized as a six-main-figure pure public-data manuscript pa
 <!-- 2026-06-19 scientific reports submission system fields -->
 ## Submission-System Fields Addendum
 
-Generated: 2026-06-20 01:46:23
+Generated: 2026-06-20 01:51:03
 
 - Field pack Markdown: `08_submission_strategy/scientific_reports_submission_system_fields.md`
 - Field pack CSV: `08_submission_strategy/scientific_reports_submission_system_fields.csv`
@@ -68,7 +68,7 @@ Interpretation: the public repository-release package is machine-prepared and ex
 <!-- 2026-06-19 scientific reports submission bundle dry run -->
 ## Scientific Reports Bundle Addendum
 
-Generated: 2026-06-20 01:47:18
+Generated: 2026-06-20 01:48:05
 
 - Bundle folder: `08_submission_strategy/scientific_reports_submission_bundle/`
 - Bundle manifest: `08_submission_strategy/scientific_reports_submission_bundle_manifest.csv`

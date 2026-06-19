@@ -22,6 +22,7 @@ NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 RELEASE_DIR = ROOT / "08_submission_strategy" / "repository_release_package"
 RELEASE_ZIP = ROOT / "08_submission_strategy" / "TMEM158_TAC_high_repository_release.zip"
 PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
+PUBLIC_REPOSITORY_RELEASE_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC/releases/tag/v1.0-initial-submission"
 
 
 def rel(path: Path) -> str:
@@ -492,7 +493,7 @@ def build_repository_manifest() -> List[Dict[str, object]]:
                 "size_bytes": path.stat().st_size,
                 "status": "ready" if include else "excluded_public_or_large_source",
                 "reason": reason,
-                "notes": f"Public GitHub repository URL: {PUBLIC_REPOSITORY_URL}. A DOI can be minted later if required.",
+                "notes": f"Public GitHub repository URL: {PUBLIC_REPOSITORY_URL}; initial-submission release: {PUBLIC_REPOSITORY_RELEASE_URL}. A DOI can be minted later if required.",
             }
         )
     return rows
@@ -556,13 +557,13 @@ The script rebuilds the TMEM158/TAC_high result layers and refreshes the manuscr
 
 ## Data Availability Draft
 
-All datasets are public. This package redistributes processed result tables, code and manuscript-facing outputs rather than restricted or publisher-controlled raw full-text files. The code and processed outputs are deposited in the public GitHub repository at {PUBLIC_REPOSITORY_URL}. A DOI-minted release can be added later through Zenodo or another archival repository if required.
+All datasets are public. This package redistributes processed result tables, code and manuscript-facing outputs rather than restricted or publisher-controlled raw full-text files. The code and processed outputs are deposited in the public GitHub repository at {PUBLIC_REPOSITORY_URL}, with an initial-submission release at {PUBLIC_REPOSITORY_RELEASE_URL}. A DOI-minted release can be added later through Zenodo or another archival repository if required.
 
 Raw public downloads, publisher/full-text gate files, local logs and local Scientific Reports upload dry-run bundles are deliberately excluded from the repository-release archive. These sources can be reobtained from the public repositories and literature sources documented in the scripts, inventories and manuscript.
 
 ## Code Availability Draft
 
-The analysis code is under `03_scripts/`. The current full controller is `03_scripts/R/run_all.R`. Public repository URL: {PUBLIC_REPOSITORY_URL}.
+The analysis code is under `03_scripts/`. The current full controller is `03_scripts/R/run_all.R`. Public repository URL: {PUBLIC_REPOSITORY_URL}. Initial-submission release: {PUBLIC_REPOSITORY_RELEASE_URL}.
 
 ## Claim Boundary
 
@@ -667,7 +668,7 @@ Some public raw downloads may need to be re-downloaded from TCGA/GEO/cBioPortal/
 
 The project supports a public-data, hypothesis-generating TMEM158-associated TAC_high Ca2/UPR-CAF stress-ecology model. It does not prove TMEM158 causality, clinical prognosis, direct immune suppression, direct ER localization, physical interaction, spatial activation, ESCC protein validation or treatment recommendation.
 
-Public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}. Keep the ZIP archive as an optional source for a later DOI-minted Zenodo/OSF/institutional release if requested.
+Public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}. Initial-submission release: {PUBLIC_REPOSITORY_RELEASE_URL}. Keep the ZIP archive as an optional source for a later DOI-minted Zenodo/OSF/institutional release if requested.
 """,
         encoding="utf-8",
     )
@@ -707,7 +708,7 @@ Public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}. Keep
         {"item": "release_manifest", "value": rel(release_manifest_path), "status": "pass", "notes": "Package copied-file manifest"},
         {"item": "release_checksums", "value": rel(release_checksums_path), "status": "pass", "notes": "Package SHA256 checksum list"},
         {"item": "machine_repository_release_clearance", "value": machine_clearance, "status": machine_clearance, "notes": "Pass requires no missing source files"},
-        {"item": "final_repository_deposit_clearance", "value": PUBLIC_REPOSITORY_URL, "status": "pass_public_repository_created", "notes": "Public GitHub repository created before initial submission; DOI can be minted later if required"},
+        {"item": "final_repository_deposit_clearance", "value": PUBLIC_REPOSITORY_RELEASE_URL, "status": "pass_public_repository_created", "notes": f"Public GitHub repository created before initial submission at {PUBLIC_REPOSITORY_URL}; DOI can be minted later if required"},
     ]
     write_csv(release_qc_path, qc_rows, ["item", "value", "status", "notes"])
 

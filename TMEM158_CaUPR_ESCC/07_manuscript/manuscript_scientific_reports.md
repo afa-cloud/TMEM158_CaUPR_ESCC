@@ -222,11 +222,11 @@ The submission-facing figure package is organized as six automatically generated
 
 ## Data availability
 
-All data analysed in this study were obtained from public resources, including TCGA/GDC or cBioPortal, GEO, DepMap-derived public resources, UniProt, QuickGO, the Human Protein Atlas and the AlphaFold Protein Structure Database [1,9,17,18,22-25]. No new patient-level dataset was generated in this study. Processed intermediate tables and analysis outputs are available in the public GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
+All data analysed in this study were obtained from public resources, including TCGA/GDC or cBioPortal, GEO, DepMap-derived public resources, UniProt, QuickGO, the Human Protein Atlas and the AlphaFold Protein Structure Database [1,9,17,18,22-25]. No new patient-level dataset was generated in this study. Processed intermediate tables and analysis outputs are available in the public GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC, with an initial-submission release at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC/releases/tag/v1.0-initial-submission.
 
 ## Code availability
 
-The reproducible workflow was implemented in `TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R`, with helper scripts under `TMEM158_CaUPR_ESCC/03_scripts/R/` and `TMEM158_CaUPR_ESCC/03_scripts/Python/`. The code is publicly available in the GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
+The reproducible workflow was implemented in `TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R`, with helper scripts under `TMEM158_CaUPR_ESCC/03_scripts/R/` and `TMEM158_CaUPR_ESCC/03_scripts/Python/`. The code is publicly available in the GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC, with an initial-submission release at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC/releases/tag/v1.0-initial-submission.
 
 ## Ethics statement
 

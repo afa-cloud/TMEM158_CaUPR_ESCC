@@ -19,6 +19,7 @@ from typing import Dict, Iterable, List, Sequence
 ROOT = Path(__file__).resolve().parents[2]
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
+PUBLIC_REPOSITORY_RELEASE_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC/releases/tag/v1.0-initial-submission"
 
 
 def ensure_parent(path: Path) -> None:
@@ -267,7 +268,7 @@ def build_fields() -> List[Dict[str, object]]:
             "field_value": data_availability,
             "status": "ready_public_repository",
             "source": "07_manuscript/manuscript_scientific_reports.md",
-            "notes": f"Processed outputs are deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}.",
+            "notes": f"Processed outputs are deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}; initial-submission release: {PUBLIC_REPOSITORY_RELEASE_URL}.",
         },
         {
             "field_group": "availability",
@@ -275,7 +276,7 @@ def build_fields() -> List[Dict[str, object]]:
             "field_value": code_availability,
             "status": "ready_public_repository",
             "source": "07_manuscript/manuscript_scientific_reports.md",
-            "notes": f"Analysis code is deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}.",
+            "notes": f"Analysis code is deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}; initial-submission release: {PUBLIC_REPOSITORY_RELEASE_URL}.",
         },
         {
             "field_group": "declarations",
@@ -328,10 +329,10 @@ def build_fields() -> List[Dict[str, object]]:
         {
             "field_group": "repository",
             "field_name": "repository_doi_or_permanent_url",
-            "field_value": PUBLIC_REPOSITORY_URL,
+            "field_value": PUBLIC_REPOSITORY_RELEASE_URL,
             "status": "ready_public_repository_url",
             "source": "08_submission_strategy/repository_deposit_manifest.csv",
-            "notes": "Public GitHub repository created before submission; DOI can be minted later through Zenodo if required.",
+            "notes": f"Public GitHub repository created before submission at {PUBLIC_REPOSITORY_URL}; this field uses the versioned release URL. DOI can be minted later through Zenodo if required.",
         },
         {
             "field_group": "reviewer_metadata",
