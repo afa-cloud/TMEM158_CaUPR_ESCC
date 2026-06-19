@@ -6,7 +6,7 @@
 
 ## Ten English Title Options
 
-1. A TMEM158-associated Ca2/UPR-CAF stress ecology state defines proteostasis-linked adaptation in esophageal squamous cell carcinoma
+1. TMEM158-associated Ca2/UPR-CAF ecology in oesophageal squamous cell carcinoma
 2. Public multi-cohort profiling identifies a TMEM158-linked Ca2/UPR-CAF stress ecology state in ESCC
 3. A rule-defined TMEM158-Ca2/UPR-CAF state marks proteostasis adaptation in esophageal squamous cell carcinoma
 4. Axis-first public-data screening identifies TMEM158 as a lead entry point into Ca2/UPR-CAF stress ecology in ESCC
@@ -19,7 +19,7 @@
 
 ## Recommended Title
 
-A TMEM158-associated Ca2/UPR-CAF stress ecology state defines proteostasis-linked adaptation in esophageal squamous cell carcinoma
+TMEM158-associated Ca2/UPR-CAF ecology in oesophageal squamous cell carcinoma
 
 ## Main Figure Set
 

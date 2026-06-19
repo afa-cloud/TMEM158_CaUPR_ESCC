@@ -2,7 +2,7 @@
 
 Dear Editors,
 
-Please consider our manuscript, "A TMEM158-associated Ca2/UPR-CAF stress ecology state defines proteostasis-linked adaptation in esophageal squamous cell carcinoma," for publication as an Article in Scientific Reports.
+Please consider our manuscript, "TMEM158-associated Ca2/UPR-CAF ecology in oesophageal squamous cell carcinoma," for publication as an Article in Scientific Reports.
 
 This manuscript reports a reproducible public-data computational biology study of esophageal squamous cell carcinoma (ESCC). Starting from an axis-first Ca2/UPR regulator screen, we identify TMEM158 as a lead computational entry point and define a rule-based TAC_high state combining TMEM158-Ca2/PERK-core activity with a cancer-associated fibroblast score. Across public bulk cohorts, TAC_high is reproducible and is linked to proteostasis and stress-state transcriptional readouts. Whole-transcriptome and CAF-adjusted analyses distinguish a dominant ECM/CAF programme from residual MYC, oxidative phosphorylation, KEAP1/NFE2L2, chemical-stress and translation signatures. Independent single-cell pseudo-bulk analyses localize TAC_high meta-signatures to fibroblast/CAF profiles and nominate expression-feasible ECM-integrin and MIF-CXCR4 candidate bridges, while GSE53625 provides external expression-state calibration in 179 paired clinical samples.
 

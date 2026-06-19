@@ -1,12 +1,12 @@
 item,value,status,notes
-generated_at,2026-06-20 01:51:25,info,Local system timestamp
+generated_at,2026-06-20 02:04:15,info,Local system timestamp
 source_data_inventory_rows,50,pass,Rows in source-data and supplementary inventory
 missing_source_rows,0,pass,Rows with missing source figure or table paths
 repository_manifest_rows,409,pass,Rows in repository deposit manifest
 repository_checksum_rows,384,pass,Checksum entries for repository-included files
 repository_release_copied_files,385,pass,Files copied into standalone repository-release package
 repository_release_missing_sources,0,pass,Repository manifest include=yes rows with missing source files
-repository_release_zip,08_submission_strategy/TMEM158_TAC_high_repository_release.zip,pass,ZIP size 41298632 bytes; sha256 22d45771202305669be2fc1538110800d539c962d53ad8717a1b6e9eeb09f45e
+repository_release_zip,08_submission_strategy/TMEM158_TAC_high_repository_release.zip,pass,ZIP size 41284973 bytes; sha256 1dde96f03b8d8dd993f558d078767bce1f503fad5864219185b726971e6d2f09
 machine_repository_release_clearance,pass,pass,Pass requires no missing source files in the release package
 supplementary_information,07_manuscript/supplementary_information_scientific_reports.md,ready,Supplementary Information draft
 release_readme,08_submission_strategy/zenodo_osf_github_release_readme.md,ready,Repository release README template

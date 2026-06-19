@@ -1,9 +1,9 @@
 item,value,status,notes
-generated_at,2026-06-20 01:51:03,info,Local system timestamp
+generated_at,2026-06-20 02:03:51,info,Local system timestamp
 submission_fields,27,pass,Total submission-system field rows
 required_machine_fields_missing,0,pass,None
-title_words,15,pass,Scientific Reports first-pass title threshold <=20 words
-abstract_words,180,pass,Scientific Reports first-pass abstract threshold <=200 words
+title_words,9,pass,Scientific Reports first-pass title threshold <=20 words
+abstract_words,182,pass,Scientific Reports first-pass abstract threshold <=200 words
 keywords,6,pass,Maximum six keywords/key phrases
 human_required_tasks,2,not_yet,Publisher upload preview and final claim-boundary read remain human-gated
 machine_submission_fields_clearance,pass,pass,Pass requires copy-ready required machine fields and format thresholds

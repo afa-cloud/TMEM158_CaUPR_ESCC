@@ -1,5 +1,5 @@
 item,value,status,notes
-generated_at,2026-06-20 01:51:33,info,Local system timestamp
+generated_at,2026-06-20 02:04:20,info,Local system timestamp
 manifest_included_rows,384,pass,Repository manifest rows marked include=yes
 manifest_excluded_rows,25,pass,Rows excluded from repository-release package
 copied_files,385,pass,"Files copied into standalone repository-release package, including root README"

@@ -1,6 +1,6 @@
 # Scientific Reports Citation Coverage Audit
 
-Generated: 2026-06-20 00:55:42
+Generated: 2026-06-20 02:03:51
 
 ## Scope
 

@@ -30,10 +30,10 @@ Official pages checked on 2026-06-19:
 | Abstract <=200 words | Pass | Current target abstract has 172 words |
 | Main text organized with Introduction, Results, Discussion, Methods | Pass | `manuscript_scientific_reports.md` |
 | Display items within Scientific Reports limit | Pass | Six main figures; extended figures can move to Supplementary Information |
-| Data availability statement | Present, needs final accession detail polishing | `manuscript_scientific_reports.md` |
-| Code availability statement | Present, but needs repository/DOI before final submission if possible | `manuscript_scientific_reports.md` |
-| Author contributions | Placeholder | Requires human author information |
-| Competing interests | Placeholder | Requires all-author confirmation |
+| Data availability statement | Pass | Public GitHub repository and initial-submission release listed in `manuscript_scientific_reports.md` |
+| Code availability statement | Pass | Public GitHub repository and initial-submission release listed in `manuscript_scientific_reports.md` |
+| Author contributions | Pass | Author contribution statement supplied |
+| Competing interests | Pass | No competing interests statement supplied |
 | Ethics declaration | Present | Public de-identified datasets only |
 | AI-assisted tool disclosure | Present | Needs human author approval before submission |
 | Full-text/supplement novelty gate | Pass | `tmem158_literature_readiness_status.csv`, `risk_of_duplication.md`, `novelty_statement.md` |
@@ -43,11 +43,11 @@ Official pages checked on 2026-06-19:
 
 Recommended title:
 
-**A TMEM158-associated Ca2/UPR-CAF stress ecology state defines proteostasis-linked adaptation in esophageal squamous cell carcinoma**
+**TMEM158-associated Ca2/UPR-CAF ecology in oesophageal squamous cell carcinoma**
 
 Recommended one-sentence editor-facing frame:
 
-This study uses reproducible public multi-cohort transcriptomics, single-cell pseudo-bulk analysis, targeted external clinical calibration and spatial source-data context to define a TMEM158-associated Ca2/UPR-CAF stress ecology state in ESCC, while explicitly avoiding unsupported causal, prognostic or treatment-response claims.
+This study uses reproducible public multi-cohort transcriptomics, single-cell pseudo-bulk analysis, targeted external clinical calibration and spatial source-data context to define a TMEM158-associated Ca2/UPR-CAF ecology in ESCC, while explicitly avoiding unsupported causal, prognostic or treatment-response claims.
 
 ## Claims To Keep
 
@@ -69,12 +69,8 @@ This study uses reproducible public multi-cohort transcriptomics, single-cell ps
 
 ## Final Human Inputs Required
 
-- Author names, affiliations and corresponding author.
-- Funding statement.
-- Competing interests statement for each author.
-- Author contributions.
-- Final decision on whether to deposit code/results in Zenodo, OSF, GitHub or another citable repository before submission.
 - Final visual inspection of PDFs/SVGs in the submission system preview.
+- Final claim-boundary read of the publisher-generated preview.
 
 <!-- 2026-06-19 official scirep policy audit -->
 ## 2026-06-19 Official Scientific Reports/Nature Portfolio Policy Audit

@@ -1,6 +1,6 @@
 # Final Author Submission Handoff
 
-Generated: 2026-06-20 01:51:33
+Generated: 2026-06-20 02:04:20
 
 ## Status
 
@@ -25,7 +25,7 @@ Source: `target journal strategy`
 
 Status: `ready`
 
-A TMEM158-associated Ca2/UPR-CAF stress ecology state defines proteostasis-linked adaptation in esophageal squamous cell carcinoma
+TMEM158-associated Ca2/UPR-CAF ecology in oesophageal squamous cell carcinoma
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
@@ -41,7 +41,7 @@ Source: `derived from title`
 
 Status: `ready`
 
-Calcium homeostasis, unfolded protein response (UPR) branch activity and stromal remodelling are incompletely integrated in esophageal squamous cell carcinoma (ESCC). We performed an axis-first public-data analysis to identify upstream candidates associated with Ca2/UPR stress ecology. TMEM158 emerged as a lead computational entry point, but not as a standalone prognostic biomarker. We defined TAC_high as the co-occurrence of high TMEM158-Ca2/PERK core score and high cancer-associated fibroblast (CAF) score. TAC_high was reproducible across four bulk ESCC cohorts and associated with proteostasis and survival-transcriptional readouts, while overall-survival analyses remained negative. Whole-transcriptome meta-analysis showed a dominant extracellular-matrix/CAF programme and CAF-adjusted residual MYC, oxidative phosphorylation, KEAP1/NFE2L2, chemical-stress and translation signatures. GSE53625 externally calibrated the expression state in 179 paired samples without validating prognosis. Independent single-cell analyses localized TAC_high meta-signatures to fibroblast/CAF pseudo-bulk profiles and nominated expression-feasible POSTN/FN1/collagen-integrin and MIF-CXCR4 candidate CAF-to-epithelial bridges. Public spatial source data supported a fibroblast-rich progression context. These results define a TMEM158-associated Ca2/UPR-CAF stress ecology state in ESCC as a public-data biological discovery candidate, while preserving an explicit boundary between association and causality.
+Calcium homeostasis, unfolded protein response (UPR) branch activity and stromal remodelling are incompletely integrated in oesophageal squamous cell carcinoma (ESCC). We performed an axis-first public-data analysis to identify upstream candidates associated with a Ca2/UPR stress ecology. TMEM158 emerged as a computational entry point, rather than as a standalone prognostic biomarker. We defined TAC_high as the co-occurrence of a high TMEM158-Ca2/PERK core score and a high cancer-associated fibroblast (CAF) score. TAC_high was reproducible across four bulk ESCC cohorts and was associated with proteostasis and cell-survival transcriptional readouts, whereas overall-survival analyses remained negative. Whole-transcriptome meta-analysis identified a dominant extracellular-matrix/CAF programme and CAF-adjusted residual MYC, oxidative phosphorylation, KEAP1/NFE2L2, chemical-stress and translation signatures. GSE53625 calibrated this expression state in 179 paired samples without validating prognosis. Independent single-cell analyses localized TAC_high meta-signatures to fibroblast/CAF pseudo-bulk profiles and nominated expression-feasible POSTN/FN1/collagen-integrin and MIF-CXCR4 candidate CAF-to-epithelial bridges. Public spatial source data supported a fibroblast-rich progression context. These findings support a TMEM158-associated Ca2/UPR-CAF ecology model in ESCC as a public-data biological discovery candidate, while preserving an explicit boundary between association and causality.
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
@@ -49,7 +49,7 @@ Source: `07_manuscript/manuscript_scientific_reports.md`
 
 Status: `ready`
 
-Esophageal squamous cell carcinoma; TMEM158; calcium homeostasis; unfolded protein response; cancer-associated fibroblasts; public-data bioinformatics
+Oesophageal squamous cell carcinoma; TMEM158; calcium homeostasis; unfolded protein response; cancer-associated fibroblasts; public-data bioinformatics
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
@@ -121,7 +121,7 @@ Source: `claim-boundary audit and reviewer-risk pack`
 
 Status: `ready`
 
-This study used retrospective public datasets and is subject to database heterogeneity, batch effects, platform differences and incomplete clinical annotation. Some GEO cohorts are small, and TCGA-ESCA contains histological-mixing risk even when used as ESCC-compatible context. Survival analyses were underpowered for some state contrasts and did not support a clinical OS claim. GSE53625 provides a larger paired clinical cohort, but it required targeted probe-sequence reannotation and did not support OS prognostic claims; it should therefore be treated as external calibration, not clinical validation. CAF-adjusted transcriptome models reduce but cannot eliminate stromal-composition confounding, because expression matrices do not directly identify the cellular origin of each residual gene programme. Single-cell analyses used pseudo-bulk and compartment-level signature summaries and therefore cannot prove cell-cell causality, cellular origin of ligand-receptor signalling or tumour-cell-autonomous regulation. The compartment-expression audit confirms ligand and receptor detectability for prioritized candidates, ...
+This study used retrospective public datasets and is subject to database heterogeneity, batch effects, platform differences and incomplete clinical annotation. Some GEO cohorts are small. TCGA-ESCA also contains histological-mixing risk, even when used as ESCC-compatible context. Survival analyses were underpowered for some state contrasts and did not support a clinical OS claim. GSE53625 provides a larger paired clinical cohort, but it required targeted probe-sequence reannotation and did not support OS prognostic claims. It should therefore be treated as external calibration, not clinical validation. Several analyses reduce overinterpretation but cannot remove it. CAF-adjusted transcriptome models reduce stromal-composition confounding but cannot identify the cellular origin of each residual gene programme. Single-cell analyses used pseudo-bulk and compartment-level signature summaries, so they cannot prove cell-cell causality, ligand-receptor signalling origin or tumour-cell-autonomous regulation. The compartment-expression audit confirms ligand and receptor detectability for prioritized candidates, but ...
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
@@ -187,7 +187,7 @@ Safe wording: public-data association, computationally supported stress-ecology 
 
 | Item | Value | Status | Notes |
 |---|---|---|---|
-| generated_at | 2026-06-20 01:51:33 | info | Local system timestamp |
+| generated_at | 2026-06-20 02:04:20 | info | Local system timestamp |
 | handoff_markdown | 08_submission_strategy/final_author_submission_handoff.md | pass | Author-facing final submission handoff |
 | action_table | 08_submission_strategy/final_author_submission_action_table.csv | pass | Machine-readable upload and human action table |
 | upload_rows | 24 | pass | Upload/file rows listed in handoff |
