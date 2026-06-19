@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PROJECT_ROOT = ROOT.parent
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 CHECKED_DATE = datetime.now().strftime("%Y-%m-%d")
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 MANUSCRIPT = ROOT / "07_manuscript" / "manuscript_scientific_reports.md"
 POLICY_AUDIT_CSV = ROOT / "04_results" / "qc" / "scientific_reports_official_policy_audit.csv"
@@ -255,8 +256,8 @@ def build_audit_rows(text: str) -> List[Dict[str, object]]:
             "check_item": "Data availability statement",
             "source_url": NATURE_REPORTING_URL,
             "observed_value": "present" if "## Data availability" in text else "missing",
-            "status": "pass_author_decision_no_repository" if "## Data availability" in text else "needs_revision",
-            "notes": "Public data sources are listed; repository deposition is deferred before initial submission by author decision.",
+            "status": "pass_public_repository" if "## Data availability" in text else "needs_revision",
+            "notes": f"Public data sources are listed; processed outputs are deposited at {PUBLIC_REPOSITORY_URL}.",
             "evidence_path": "07_manuscript/manuscript_scientific_reports.md",
         },
         {
@@ -264,8 +265,8 @@ def build_audit_rows(text: str) -> List[Dict[str, object]]:
             "check_item": "Code availability statement",
             "source_url": NATURE_REPORTING_URL,
             "observed_value": "present" if "## Code availability" in text else "missing",
-            "status": "pass_author_decision_no_repository" if "## Code availability" in text else "needs_revision",
-            "notes": "The reproducible workflow path is listed; code is available from the corresponding author upon reasonable request before initial submission.",
+            "status": "pass_public_repository" if "## Code availability" in text else "needs_revision",
+            "notes": f"The reproducible workflow path is listed; code is deposited at {PUBLIC_REPOSITORY_URL}.",
             "evidence_path": "07_manuscript/manuscript_scientific_reports.md",
         },
         {
@@ -337,7 +338,7 @@ def write_policy_markdown(rows: Sequence[Dict[str, object]]) -> None:
             "",
             "The machine-auditable Scientific Reports formatting checks pass or are bounded by explicit human-gated submission tasks. The current manuscript has a compliant title, abstract, keyword count, main-text length, article structure, six display items and Methods-level AI-assisted tool-use documentation.",
             "",
-            "The remaining items are not analysis failures. They require human author action: final author list and affiliations, all-author agreement, competing interests, funding, author contributions, repository DOI or permanent URL if deposited, final official Reporting Summary form if requested by the journal workflow, and final upload-system preview.",
+            f"The remaining items are not analysis failures. They require human author action: all-author agreement, final official Reporting Summary form if requested by the journal workflow, and final upload-system preview. Public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}; DOI minting is optional unless requested.",
         ]
     )
     ensure_parent(POLICY_AUDIT_MD)
@@ -413,7 +414,7 @@ This is a machine-prepared working draft to help complete the official Nature Po
 - Complete the official Nature Portfolio Reporting Summary form if requested by the submission workflow.
 - Confirm author names, affiliations, corresponding author and all-author agreement.
 - Confirm competing interests, funding, acknowledgements and author contributions.
-- Add repository DOI or permanent URL if a repository deposit is made before submission.
+- Use the public GitHub repository URL in the submission system: {PUBLIC_REPOSITORY_URL}. Add a DOI only if the journal requests an archival identifier.
 - Inspect the final journal-system converted manuscript and figure previews.
 
 ## Manuscript Abstract For Reference
@@ -437,8 +438,8 @@ Generated: {NOW}
 |---|---|---|---|
 | Article type and structure | ready | `07_manuscript/manuscript_scientific_reports.md` | Final author review |
 | AI-assisted tool-use disclosure | ready | Methods subsection and article-end disclosure | Human author approval |
-| Data availability | ready, repository decision pending | Data Availability statement; source-data inventory | Add DOI/permanent URL if deposited |
-| Code availability | ready, repository decision pending | Code Availability statement; `run_all.R` | Add DOI/permanent URL if deposited |
+| Data availability | ready, public repository listed | Data Availability statement; source-data inventory | Paste `{PUBLIC_REPOSITORY_URL}` unless a DOI is minted |
+| Code availability | ready, public repository listed | Code Availability statement; `run_all.R` | Paste `{PUBLIC_REPOSITORY_URL}` unless a DOI is minted |
 | Reporting Summary | working draft ready | `nature_portfolio_reporting_summary_working_draft.md` | Complete official publisher form if requested |
 | Author list and title page | human required | `human_submission_metadata_template.md` | Fill final authors, affiliations, corresponding author |
 | Author agreement | human required | Scientific Reports editorial policy | Submitting author must confirm all authors agree |
@@ -544,7 +545,7 @@ def update_strategy(text: str, rows: Sequence[Dict[str, object]]) -> None:
 - Main display items: {main_figure_count()} composite figures.
 - Machine-auditable formatting status: pass, with human-gated items separated.
 - Reporting Summary: working draft generated at `08_submission_strategy/nature_portfolio_reporting_summary_working_draft.md`; final official form remains human-gated if requested by the journal workflow.
-- Remaining human gates: all-author agreement, official Reporting Summary form if requested, publisher upload-system preview and final claim-boundary read; repository DOI/permanent URL only if later deposited or requested."""
+- Remaining human gates: all-author agreement, official Reporting Summary form if requested, publisher upload-system preview and final claim-boundary read; public GitHub repository is listed as `{PUBLIC_REPOSITORY_URL}`, with DOI minting optional unless requested."""
     replace_or_append(ROOT / "08_submission_strategy" / "target_journal_scientific_reports_strategy.md", marker, body)
 
 

@@ -1,5 +1,5 @@
 item,value,status,notes
-generated_at,2026-06-20 01:05:29,info,Local system timestamp
+generated_at,2026-06-20 01:46:34,info,Local system timestamp
 handoff_markdown,08_submission_strategy/final_author_submission_handoff.md,pass,Author-facing final submission handoff
 action_table,08_submission_strategy/final_author_submission_action_table.csv,pass,Machine-readable upload and human action table
 upload_rows,24,pass,Upload/file rows listed in handoff
@@ -12,4 +12,4 @@ claim_boundary_clearance,yes,pass,From public-facing claim-boundary text audit
 numeric_consistency_clearance,pass,pass,From manuscript numeric consistency audit
 citation_coverage_clearance,pass,pass,From Scientific Reports citation coverage audit
 machine_handoff_clearance,pass,pass,Pass means no machine-side handoff artifact is missing
-final_upload_clearance,not_yet,not_yet,Publisher upload preview and final claim-boundary read remain required; repository DOI is not required because the author chose not to deposit code before initial submission
+final_upload_clearance,not_yet,not_yet,Publisher upload preview and final claim-boundary read remain required; public GitHub repository is listed as https://github.com/afa-cloud/TMEM158_CaUPR_ESCC

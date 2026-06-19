@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[2]
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 RELEASE_DIR = ROOT / "08_submission_strategy" / "repository_release_package"
 RELEASE_ZIP = ROOT / "08_submission_strategy" / "TMEM158_TAC_high_repository_release.zip"
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 def rel(path: Path) -> str:
@@ -491,7 +492,7 @@ def build_repository_manifest() -> List[Dict[str, object]]:
                 "size_bytes": path.stat().st_size,
                 "status": "ready" if include else "excluded_public_or_large_source",
                 "reason": reason,
-                "notes": "Add repository DOI/permanent URL after human repository decision.",
+                "notes": f"Public GitHub repository URL: {PUBLIC_REPOSITORY_URL}. A DOI can be minted later if required.",
             }
         )
     return rows
@@ -555,13 +556,13 @@ The script rebuilds the TMEM158/TAC_high result layers and refreshes the manuscr
 
 ## Data Availability Draft
 
-All datasets are public. This package redistributes processed result tables, code and manuscript-facing outputs rather than restricted or publisher-controlled raw full-text files. Public code deposition is deferred before initial submission by author decision; if deposition is later selected or requested, the corresponding author should insert the DOI or permanent URL after deposition.
+All datasets are public. This package redistributes processed result tables, code and manuscript-facing outputs rather than restricted or publisher-controlled raw full-text files. The code and processed outputs are deposited in the public GitHub repository at {PUBLIC_REPOSITORY_URL}. A DOI-minted release can be added later through Zenodo or another archival repository if required.
 
 Raw public downloads, publisher/full-text gate files, local logs and local Scientific Reports upload dry-run bundles are deliberately excluded from the repository-release archive. These sources can be reobtained from the public repositories and literature sources documented in the scripts, inventories and manuscript.
 
 ## Code Availability Draft
 
-The analysis code is under `03_scripts/`. The current full controller is `03_scripts/R/run_all.R`. Final code DOI or permanent URL should be added after repository deposition.
+The analysis code is under `03_scripts/`. The current full controller is `03_scripts/R/run_all.R`. Public repository URL: {PUBLIC_REPOSITORY_URL}.
 
 ## Claim Boundary
 
@@ -666,7 +667,7 @@ Some public raw downloads may need to be re-downloaded from TCGA/GEO/cBioPortal/
 
 The project supports a public-data, hypothesis-generating TMEM158-associated TAC_high Ca2/UPR-CAF stress-ecology model. It does not prove TMEM158 causality, clinical prognosis, direct immune suppression, direct ER localization, physical interaction, spatial activation, ESCC protein validation or treatment recommendation.
 
-Public code deposition is deferred before initial submission by author decision. Keep this package for optional later deposition if requested or selected.
+Public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}. Keep the ZIP archive as an optional source for a later DOI-minted Zenodo/OSF/institutional release if requested.
 """,
         encoding="utf-8",
     )
@@ -706,7 +707,7 @@ Public code deposition is deferred before initial submission by author decision.
         {"item": "release_manifest", "value": rel(release_manifest_path), "status": "pass", "notes": "Package copied-file manifest"},
         {"item": "release_checksums", "value": rel(release_checksums_path), "status": "pass", "notes": "Package SHA256 checksum list"},
         {"item": "machine_repository_release_clearance", "value": machine_clearance, "status": machine_clearance, "notes": "Pass requires no missing source files"},
-        {"item": "final_repository_deposit_clearance", "value": "optional_deferred", "status": "not_required_for_initial_submission", "notes": "Author chose not to deposit code before initial submission; keep release package for optional later deposition if requested"},
+        {"item": "final_repository_deposit_clearance", "value": PUBLIC_REPOSITORY_URL, "status": "pass_public_repository_created", "notes": "Public GitHub repository created before initial submission; DOI can be minted later if required"},
     ]
     write_csv(release_qc_path, qc_rows, ["item", "value", "status", "notes"])
 
@@ -751,12 +752,12 @@ def update_text_surfaces() -> None:
 Submission archive layer:
 
 - {marker} generated `07_manuscript/supplementary_information_scientific_reports.md`, `08_submission_strategy/source_data_and_supplementary_inventory.csv`, `08_submission_strategy/repository_deposit_manifest.csv`, `08_submission_strategy/repository_file_checksums.sha256`, `08_submission_strategy/zenodo_osf_github_release_readme.md` and `04_results/qc/submission_archive_qc.csv`.
-- This layer improves upload and repository readiness but does not change the biological claim ceiling. Author metadata, funding, contributions and competing-interest declarations have been supplied; the remaining hard final-submission gates are publisher upload preview and final claim-boundary read. Public code repository deposition is deferred by author decision before initial submission.
+- This layer improves upload and repository readiness but does not change the biological claim ceiling. Author metadata, funding, contributions and competing-interest declarations have been supplied; the remaining hard final-submission gates are publisher upload preview and final claim-boundary read. Public GitHub repository deposition is complete at `{PUBLIC_REPOSITORY_URL}`.
 """,
     )
 
     log_text = f"""
-- 2026-06-19 latest: Added reproducible submission archive/source-data package with supplementary information draft, source-data inventory, repository deposit manifest, SHA256 checksums, repository release README and archive QC. This closes the machine-readable source-data/index gap; author metadata/declarations are supplied, code repository deposition is deferred by author decision, and final upload clearance still needs publisher preview plus final claim-boundary read.
+- 2026-06-19 latest: Added reproducible submission archive/source-data package with supplementary information draft, source-data inventory, repository deposit manifest, SHA256 checksums, repository release README and archive QC. This closes the machine-readable source-data/index gap; author metadata/declarations are supplied, public GitHub repository deposition is complete at `{PUBLIC_REPOSITORY_URL}`, and final upload clearance still needs publisher preview plus final claim-boundary read.
 """
     append_once(ROOT / "00_project_log" / "master_log.md", marker, log_text)
 
@@ -764,7 +765,7 @@ Submission archive layer:
         ROOT / "00_project_log" / "stage_summary.md",
         marker,
         f"""
-- {marker}: Source-data inventory, Supplementary Information draft, repository manifest, checksum file and repository release README are now generated. Author metadata/funding/contribution/competing-interest declarations are now supplied. The remaining non-pass submission gates are publisher upload preview and final claim-boundary read; public code repository deposition is deferred by author decision.
+- {marker}: Source-data inventory, Supplementary Information draft, repository manifest, checksum file and repository release README are now generated. Author metadata/funding/contribution/competing-interest declarations are now supplied. The remaining non-pass submission gates are publisher upload preview and final claim-boundary read; public GitHub repository deposition is complete at `{PUBLIC_REPOSITORY_URL}`.
 """,
     )
 
@@ -886,7 +887,7 @@ Standalone repository release package:
 - `08_submission_strategy/repository_release_package_checksums.sha256`
 - `08_submission_strategy/repository_release_package_qc.csv`
 
-This public repository package excludes raw-data caches, publisher/full-text gate files, local logs, the Scientific Reports upload dry-run bundle and generated submission ZIPs. It is intended for Zenodo/OSF/GitHub deposition of reproducible code, processed results, figures, manuscript sources and QC evidence. Final DOI/permanent URL insertion remains human-gated.
+This public repository package excludes raw-data caches, publisher/full-text gate files, local logs, the Scientific Reports upload dry-run bundle and generated submission ZIPs. It is deposited at `{PUBLIC_REPOSITORY_URL}` for reproducible code, processed results, figures, manuscript sources and QC evidence. A DOI-minted archival release can be added later if required.
 """,
     )
     append_once(
@@ -903,7 +904,7 @@ Generated: {NOW}
 - Release checksums: `08_submission_strategy/repository_release_package_checksums.sha256`
 - Release QC: `08_submission_strategy/repository_release_package_qc.csv`
 
-Interpretation: the public repository-release package is machine-prepared and excludes raw caches, publisher/full-text gate files, logs and local upload dry-run artifacts. Public deposition is deferred by author decision before initial submission; use this package later if a DOI/permanent URL is requested or selected.
+Interpretation: the public repository-release package is machine-prepared and excludes raw caches, publisher/full-text gate files, logs and local upload dry-run artifacts. Public GitHub deposition has been completed at `{PUBLIC_REPOSITORY_URL}`; use a Zenodo/OSF archival release later only if a DOI is requested or selected.
 """,
     )
     append_once(
@@ -945,32 +946,32 @@ def update_indexes() -> None:
         {
             "file_role": "repository_deposit_manifest",
             "path": "08_submission_strategy/repository_deposit_manifest.csv",
-            "status": "ready_author_decision_no_repository",
+            "status": "ready_public_repository",
             "notes": "Repository inclusion/exclusion manifest for public files",
         },
         {
             "file_role": "repository_checksums",
             "path": "08_submission_strategy/repository_file_checksums.sha256",
-            "status": "ready_author_decision_no_repository",
+            "status": "ready_public_repository",
             "notes": "SHA256 checksums for included repository files",
         },
         {
             "file_role": "repository_release_readme",
             "path": "08_submission_strategy/zenodo_osf_github_release_readme.md",
-            "status": "ready_author_decision_no_repository",
+            "status": "ready_public_repository",
             "notes": "Zenodo/OSF/GitHub release README template",
         },
         {
             "file_role": "repository_release_package",
             "path": "08_submission_strategy/repository_release_package",
-            "status": "ready_repository_package_optional",
-            "notes": "Standalone public repository release folder retained for later deposition if requested or selected",
+            "status": "ready_public_repository",
+            "notes": f"Standalone public repository release folder deposited at {PUBLIC_REPOSITORY_URL}",
         },
         {
             "file_role": "repository_release_package_zip",
             "path": "08_submission_strategy/TMEM158_TAC_high_repository_release.zip",
-            "status": "ready_repository_package_optional",
-            "notes": "Standalone repository-release ZIP retained for later Zenodo/OSF/GitHub deposition if requested or selected",
+            "status": "ready_public_repository_archive",
+            "notes": "Standalone repository-release ZIP retained as archival package for later DOI-minted release if required",
         },
         {
             "file_role": "repository_release_package_manifest",
@@ -1029,8 +1030,8 @@ def update_indexes() -> None:
         {
             "item": "repository_manifest",
             "value": "08_submission_strategy/repository_deposit_manifest.csv",
-            "status": "pass_author_decision_no_repository",
-            "notes": "Deposit manifest prepared for optional later use; author chose not to deposit before initial submission",
+            "status": "pass_public_repository",
+            "notes": f"Deposit manifest prepared and public GitHub repository listed as {PUBLIC_REPOSITORY_URL}",
         },
         {
             "item": "repository_checksums",
@@ -1041,8 +1042,8 @@ def update_indexes() -> None:
         {
             "item": "repository_release_package",
             "value": "08_submission_strategy/TMEM158_TAC_high_repository_release.zip",
-            "status": "pass_repository_package_optional",
-            "notes": "Standalone public repository-release package generated for optional later deposition",
+            "status": "pass_public_repository_created",
+            "notes": f"Standalone public repository-release package generated and deposited at {PUBLIC_REPOSITORY_URL}",
         },
     ]
     upsert_csv(ROOT / "04_results" / "qc" / "scientific_reports_format_qc.csv", "item", format_rows, ["item", "value", "status", "notes"])
@@ -1051,10 +1052,10 @@ def update_indexes() -> None:
     for row in gate_rows:
         if row.get("gate") == "data_and_code_provenance":
             row["evidence"] = "data_inventory.csv, run_all.R, source-data inventory, repository manifest, checksums and standalone repository-release package exist"
-            row["next_action"] = "keep repository release package available; deposit and add DOI/permanent URL only if later selected or requested"
+            row["next_action"] = f"public GitHub repository is available at {PUBLIC_REPOSITORY_URL}; mint DOI only if later required"
         if row.get("gate") == "final_submission_clearance":
-            row["evidence"] = "main figures, formal references, novelty gate, visual QA, Scientific Reports manuscript/DOCX, source-data inventory, Supplementary Information draft, repository manifest and repository-release package are generated; author metadata, funding/competing interests and contributions are supplied; public code repository deposition is deferred by author decision; final upload preview and final claim-boundary read still require completion"
-            row["next_action"] = "complete publisher upload preview and final claim-boundary read; deposit repository release package only if later selected or requested"
+            row["evidence"] = f"main figures, formal references, novelty gate, visual QA, Scientific Reports manuscript/DOCX, source-data inventory, Supplementary Information draft, repository manifest and repository-release package are generated; author metadata, funding/competing interests and contributions are supplied; public GitHub repository is available at {PUBLIC_REPOSITORY_URL}; final upload preview and final claim-boundary read still require completion"
+            row["next_action"] = "complete publisher upload preview and final claim-boundary read; mint DOI only if later required"
     write_csv(
         ROOT / "04_results" / "qc" / "tmem158_submission_readiness_gate.csv",
         gate_rows,

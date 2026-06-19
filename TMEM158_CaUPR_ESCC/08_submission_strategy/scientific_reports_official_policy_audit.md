@@ -1,6 +1,6 @@
 # Scientific Reports Official Policy Audit
 
-Generated: 2026-06-20 01:04:00
+Generated: 2026-06-20 01:46:23
 
 ## Official Sources Checked
 
@@ -22,8 +22,8 @@ Generated: 2026-06-20 01:04:00
 | Scientific Reports format | Required article sections | Introduction; Results; Discussion; Methods | pass | The article uses the expected scientific-article structure. |
 | Scientific Reports format | AI-assisted tool-use documentation | Methods subsection present | pass | Official guidance says LLM use should be documented in Methods or a suitable alternative section. |
 | Nature Portfolio reporting | Reporting Summary | working draft generated | ready_human_finalize | Nature Portfolio indicates life-science manuscripts require a reporting summary when sent for review; the final official form remains human-gated. |
-| Data and code availability | Data availability statement | present | pass_author_decision_no_repository | Public data sources are listed; repository deposition is deferred before initial submission by author decision. |
-| Data and code availability | Code availability statement | present | pass_author_decision_no_repository | The reproducible workflow path is listed; code is available from the corresponding author upon reasonable request before initial submission. |
+| Data and code availability | Data availability statement | present | pass_public_repository | Public data sources are listed; processed outputs are deposited at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. |
+| Data and code availability | Code availability statement | present | pass_public_repository | The reproducible workflow path is listed; code is deposited at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. |
 | Authorship and declarations | Author agreement and title-page metadata | author metadata supplied | ready_author_confirmed | Author list, affiliations and correspondence details are supplied; all-author agreement remains a real-world author responsibility before submission. |
 | Authorship and declarations | Competing interests statement | statement supplied | ready_author_confirmed | The author confirmed no competing interests; all authors should preserve this statement only if it remains true before submission. |
 | Submission engineering | Editable DOCX render QA | 18 pages; 04_results/qc/scientific_reports_docx_render_metrics.csv | pass_internal_qa | Local render QA is an internal check; final journal-system PDF preview remains human-gated. |
@@ -33,4 +33,4 @@ Generated: 2026-06-20 01:04:00
 
 The machine-auditable Scientific Reports formatting checks pass or are bounded by explicit human-gated submission tasks. The current manuscript has a compliant title, abstract, keyword count, main-text length, article structure, six display items and Methods-level AI-assisted tool-use documentation.
 
-The remaining items are not analysis failures. They require human author action: final author list and affiliations, all-author agreement, competing interests, funding, author contributions, repository DOI or permanent URL if deposited, final official Reporting Summary form if requested by the journal workflow, and final upload-system preview.
+The remaining items are not analysis failures. They require human author action: all-author agreement, final official Reporting Summary form if requested by the journal workflow, and final upload-system preview. Public GitHub repository deposition is complete at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC; DOI minting is optional unless requested.

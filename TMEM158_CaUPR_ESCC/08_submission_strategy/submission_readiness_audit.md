@@ -19,7 +19,7 @@ The project is now organized as a six-main-figure pure public-data manuscript pa
 <!-- 2026-06-19 scientific reports submission system fields -->
 ## Submission-System Fields Addendum
 
-Generated: 2026-06-20 01:04:21
+Generated: 2026-06-20 01:46:23
 
 - Field pack Markdown: `08_submission_strategy/scientific_reports_submission_system_fields.md`
 - Field pack CSV: `08_submission_strategy/scientific_reports_submission_system_fields.csv`
@@ -27,7 +27,7 @@ Generated: 2026-06-20 01:04:21
 - QC: `04_results/qc/scientific_reports_submission_system_fields_qc.csv`
 - Machine submission-fields clearance: `pass`
 
-Interpretation: online-submission copy-ready fields are prepared. Final upload remains not yet clear because publisher upload preview and final claim-boundary read require human confirmation. Code repository deposition is deferred by author decision.
+Interpretation: online-submission copy-ready fields are prepared. Final upload remains not yet clear because publisher upload preview and final claim-boundary read require human confirmation. The public code repository is listed as `https://github.com/afa-cloud/TMEM158_CaUPR_ESCC`.
 <!-- 2026-06-19 scientific reports citation coverage audit -->
 ## Scientific Reports Citation Coverage Addendum
 
@@ -68,7 +68,7 @@ Interpretation: the public repository-release package is machine-prepared and ex
 <!-- 2026-06-19 scientific reports submission bundle dry run -->
 ## Scientific Reports Bundle Addendum
 
-Generated: 2026-06-20 01:05:33
+Generated: 2026-06-20 01:47:18
 
 - Bundle folder: `08_submission_strategy/scientific_reports_submission_bundle/`
 - Bundle manifest: `08_submission_strategy/scientific_reports_submission_bundle_manifest.csv`

@@ -20,6 +20,7 @@ NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 OUT_MD = ROOT / "08_submission_strategy" / "final_author_submission_handoff.md"
 OUT_CSV = ROOT / "08_submission_strategy" / "final_author_submission_action_table.csv"
 QC_CSV = ROOT / "04_results" / "qc" / "final_author_submission_handoff_qc.csv"
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 def rel(path: Path) -> str:
@@ -165,7 +166,7 @@ def build_human_action_rows(human_rows: Sequence[Dict[str, str]]) -> List[Dict[s
         "funding": "Enter funder names, grant numbers and funder-role statement, or confirm no specific funding if accurate.",
         "author_contributions": "Use final author initials and CRediT-style roles; do not infer roles from the analysis files.",
         "acknowledgements": "Confirm technical support, data-source acknowledgement beyond citations and approved AI-tool disclosure.",
-        "repository_doi_or_permanent_url": "If the author later chooses repository deposition, deposit the repository release ZIP first and then paste DOI/permanent URL into Data and Code availability fields.",
+        "repository_doi_or_permanent_url": f"Use the public GitHub repository URL: {PUBLIC_REPOSITORY_URL}. Mint and replace with a DOI only if the journal requires it.",
         "suggested_reviewers": "Optional. Add only if the system requests reviewers and conflicts have been checked.",
         "opposed_reviewers": "Optional. Add only if necessary and allowed by the journal.",
         "final_upload_preview": "After upload, inspect the publisher-generated PDF/HTML previews for manuscript, figures and supplement.",
@@ -221,7 +222,7 @@ def build_qc_rows(upload_rows: Sequence[Dict[str, object]], action_rows: Sequenc
         {"item": "numeric_consistency_clearance", "value": numeric_qc.get("numeric_consistency_clearance", ""), "status": "pass" if numeric_qc.get("numeric_consistency_clearance") == "pass" else "needs_revision", "notes": "From manuscript numeric consistency audit"},
         {"item": "citation_coverage_clearance", "value": citation_qc.get("citation_coverage_clearance", ""), "status": "pass" if citation_qc.get("citation_coverage_clearance") == "pass" else "needs_revision", "notes": "From Scientific Reports citation coverage audit"},
         {"item": "machine_handoff_clearance", "value": "pass" if machine_ready else "needs_revision", "status": "pass" if machine_ready else "needs_revision", "notes": "Pass means no machine-side handoff artifact is missing"},
-        {"item": "final_upload_clearance", "value": "not_yet", "status": "not_yet", "notes": "Publisher upload preview and final claim-boundary read remain required; repository DOI is not required because the author chose not to deposit code before initial submission"},
+        {"item": "final_upload_clearance", "value": "not_yet", "status": "not_yet", "notes": f"Publisher upload preview and final claim-boundary read remain required; public GitHub repository is listed as {PUBLIC_REPOSITORY_URL}"},
     ]
 
 
@@ -248,7 +249,7 @@ def write_markdown(
             f"- Local Scientific Reports bundle: `{bundle_qc.get('machine_bundle_clearance', '')}`",
             f"- Repository release package: `{repo_qc.get('machine_repository_release_clearance', '')}`",
             "",
-        "Interpretation: the machine-prepared manuscript package is ready for journal-system upload. The manuscript is not yet final-submission complete because the publisher-generated upload preview and a final claim-boundary read must still be completed by the human author. Code repository deposition is deferred by author decision before initial submission.",
+            f"Interpretation: the machine-prepared manuscript package is ready for journal-system upload. The manuscript is not yet final-submission complete because the publisher-generated upload preview and a final claim-boundary read must still be completed by the human author. Public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}.",
             "",
             "## Copy-Ready Submission Fields",
             "",
@@ -311,9 +312,9 @@ def write_markdown(
             "",
             "## Recommended Repository Step",
             "",
-            "The author currently chose not to deposit code before initial submission. Keep `08_submission_strategy/TMEM158_TAC_high_repository_release.zip` as the clean repository package for later Zenodo/OSF/GitHub deposition if the editor requests it or the author later chooses public code release. Do not deposit `TMEM158_TAC_high_ScientificReports_submission_bundle.zip`; that file is a local journal-upload dry run.",
+            f"The code and processed outputs have been deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}. Keep `08_submission_strategy/TMEM158_TAC_high_repository_release.zip` as the clean archival package for a later Zenodo/OSF DOI-minted release if the editor requests it. Do not deposit `TMEM158_TAC_high_ScientificReports_submission_bundle.zip`; that file is a local journal-upload dry run.",
             "",
-            "If deposition is later selected, use a DOI/permanent repository such as Zenodo, OSF or an institutional repository, then update Data availability and Code availability with the DOI/permanent URL. Until then, the manuscript states that code and processed outputs are available from the corresponding author upon reasonable request.",
+            "If a DOI is later required, use a DOI-capable repository such as Zenodo, OSF or an institutional repository, then update Data availability and Code availability with the DOI. Until then, the manuscript and submission fields should use the public GitHub URL above.",
             "",
             "## Final Claim-Boundary Read",
             "",

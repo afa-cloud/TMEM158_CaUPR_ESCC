@@ -1,6 +1,6 @@
 # Reviewer Pre-emptive Response Pack
 
-Generated: 2026-06-20 01:03:53
+Generated: 2026-06-20 01:46:23
 
 ## Purpose
 
@@ -148,7 +148,7 @@ This study is suitable as a public-data biological discovery manuscript because 
 
 - **R14_data_code_availability** (medium; ready): The project includes run_all.R, source-data inventory, repository manifest/checksums and a machine-clear submission bundle; DOI remains human-gated. Avoid: Do not say final DOI is available before repository deposition.
 
-- **R15_final_upload_preview** (medium; ready): The readiness gate intentionally remains not-yet-final because publisher upload preview and final claim-boundary read require human confirmation; public code deposition is deferred by author decision before initial submission. Avoid: No claim of final journal upload clearance until publisher preview and final claim-boundary read are complete.
+- **R15_final_upload_preview** (medium; ready): The readiness gate intentionally remains not-yet-final because publisher upload preview and final claim-boundary read require human confirmation; public GitHub repository deposition is complete at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. Avoid: No claim of final journal upload clearance until publisher preview and final claim-boundary read are complete.
 
 - **R16_alphafold_topology_boundary** (medium; ready): We report the predicted model as structural plausibility for follow-up localization and interaction experiments, and explicitly state that it does not demonstrate localization, binding, signalling or ESCC protein validation. Avoid: No ER localization, physical interaction with Ca2/UPR nodes, ECM binding or ESCC protein validation claim.
 

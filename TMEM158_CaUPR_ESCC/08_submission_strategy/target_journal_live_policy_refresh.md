@@ -1,6 +1,6 @@
 # Target Journal Live Policy Refresh
 
-Generated: 2026-06-20 01:03:56
+Generated: 2026-06-20 01:46:23
 
 ## Decision
 
@@ -12,9 +12,9 @@ Scientific Reports remains the more suitable first-pass target for the current p
 |---|---|---|---|---|
 | Scientific Reports | pass | https://www.nature.com/srep/author-instructions/submission-guidelines | Article format recommends <=11 typeset pages, main text <=4500 words, title <=20 words, abstract <=200 words; abstract should not contain references; up to 6 keywords are allowed. | Keep current Scientific Reports first-pass target and retain concise abstract/title language. |
 | Scientific Reports | ready_author_confirmed | https://www.nature.com/srep/author-instructions/submission-guidelines | Manuscript should include author affiliations/contact information; LLM use should be documented; author contribution and competing-interest statements are required. | Keep these declarations unchanged unless the authors revise them before upload. |
-| Scientific Reports | pass_author_decision_no_repository | https://www.nature.com/srep/author-instructions/submission-guidelines | Data Availability Statement is mandatory and should be located at the end of the main text before References. | Repository deposition is deferred before initial submission; insert DOI/permanent URL only if later deposited or requested. |
-| Scientific Reports / Springer Nature data policy | pass_author_decision_no_repository | https://www.nature.com/srep/journal-policies/editorial-policies | Data statements should include accession codes, identifiers, links and conditions for access; data and associated protocols should be available to readers and reviewers. | Keep repository release package available for later DOI/permanent URL if deposited or requested. |
-| Springer Nature data availability statements | pass_author_decision_no_repository | https://www.springernature.com/gp/authors/research-data-policy/data-availability-statements | Data availability statements should tell readers how to access supporting data; repository data should include hyperlinks and persistent identifiers; secondary data sources should be included. | If deposition is later selected, cite the persistent identifier in Data availability and repository README. |
+| Scientific Reports | pass_public_repository | https://www.nature.com/srep/author-instructions/submission-guidelines | Data Availability Statement is mandatory and should be located at the end of the main text before References. | Use the GitHub repository URL in submission fields; mint DOI only if later requested. |
+| Scientific Reports / Springer Nature data policy | pass_public_repository | https://www.nature.com/srep/journal-policies/editorial-policies | Data statements should include accession codes, identifiers, links and conditions for access; data and associated protocols should be available to readers and reviewers. | Keep repository release package available for later DOI-minted archival release if requested. |
+| Springer Nature data availability statements | pass_public_repository | https://www.springernature.com/gp/authors/research-data-policy/data-availability-statements | Data availability statements should tell readers how to access supporting data; repository data should include hyperlinks and persistent identifiers; secondary data sources should be included. | Use the GitHub repository URL unless a DOI-minted archival release is later required. |
 | BMC Cancer | high_risk_not_first_target | https://link.springer.com/journal/12885/submission-guidelines/research-article | BMC Cancer research-article guidance states that manuscripts consisting solely of bioinformatics/computational analysis/public-database prediction without validation will not be considered. | Do not use BMC Cancer as first target unless wet-lab validation is added. |
 | BMC Cancer | high_risk_not_first_target | https://link.springer.com/journal/12885/aims-and-scope | BMC Cancer scope includes computational biology/systems biology, but diagnostic/prognostic biomarker submissions should include independent validation and biological validation in vitro or in vivo. | Preserve Scientific Reports route; keep BMC Cancer as no-go unless validation is added. |
 
@@ -23,7 +23,7 @@ Scientific Reports remains the more suitable first-pass target for the current p
 - Keep the manuscript framed as a public-data biological discovery candidate, not a validated prognostic/diagnostic biomarker.
 - Keep Scientific Reports as the first-pass formatted target.
 - Do not switch to BMC Cancer unless wet-lab biological validation is added.
-- Author metadata and declarations are supplied; code repository deposition is deferred by author decision before initial submission.
+- Author metadata and declarations are supplied; public GitHub repository deposition is complete at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 - The remaining non-machine upload items are publisher upload preview and final claim-boundary read.
 
 ## Boundary

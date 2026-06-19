@@ -1,6 +1,6 @@
 # Final Author Submission Handoff
 
-Generated: 2026-06-20 01:05:29
+Generated: 2026-06-20 01:46:34
 
 ## Status
 
@@ -9,7 +9,7 @@ Generated: 2026-06-20 01:05:29
 - Local Scientific Reports bundle: `pass`
 - Repository release package: `pass`
 
-Interpretation: the machine-prepared manuscript package is ready for journal-system upload. The manuscript is not yet final-submission complete because the publisher-generated upload preview and a final claim-boundary read must still be completed by the human author. Code repository deposition is deferred by author decision before initial submission.
+Interpretation: the machine-prepared manuscript package is ready for journal-system upload. The manuscript is not yet final-submission complete because the publisher-generated upload preview and a final claim-boundary read must still be completed by the human author. Public GitHub repository deposition is complete at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 ## Copy-Ready Submission Fields
 
@@ -79,17 +79,17 @@ Source: `08_submission_strategy/scientific_reports_cover_letter_draft.md`
 
 ### data_availability
 
-Status: `ready_author_decision_no_repository`
+Status: `ready_public_repository`
 
-All data analysed in this study were obtained from public resources, including TCGA/GDC or cBioPortal, GEO, DepMap-derived public resources, UniProt, QuickGO, the Human Protein Atlas and the AlphaFold Protein Structure Database [1,9,17,18,22-25]. No new patient-level dataset was generated in this study. Processed intermediate tables and analysis outputs are available from the corresponding author upon reasonable request.
+All data analysed in this study were obtained from public resources, including TCGA/GDC or cBioPortal, GEO, DepMap-derived public resources, UniProt, QuickGO, the Human Protein Atlas and the AlphaFold Protein Structure Database [1,9,17,18,22-25]. No new patient-level dataset was generated in this study. Processed intermediate tables and analysis outputs are available in the public GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
 ### code_availability
 
-Status: `ready_author_decision_no_repository`
+Status: `ready_public_repository`
 
-The reproducible workflow was implemented in TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R, with helper scripts under TMEM158_CaUPR_ESCC/03_scripts/R/ and TMEM158_CaUPR_ESCC/03_scripts/Python/. The code has not been deposited in a public repository before initial submission and is available from the corresponding author upon reasonable request.
+The reproducible workflow was implemented in TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R, with helper scripts under TMEM158_CaUPR_ESCC/03_scripts/R/ and TMEM158_CaUPR_ESCC/03_scripts/Python/. The code is publicly available in the GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
@@ -165,9 +165,9 @@ Source: `07_manuscript/manuscript_scientific_reports.md`
 
 ## Recommended Repository Step
 
-The author currently chose not to deposit code before initial submission. Keep `08_submission_strategy/TMEM158_TAC_high_repository_release.zip` as the clean repository package for later Zenodo/OSF/GitHub deposition if the editor requests it or the author later chooses public code release. Do not deposit `TMEM158_TAC_high_ScientificReports_submission_bundle.zip`; that file is a local journal-upload dry run.
+The code and processed outputs have been deposited in the public GitHub repository: https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. Keep `08_submission_strategy/TMEM158_TAC_high_repository_release.zip` as the clean archival package for a later Zenodo/OSF DOI-minted release if the editor requests it. Do not deposit `TMEM158_TAC_high_ScientificReports_submission_bundle.zip`; that file is a local journal-upload dry run.
 
-If deposition is later selected, use a DOI/permanent repository such as Zenodo, OSF or an institutional repository, then update Data availability and Code availability with the DOI/permanent URL. Until then, the manuscript states that code and processed outputs are available from the corresponding author upon reasonable request.
+If a DOI is later required, use a DOI-capable repository such as Zenodo, OSF or an institutional repository, then update Data availability and Code availability with the DOI. Until then, the manuscript and submission fields should use the public GitHub URL above.
 
 ## Final Claim-Boundary Read
 
@@ -187,7 +187,7 @@ Safe wording: public-data association, computationally supported stress-ecology 
 
 | Item | Value | Status | Notes |
 |---|---|---|---|
-| generated_at | 2026-06-20 01:05:29 | info | Local system timestamp |
+| generated_at | 2026-06-20 01:46:34 | info | Local system timestamp |
 | handoff_markdown | 08_submission_strategy/final_author_submission_handoff.md | pass | Author-facing final submission handoff |
 | action_table | 08_submission_strategy/final_author_submission_action_table.csv | pass | Machine-readable upload and human action table |
 | upload_rows | 24 | pass | Upload/file rows listed in handoff |
@@ -200,7 +200,7 @@ Safe wording: public-data association, computationally supported stress-ecology 
 | numeric_consistency_clearance | pass | pass | From manuscript numeric consistency audit |
 | citation_coverage_clearance | pass | pass | From Scientific Reports citation coverage audit |
 | machine_handoff_clearance | pass | pass | Pass means no machine-side handoff artifact is missing |
-| final_upload_clearance | not_yet | not_yet | Publisher upload preview and final claim-boundary read remain required; repository DOI is not required because the author chose not to deposit code before initial submission |
+| final_upload_clearance | not_yet | not_yet | Publisher upload preview and final claim-boundary read remain required; public GitHub repository is listed as https://github.com/afa-cloud/TMEM158_CaUPR_ESCC |
 
 ## Boundary
 

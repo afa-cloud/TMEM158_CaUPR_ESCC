@@ -1,5 +1,5 @@
 item,value,status,notes
-generated_at,2026-06-20 01:03:53,info,Local system timestamp
+generated_at,2026-06-20 01:46:23,info,Local system timestamp
 reviewer_risk_rows,16,pass,Total pre-emptive reviewer-risk rows
 high_severity_rows,8,pass,High-severity objections mapped
 missing_evidence_rows,0,pass,Rows with missing evidence files

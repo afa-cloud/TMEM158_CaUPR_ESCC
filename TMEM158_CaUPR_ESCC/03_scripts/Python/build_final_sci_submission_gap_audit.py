@@ -21,6 +21,7 @@ OUT_CSV = ROOT / "08_submission_strategy" / "final_sci_submission_gap_audit.csv"
 OUT_MD = ROOT / "08_submission_strategy" / "final_sci_submission_gap_audit.md"
 QC_CSV = ROOT / "04_results" / "qc" / "final_sci_submission_gap_audit_qc.csv"
 MACHINE_AUDIT_MD = ROOT / "08_submission_strategy" / "machine_submission_clearance_audit.md"
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 PASS_STATUSES = {
@@ -429,8 +430,8 @@ def build_rows() -> List[Dict[str, object]]:
             + release_qc.get("machine_repository_release_clearance", ""),
             "pass" if release_qc.get("machine_repository_release_clearance") == "pass" and release_qc.get("missing_source_files") == "0" else "needs_review",
             "machine",
-            "Keep the package available; deposit it and insert a DOI/permanent URL only if the author later chooses public code deposition or the editor requests it.",
-            "Repository readiness is local-machine readiness until DOI/permanent URL exists.",
+            f"Public GitHub repository is available at {PUBLIC_REPOSITORY_URL}; mint a DOI only if the journal requests an archival identifier.",
+            "GitHub deposition is complete; DOI minting remains optional unless requested by the journal.",
         )
     )
 
@@ -538,7 +539,7 @@ def write_markdown(rows: Sequence[Dict[str, object]], qc_rows: Sequence[Dict[str
         f"- Machine-actionable rows needing revision: {len(machine_bad)}",
         f"- Human-gated rows remaining: {len(human_rows)}",
         "",
-        "Interpretation: the current TMEM158/TAC_high package is machine-ready for a bounded pure-public-data SCI submission package. Author metadata and declarations have been supplied, and public code deposition is deferred by author decision before initial submission. It is not final-submission complete until the publisher upload preview and final claim-boundary read are completed by the human author.",
+        f"Interpretation: the current TMEM158/TAC_high package is machine-ready for a bounded pure-public-data SCI submission package. Author metadata and declarations have been supplied, and public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}. It is not final-submission complete until the publisher upload preview and final claim-boundary read are completed by the human author.",
         "",
         "## Machine-Actionable Rows Needing Revision",
         "",
@@ -662,7 +663,7 @@ Generated: {NOW}
 ## Author Decisions Already Reflected
 
 - Author list, affiliations, corresponding author, funding, author contributions, competing interests, acknowledgements and AI-assisted tool-use wording have been supplied.
-- The author chose not to deposit the code package in a public repository before initial submission; code and processed outputs are therefore described as available from the corresponding author upon reasonable request. This is acceptable as an author decision but weaker than a DOI-minted repository deposit.
+- Code and processed outputs have been deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}. This satisfies public repository availability; a DOI-minted release can be added later if requested by the journal.
 
 ## Conclusion
 

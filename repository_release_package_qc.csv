@@ -1,5 +1,5 @@
 item,value,status,notes
-generated_at,2026-06-20 01:07:09,info,Local system timestamp
+generated_at,2026-06-20 01:47:59,info,Local system timestamp
 manifest_included_rows,384,pass,Repository manifest rows marked include=yes
 manifest_excluded_rows,25,pass,Rows excluded from repository-release package
 copied_files,385,pass,"Files copied into standalone repository-release package, including root README"
@@ -7,4 +7,4 @@ missing_source_files,0,pass,Manifest-included files that were not found
 release_manifest,08_submission_strategy/repository_release_package_manifest.csv,pass,Package copied-file manifest
 release_checksums,08_submission_strategy/repository_release_package_checksums.sha256,pass,Package SHA256 checksum list
 machine_repository_release_clearance,pass,pass,Pass requires no missing source files
-final_repository_deposit_clearance,optional_deferred,not_required_for_initial_submission,Author chose not to deposit code before initial submission; keep release package for optional later deposition if requested
+final_repository_deposit_clearance,https://github.com/afa-cloud/TMEM158_CaUPR_ESCC,pass_public_repository_created,Public GitHub repository created before initial submission; DOI can be minted later if required

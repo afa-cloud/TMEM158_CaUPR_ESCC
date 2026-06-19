@@ -20,6 +20,7 @@ NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 REPORT = ROOT / "08_submission_strategy" / "target_journal_live_policy_refresh.md"
 TABLE = ROOT / "08_submission_strategy" / "target_journal_live_policy_refresh.csv"
 QC = ROOT / "04_results" / "qc" / "target_journal_live_policy_refresh_qc.csv"
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 def write_csv(path: Path, rows: Sequence[Dict[str, object]], fields: Sequence[str]) -> None:
@@ -72,25 +73,25 @@ def policy_rows() -> List[Dict[str, object]]:
             "journal_or_policy": "Scientific Reports",
             "official_source": "https://www.nature.com/srep/author-instructions/submission-guidelines",
             "source_note": "Data Availability Statement is mandatory and should be located at the end of the main text before References.",
-            "project_status": "pass_author_decision_no_repository",
-            "project_evidence": "manuscript_scientific_reports.md contains Data availability and Code availability sections; repository release package is machine-ready.",
-            "action_needed": "Repository deposition is deferred before initial submission; insert DOI/permanent URL only if later deposited or requested.",
+            "project_status": "pass_public_repository",
+            "project_evidence": f"manuscript_scientific_reports.md contains Data availability and Code availability sections; public GitHub repository is available at {PUBLIC_REPOSITORY_URL}.",
+            "action_needed": "Use the GitHub repository URL in submission fields; mint DOI only if later requested.",
         },
         {
             "journal_or_policy": "Scientific Reports / Springer Nature data policy",
             "official_source": "https://www.nature.com/srep/journal-policies/editorial-policies",
             "source_note": "Data statements should include accession codes, identifiers, links and conditions for access; data and associated protocols should be available to readers and reviewers.",
-            "project_status": "pass_author_decision_no_repository",
-            "project_evidence": "source_data_and_supplementary_inventory.csv, repository_release_package_manifest.csv and repository checksums are present; author chose request-based code/output availability before initial submission.",
-            "action_needed": "Keep repository release package available for later DOI/permanent URL if deposited or requested.",
+            "project_status": "pass_public_repository",
+            "project_evidence": f"source_data_and_supplementary_inventory.csv, repository_release_package_manifest.csv and repository checksums are present; code/output deposition is public at {PUBLIC_REPOSITORY_URL}.",
+            "action_needed": "Keep repository release package available for later DOI-minted archival release if requested.",
         },
         {
             "journal_or_policy": "Springer Nature data availability statements",
             "official_source": "https://www.springernature.com/gp/authors/research-data-policy/data-availability-statements",
             "source_note": "Data availability statements should tell readers how to access supporting data; repository data should include hyperlinks and persistent identifiers; secondary data sources should be included.",
-            "project_status": "pass_author_decision_no_repository",
-            "project_evidence": "Repository release package and source-data inventory are prepared; TCGA/GEO/cBioPortal/UniProt/QuickGO/HPA/AlphaFold sources are cited in manuscript and inventories.",
-            "action_needed": "If deposition is later selected, cite the persistent identifier in Data availability and repository README.",
+            "project_status": "pass_public_repository",
+            "project_evidence": f"Repository release package and source-data inventory are prepared; TCGA/GEO/cBioPortal/UniProt/QuickGO/HPA/AlphaFold sources are cited in manuscript and inventories; public GitHub repository is available at {PUBLIC_REPOSITORY_URL}.",
+            "action_needed": "Use the GitHub repository URL unless a DOI-minted archival release is later required.",
         },
         {
             "journal_or_policy": "BMC Cancer",
@@ -138,7 +139,7 @@ def write_report(rows: Sequence[Dict[str, object]]) -> None:
             "- Keep the manuscript framed as a public-data biological discovery candidate, not a validated prognostic/diagnostic biomarker.",
             "- Keep Scientific Reports as the first-pass formatted target.",
             "- Do not switch to BMC Cancer unless wet-lab biological validation is added.",
-            "- Author metadata and declarations are supplied; code repository deposition is deferred by author decision before initial submission.",
+            f"- Author metadata and declarations are supplied; public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}.",
             "- The remaining non-machine upload items are publisher upload preview and final claim-boundary read.",
             "",
             "## Boundary",

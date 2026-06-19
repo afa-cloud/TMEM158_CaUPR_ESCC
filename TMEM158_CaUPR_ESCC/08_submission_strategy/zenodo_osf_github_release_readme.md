@@ -33,16 +33,16 @@ The script rebuilds the TMEM158/TAC_high result layers and refreshes the manuscr
 
 ## Data Availability Draft
 
-All datasets are public. This package redistributes processed result tables, code and manuscript-facing outputs rather than restricted or publisher-controlled raw full-text files. Public code deposition is deferred before initial submission by author decision; if deposition is later selected or requested, the corresponding author should insert the DOI or permanent URL after deposition.
+All datasets are public. This package redistributes processed result tables, code and manuscript-facing outputs rather than restricted or publisher-controlled raw full-text files. The code and processed outputs are deposited in the public GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. A DOI-minted release can be added later through Zenodo or another archival repository if required.
 
 Raw public downloads, publisher/full-text gate files, local logs and local Scientific Reports upload dry-run bundles are deliberately excluded from the repository-release archive. These sources can be reobtained from the public repositories and literature sources documented in the scripts, inventories and manuscript.
 
 ## Code Availability Draft
 
-The analysis code is under `03_scripts/`. The current full controller is `03_scripts/R/run_all.R`. Final code DOI or permanent URL should be added after repository deposition.
+The analysis code is under `03_scripts/`. The current full controller is `03_scripts/R/run_all.R`. Public repository URL: https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 ## Claim Boundary
 
 The analysis identifies a TMEM158-associated TAC_high Ca2/UPR-CAF stress-ecology state. It does not demonstrate TMEM158 causality, clinical prognosis, direct immune suppression, spatial activation, ligand-receptor causality, physical interaction, receptor activation, protein-level communication or treatment recommendation.
 
-Generated: 2026-06-20 01:07:09
+Generated: 2026-06-20 01:47:59

@@ -19,7 +19,7 @@ funding,placeholder_missing,needs_author_input,Funding details must be supplied 
 final_upload_clearance,not_yet,needs_author_input,"Author metadata, funding/competing interests and final human layout review remain"
 supplementary_information,07_manuscript/supplementary_information_scientific_reports.md,pass_needs_final_upload_decision,"Supplementary Information draft generated with methods, figure/table inventory and public-data claim boundaries"
 source_data_inventory,08_submission_strategy/source_data_and_supplementary_inventory.csv,pass,"Main figures, panel sources and source tables mapped"
-repository_manifest,08_submission_strategy/repository_deposit_manifest.csv,pass_author_decision_no_repository,Deposit manifest prepared for optional later use; author chose not to deposit before initial submission
+repository_manifest,08_submission_strategy/repository_deposit_manifest.csv,pass_public_repository,Deposit manifest prepared and public GitHub repository listed as https://github.com/afa-cloud/TMEM158_CaUPR_ESCC
 repository_checksums,08_submission_strategy/repository_file_checksums.sha256,pass,SHA256 checksums generated for included repository files
 submission_bundle_dry_run,08_submission_strategy/scientific_reports_submission_bundle,pass_not_final_upload_clear,Local upload dry-run bundle generated
 submission_bundle_zip,08_submission_strategy/TMEM158_TAC_high_ScientificReports_submission_bundle.zip,pass_not_final_upload_clear,ZIP archive generated; final upload preview still requires human inspection
@@ -34,7 +34,7 @@ reporting_summary_working_draft,08_submission_strategy/nature_portfolio_reportin
 manuscript_numeric_consistency_audit,04_results/qc/manuscript_numeric_consistency_audit.csv,pass,Key manuscript numeric claims checked against result tables
 citation_coverage_clearance,pass,pass,All listed references cited; first appearances sequential; abstract citation-free
 citation_coverage_audit_report,08_submission_strategy/scientific_reports_citation_coverage_audit.md,pass,Citation coverage audit report
-repository_release_package,08_submission_strategy/TMEM158_TAC_high_repository_release.zip,pass_repository_package_optional,Standalone public repository-release package generated for optional later deposition
+repository_release_package,08_submission_strategy/TMEM158_TAC_high_repository_release.zip,pass_public_repository_created,Standalone public repository-release package generated and deposited at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC
 final_sci_submission_gap_audit,08_submission_strategy/final_sci_submission_gap_audit.md,pass_human_gated_items_visible,Machine-actionable submission rows are clear; final publisher upload preview and claim-boundary read remain human-gated
 protein_topology_claim_boundary,08_submission_strategy/tmem158_protein_topology_claim_audit.md,pass,"Public protein/AlphaFold evidence supports membrane topology and assayability only, not ER localization, binding, ECM interaction or ESCC protein validation"
 target_journal_live_policy_refresh,08_submission_strategy/target_journal_live_policy_refresh.md,pass_human_gated_items_visible,Scientific Reports remains defensible as first target; BMC Cancer remains high risk without wet-lab validation

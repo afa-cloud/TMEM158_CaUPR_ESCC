@@ -18,6 +18,7 @@ from typing import Dict, Iterable, List, Sequence
 
 ROOT = Path(__file__).resolve().parents[2]
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 def ensure_parent(path: Path) -> None:
@@ -264,17 +265,17 @@ def build_fields() -> List[Dict[str, object]]:
             "field_group": "availability",
             "field_name": "data_availability",
             "field_value": data_availability,
-            "status": "ready_author_decision_no_repository",
+            "status": "ready_public_repository",
             "source": "07_manuscript/manuscript_scientific_reports.md",
-            "notes": "Repository deposition is deferred by author decision before initial submission.",
+            "notes": f"Processed outputs are deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}.",
         },
         {
             "field_group": "availability",
             "field_name": "code_availability",
             "field_value": code_availability,
-            "status": "ready_author_decision_no_repository",
+            "status": "ready_public_repository",
             "source": "07_manuscript/manuscript_scientific_reports.md",
-            "notes": "Repository deposition is deferred by author decision before initial submission.",
+            "notes": f"Analysis code is deposited in the public GitHub repository: {PUBLIC_REPOSITORY_URL}.",
         },
         {
             "field_group": "declarations",
@@ -327,10 +328,10 @@ def build_fields() -> List[Dict[str, object]]:
         {
             "field_group": "repository",
             "field_name": "repository_doi_or_permanent_url",
-            "field_value": "No public code repository will be deposited before initial submission; code and processed outputs are available from the corresponding author upon reasonable request.",
-            "status": "author_decision_no_repository",
+            "field_value": PUBLIC_REPOSITORY_URL,
+            "status": "ready_public_repository_url",
             "source": "08_submission_strategy/repository_deposit_manifest.csv",
-            "notes": "This is an author decision and may be weaker than depositing the repository release ZIP with a DOI.",
+            "notes": "Public GitHub repository created before submission; DOI can be minted later through Zenodo if required.",
         },
         {
             "field_group": "reviewer_metadata",
@@ -547,9 +548,9 @@ Human-required final tasks: {human_required}.
 Final upload clearance remains `not_yet` because publisher upload preview and final claim-boundary read require human confirmation.
 """
     replace_or_append(ROOT / "README.md", marker, addendum)
-    replace_or_append(ROOT / "00_project_log" / "master_log.md", marker, f"- 2026-06-19 latest: Generated Scientific Reports submission-system field pack. Machine fields clearance: `{machine_clearance}`; human-required tasks: {human_required}. Author metadata/declarations supplied; code repository deposit deferred by author decision.")
+    replace_or_append(ROOT / "00_project_log" / "master_log.md", marker, f"- 2026-06-19 latest: Generated Scientific Reports submission-system field pack. Machine fields clearance: `{machine_clearance}`; human-required tasks: {human_required}. Author metadata/declarations supplied; public GitHub code repository listed as `{PUBLIC_REPOSITORY_URL}`.")
     replace_or_append(ROOT / "00_project_log" / "stage_summary.md", marker, "- Scientific Reports submission-system fields are now extracted into Markdown/CSV, with human-gated metadata isolated in a final task table.")
-    replace_or_append(ROOT / "00_project_log" / "decision_record.md", marker, "Decision: after machine bundle clearance, add a submission-system fields pack so final blockers are explicit and not confused with missing analysis artifacts. After author metadata was supplied, the remaining required blockers are publisher upload preview and final claim-boundary read; public code repository deposition is deferred by author decision before initial submission.")
+    replace_or_append(ROOT / "00_project_log" / "decision_record.md", marker, "Decision: after machine bundle clearance, add a submission-system fields pack so final blockers are explicit and not confused with missing analysis artifacts. After author metadata was supplied and the public GitHub code repository was created, the remaining required blockers are publisher upload preview and final claim-boundary read.")
     replace_or_append(ROOT / "00_project_log" / "context_checkpoint.md", marker, "Latest checkpoint: Scientific Reports online-submission fields are available in `08_submission_strategy/scientific_reports_submission_system_fields.md` and `.csv`; final human tasks are in `scientific_reports_final_human_tasks.csv`.")
 
     upsert_csv(
@@ -610,7 +611,7 @@ Generated: {NOW}
 - QC: `04_results/qc/scientific_reports_submission_system_fields_qc.csv`
 - Machine submission-fields clearance: `{machine_clearance}`
 
-Interpretation: online-submission copy-ready fields are prepared. Final upload remains not yet clear because publisher upload preview and final claim-boundary read require human confirmation. Code repository deposition is deferred by author decision."""
+Interpretation: online-submission copy-ready fields are prepared. Final upload remains not yet clear because publisher upload preview and final claim-boundary read require human confirmation. The public code repository is listed as `{PUBLIC_REPOSITORY_URL}`."""
     )
 
     project_root = ROOT.parent
@@ -621,7 +622,7 @@ Interpretation: online-submission copy-ready fields are prepared. Final upload r
 
 `TMEM158_CaUPR_ESCC/` 已新增投稿系统字段包：`08_submission_strategy/scientific_reports_submission_system_fields.md`、`scientific_reports_submission_system_fields.csv`、`scientific_reports_final_human_tasks.csv` 和 `04_results/qc/scientific_reports_submission_system_fields_qc.csv`。机器端 submission-fields clearance 为 `{machine_clearance}`。
 
-该层把标题、摘要、关键词、cover-letter pitch、Data availability、Code availability、Ethics statement、作者贡献、基金、利益冲突、acknowledgements、AI disclosure、public-data boundary 和 claims-not-made 等字段整理为可复制格式。用户已决定初投前暂不公开沉积代码；当前缺口收窄为投稿系统最终预览和最终 claim-boundary 复读，而不是生信分析不足。"""
+该层把标题、摘要、关键词、cover-letter pitch、Data availability、Code availability、Ethics statement、作者贡献、基金、利益冲突、acknowledgements、AI disclosure、public-data boundary 和 claims-not-made 等字段整理为可复制格式。用户已改为初投前公开 GitHub 代码仓库：`{PUBLIC_REPOSITORY_URL}`；当前缺口收窄为投稿系统最终预览和最终 claim-boundary 复读，而不是生信分析不足。"""
     )
     replace_or_append(
         project_root / "docs" / "agent" / "DECISION_LOG.md",

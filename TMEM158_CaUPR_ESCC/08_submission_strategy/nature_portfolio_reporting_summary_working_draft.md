@@ -1,6 +1,6 @@
 # Nature Portfolio Reporting Summary Working Draft
 
-Generated: 2026-06-20 01:04:00
+Generated: 2026-06-20 01:46:23
 
 This is a machine-prepared working draft to help complete the official Nature Portfolio Reporting Summary if the manuscript is sent for review. It is not a signed final publisher form.
 
@@ -63,7 +63,7 @@ This is a machine-prepared working draft to help complete the official Nature Po
 - Complete the official Nature Portfolio Reporting Summary form if requested by the submission workflow.
 - Confirm author names, affiliations, corresponding author and all-author agreement.
 - Confirm competing interests, funding, acknowledgements and author contributions.
-- Add repository DOI or permanent URL if a repository deposit is made before submission.
+- Use the public GitHub repository URL in the submission system: https://github.com/afa-cloud/TMEM158_CaUPR_ESCC. Add a DOI only if the journal requests an archival identifier.
 - Inspect the final journal-system converted manuscript and figure previews.
 
 ## Manuscript Abstract For Reference

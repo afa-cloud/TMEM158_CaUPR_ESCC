@@ -61,7 +61,7 @@ Decision: treat inline citation coverage as a formal manuscript-readiness gate b
 
 Reason: the manuscript already contains formal references; without numbered in-text citations, it does not meet Nature-style submission expectations.
 <!-- 2026-06-19 scientific reports submission system fields -->
-Decision: after machine bundle clearance, add a submission-system fields pack so final blockers are explicit and not confused with missing analysis artifacts. After author metadata was supplied, the remaining required blockers are publisher upload preview and final claim-boundary read; public code repository deposition is deferred by author decision before initial submission.
+Decision: after machine bundle clearance, add a submission-system fields pack so final blockers are explicit and not confused with missing analysis artifacts. After author metadata was supplied and the public GitHub code repository was created, the remaining required blockers are publisher upload preview and final claim-boundary read.
 <!-- 2026-06-19 lr expression maintext integration targeted refresh -->
 Decision: synchronize LR compartment-expression feasibility into manuscript and submission files using targeted downstream refresh only, not a full `run_all.R` rerun.
 

@@ -17,6 +17,7 @@ from typing import Dict, Iterable, List, Tuple
 
 ROOT = Path(__file__).resolve().parents[2]
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 DOCUMENTS = [
@@ -454,7 +455,7 @@ def update_run_all_log_index() -> None:
                 row["evidence"] = "reviewer risk checklist and automated claim-boundary text audit are present"
                 row["next_action"] = "keep boundary language in title, abstract, cover letter and figure legends"
             if row.get("gate") == "final_submission_clearance":
-                row["evidence"] = "main figures, formal references, novelty gate, visual QA, Scientific Reports manuscript/DOCX, source-data inventory, Supplementary Information draft, repository manifest and automated claim-boundary text audit are generated; author metadata, funding/competing interests and contributions are supplied; public code repository deposition is deferred by author decision; final upload preview and final claim-boundary read still require completion"
+                row["evidence"] = f"main figures, formal references, novelty gate, visual QA, Scientific Reports manuscript/DOCX, source-data inventory, Supplementary Information draft, repository manifest and automated claim-boundary text audit are generated; author metadata, funding/competing interests and contributions are supplied; public GitHub repository is available at {PUBLIC_REPOSITORY_URL}; final upload preview and final claim-boundary read still require completion"
         write_csv(gate_path, rows, ["gate", "status", "evidence", "next_action"])
 
 

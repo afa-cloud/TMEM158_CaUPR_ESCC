@@ -1,5 +1,5 @@
 item,value,status,notes
-generated_at,2026-06-20 01:04:00,info,Local system timestamp
+generated_at,2026-06-20 01:46:23,info,Local system timestamp
 official_sources_checked,4,pass,Scientific Reports and Nature Portfolio official policy pages
 machine_auditable_policy_blockers,0,pass,Rows requiring machine-side text/file revision
 human_gated_policy_rows,3,not_yet,Rows requiring human author or repository action

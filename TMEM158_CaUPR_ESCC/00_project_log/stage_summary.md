@@ -19,7 +19,7 @@ TMEM158-CaUPR branch status after ecology-state module:
 - AlphaFold topology context added as a structural plausibility/boundary layer, not as causality or physical-interaction evidence.
 
 <!-- 2026-06-19 submission archive/source-data package -->
-- 2026-06-19 submission archive/source-data package: Source-data inventory, Supplementary Information draft, repository manifest, checksum file and repository release README are now generated. Author metadata/funding/contributions/competing-interest disclosures are now supplied. The remaining non-pass submission gates are publisher upload preview and final claim-boundary read; public code repository deposition is deferred by author decision.
+- 2026-06-19 submission archive/source-data package: Source-data inventory, Supplementary Information draft, repository manifest, checksum file and repository release README are now generated. Author metadata/funding/contributions/competing-interest disclosures are now supplied. The remaining non-pass submission gates are publisher upload preview and final claim-boundary read; public GitHub repository deposition is complete at `https://github.com/afa-cloud/TMEM158_CaUPR_ESCC`.
 
 <!-- 2026-06-19 standalone repository release package -->
 - Standalone repository release package complete. The package excludes raw-data caches, publisher/full-text gate files, logs, local upload dry-run bundles and generated submission ZIPs while retaining code, processed results, figures, manuscripts and QC evidence.

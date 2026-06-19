@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[2]
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 BUNDLE_DIR = ROOT / "08_submission_strategy" / "scientific_reports_submission_bundle"
 ZIP_PATH = ROOT / "08_submission_strategy" / "TMEM158_TAC_high_ScientificReports_submission_bundle.zip"
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 def rel(path: Path) -> str:
@@ -323,8 +324,8 @@ This folder is a local upload dry run for the TMEM158-associated TAC_high Ca2/UP
 
 - Replace author names, affiliations and corresponding author information.
 - Confirm author contributions, funding, acknowledgements and competing interests.
-- Decide whether to deposit code/results to Zenodo, OSF, GitHub release or another DOI/permanent repository.
-- Repository deposition is deferred by author decision before initial submission; insert a DOI or permanent URL only if deposition is later performed or requested.
+- Public GitHub repository: {PUBLIC_REPOSITORY_URL}.
+- Mint a DOI-capable Zenodo/OSF/institutional release only if the journal requests an archival identifier.
 - Inspect final upload-system manuscript and figure previews.
 
 ## Claim Boundary

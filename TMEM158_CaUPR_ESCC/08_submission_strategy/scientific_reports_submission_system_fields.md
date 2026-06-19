@@ -1,6 +1,6 @@
 # Scientific Reports Submission-System Fields
 
-Generated: 2026-06-20 01:04:21
+Generated: 2026-06-20 01:46:23
 
 ## Machine Summary
 
@@ -151,23 +151,23 @@ Notes: Ma Yuqing ORCID is optional unless the journal system requires it.
 
 #### data_availability
 
-Status: `ready_author_decision_no_repository`
+Status: `ready_public_repository`
 
-All data analysed in this study were obtained from public resources, including TCGA/GDC or cBioPortal, GEO, DepMap-derived public resources, UniProt, QuickGO, the Human Protein Atlas and the AlphaFold Protein Structure Database [1,9,17,18,22-25]. No new patient-level dataset was generated in this study. Processed intermediate tables and analysis outputs are available from the corresponding author upon reasonable request.
+All data analysed in this study were obtained from public resources, including TCGA/GDC or cBioPortal, GEO, DepMap-derived public resources, UniProt, QuickGO, the Human Protein Atlas and the AlphaFold Protein Structure Database [1,9,17,18,22-25]. No new patient-level dataset was generated in this study. Processed intermediate tables and analysis outputs are available in the public GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
-Notes: Repository deposition is deferred by author decision before initial submission.
+Notes: Processed outputs are deposited in the public GitHub repository: https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 #### code_availability
 
-Status: `ready_author_decision_no_repository`
+Status: `ready_public_repository`
 
-The reproducible workflow was implemented in TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R, with helper scripts under TMEM158_CaUPR_ESCC/03_scripts/R/ and TMEM158_CaUPR_ESCC/03_scripts/Python/. The code has not been deposited in a public repository before initial submission and is available from the corresponding author upon reasonable request.
+The reproducible workflow was implemented in TMEM158_CaUPR_ESCC/03_scripts/R/run_all.R, with helper scripts under TMEM158_CaUPR_ESCC/03_scripts/R/ and TMEM158_CaUPR_ESCC/03_scripts/Python/. The code is publicly available in the GitHub repository at https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 Source: `07_manuscript/manuscript_scientific_reports.md`
 
-Notes: Repository deposition is deferred by author decision before initial submission.
+Notes: Analysis code is deposited in the public GitHub repository: https://github.com/afa-cloud/TMEM158_CaUPR_ESCC.
 
 ### Declarations
 
@@ -235,13 +235,13 @@ Notes: User approved AI-assisted tool disclosure.
 
 #### repository_doi_or_permanent_url
 
-Status: `author_decision_no_repository`
+Status: `ready_public_repository_url`
 
-No public code repository will be deposited before initial submission; code and processed outputs are available from the corresponding author upon reasonable request.
+https://github.com/afa-cloud/TMEM158_CaUPR_ESCC
 
 Source: `08_submission_strategy/repository_deposit_manifest.csv`
 
-Notes: This is an author decision and may be weaker than depositing the repository release ZIP with a DOI.
+Notes: Public GitHub repository created before submission; DOI can be minted later through Zenodo if required.
 
 ### Reviewer Metadata
 

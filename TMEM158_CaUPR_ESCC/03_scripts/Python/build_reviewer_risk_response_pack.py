@@ -17,6 +17,7 @@ from typing import Dict, List, Sequence
 
 ROOT = Path(__file__).resolve().parents[2]
 NOW = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+PUBLIC_REPOSITORY_URL = "https://github.com/afa-cloud/TMEM158_CaUPR_ESCC"
 
 
 def ensure_parent(path: Path) -> None:
@@ -256,7 +257,7 @@ RISK_ITEMS: List[Dict[str, object]] = [
         ],
         "defensible_position": "Machine-actionable layers are complete; author metadata and declarations are supplied; final upload preview remains human-gated.",
         "claim_to_avoid": "No claim of final journal upload clearance until publisher preview and final claim-boundary read are complete.",
-        "short_response": "The readiness gate intentionally remains not-yet-final because publisher upload preview and final claim-boundary read require human confirmation; public code deposition is deferred by author decision before initial submission.",
+        "short_response": f"The readiness gate intentionally remains not-yet-final because publisher upload preview and final claim-boundary read require human confirmation; public GitHub repository deposition is complete at {PUBLIC_REPOSITORY_URL}.",
     },
     {
         "risk_id": "R16_alphafold_topology_boundary",

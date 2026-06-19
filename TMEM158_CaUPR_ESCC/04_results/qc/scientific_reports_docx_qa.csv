@@ -8,4 +8,4 @@ render_metrics,04_results/qc/scientific_reports_docx_render_metrics.csv,pass,Aut
 visual_review_package,07_manuscript/rendered_scientific_reports_docx/contact_sheet.png,ready_for_human_preview,Contact sheet and page PNGs regenerated after the latest manuscript build; final journal upload preview remains human-gated
 rendered_pdf,07_manuscript/rendered_scientific_reports_docx/manuscript_scientific_reports.pdf,pass_internal_qa,PDF retained as render QA artifact; DOCX remains the editable submission manuscript
 remaining_human_upload_checks,publisher upload preview; final claim-boundary read,needs_author_input,Author metadata and declarations have been supplied; publisher-system rendering still requires human inspection
-generated_at,2026-06-20 01:04:09,info,Local system timestamp
+generated_at,2026-06-20 01:46:24,info,Local system timestamp

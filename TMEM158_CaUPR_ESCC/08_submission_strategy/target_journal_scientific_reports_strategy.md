@@ -86,4 +86,4 @@ This study uses reproducible public multi-cohort transcriptomics, single-cell ps
 - Main display items: 6 composite figures.
 - Machine-auditable formatting status: pass, with human-gated items separated.
 - Reporting Summary: working draft generated at `08_submission_strategy/nature_portfolio_reporting_summary_working_draft.md`; final official form remains human-gated if requested by the journal workflow.
-- Remaining human gates: all-author agreement, official Reporting Summary form if requested, publisher upload-system preview and final claim-boundary read; repository DOI/permanent URL only if later deposited or requested.
+- Remaining human gates: all-author agreement, official Reporting Summary form if requested, publisher upload-system preview and final claim-boundary read; public GitHub repository is listed as `https://github.com/afa-cloud/TMEM158_CaUPR_ESCC`, with DOI minting optional unless requested.
